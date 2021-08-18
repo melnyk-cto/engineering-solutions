@@ -1,0 +1,88 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+  .blog {
+
+  }
+}
+
+.blog-page {
+  .banner {
+    &-inner {
+      padding: 31.23% 0;
+    }
+  }
+  .blog {
+    padding: 6.8% 0 9%;
+    &-item {
+      margin-bottom: 4%;
+      .item-image {
+        height:        21.31vw;
+        margin-bottom: 15px;
+        img {
+          height:     100%;
+          object-fit: cover;
+        }
+      }
+      .item-description {
+        h4 {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .blog-page {
+    .banner {
+      &-inner {
+        padding: 22.2% 0 38.4%;
+      }
+    }
+    .blog {
+      padding: 9.3% 0 13%;
+      &-item {
+        margin-bottom: 20px;
+        .item-image {
+          height:        25.66vw;
+          margin-bottom: 20px;
+        }
+        .item-description {
+          h4 {
+            font-size:     1.125rem;
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blog-page {
+    .banner {
+      &-inner {
+        padding: 69% 0 83.5%;
+      }
+    }
+    .blog {
+      padding: 9% 0 14.1%;
+      .container {
+        padding: 0;
+      }
+      &-item {
+        .item-image {
+          height:        60.32vw;
+          margin-bottom: 0;
+        }
+        .item-description {
+          padding: 15px;
+          h4 {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

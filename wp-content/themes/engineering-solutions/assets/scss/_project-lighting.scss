@@ -1,0 +1,116 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+
+}
+
+.project-lighting {
+  .requirements, .solutions, .outcome {
+    p {
+      font-size: 1.33333333rem;
+    }
+  }
+  h2 {
+    margin-bottom: 45px;
+  }
+  .banner {
+    h1 {
+      max-width:     945px;
+      margin-bottom: 11.3%;
+    }
+    &-inner {
+      padding: 25% 0 19%;
+    }
+    .overlay {
+      opacity:          .6;
+      background-image: linear-gradient(-45deg, rgba(56, 75, 219, 0), rgba(0, 0, 0, 0.58), #262626);
+    }
+  }
+  .requirements {
+    padding: 8.1% 0 4.5%;
+  }
+  .solutions {
+    &-description {
+      max-width: 1130px;
+    }
+    &-image {
+      margin-bottom: 4.72%;
+    }
+  }
+  .outcome {
+    padding: 2.9% 0 6.8%;
+    &-description {
+      max-width: 1110px;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .project-lighting {
+    h2 {
+      margin-bottom: 35px;
+    }
+    .requirements, .solutions, .outcome {
+      p {
+        font-size: 1rem;
+      }
+    }
+    .banner {
+      h1 {
+        max-width:     390px;
+        margin-bottom: 14.2%;
+      }
+      &-inner {
+        padding: 17.7% 0;
+      }
+    }
+    .requirements {
+      padding: 5.5% 0 8.4%;
+    }
+    .outcome {
+      padding: 7.2% 0 11.5%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-lighting {
+    h2 {
+      margin-bottom: 30px;
+    }
+    .requirements, .solutions, .outcome {
+      p {
+        line-height: 1.785;
+      }
+    }
+    .banner {
+      h1 {
+        margin-bottom: 60px;
+        font-size:     2.429rem;
+      }
+      &-inner {
+        padding: 44% 0 47%;
+      }
+    }
+    .requirements {
+      padding: 5.1% 0 60px;
+      &-image {
+        margin-bottom: 0;
+      }
+      &-description {
+        margin-bottom: 60px;
+      }
+    }
+    .solutions {
+      &-image {
+        margin-bottom: 2rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .outcome {
+      padding: 60px 0 60px;
+    }
+  }
+}

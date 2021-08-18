@@ -1,0 +1,338 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+  .studies {
+
+  }
+}
+
+.studies {
+  p, li {
+    font-size: 1.333333rem;
+  }
+  p {
+    margin-bottom: 1.1111111rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  h2 {
+    margin-bottom: 2.85%;
+    font-weight:   600;
+  }
+  .banner {
+    h1 {
+      margin-bottom: 28%;
+      font-size:     4rem;
+    }
+    &-inner {
+      padding: 26.9% 0 19%;
+    }
+  }
+  &-description {
+    padding: 6.15% 0 6.53%;
+    &-content {
+      max-width: 1275px;
+      p {
+        &:last-child {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+  .study {
+    padding-bottom: 7.05%;
+    p {
+      margin-bottom: 1.66666rem;
+    }
+    &-description {
+      max-width:     1275px;
+      margin-bottom: 9.45%;
+      li {
+        display:       flex;
+        margin-bottom: 1.111111rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        span {
+          margin-right: .5rem;
+          color:        $primaryColor;
+        }
+      }
+    }
+    &-images {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+      flex-wrap:       wrap;
+    }
+    &-image {
+      width: 48%;
+    }
+  }
+  .calculation {
+    &-description {
+      margin-bottom: 8.81%;
+    }
+    &-images {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+      flex-wrap:       wrap;
+    }
+    &-image {
+      width: 47.24%;
+    }
+  }
+  .coordination-study {
+    padding: 7.82% 0;
+    &-inner {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+      flex-wrap:       wrap;
+    }
+    &-description {
+      width: 52.1%;
+    }
+    &-image {
+      width: 38.12%;
+    }
+  }
+  .analysis {
+    &-inner {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+      flex-wrap:       wrap;
+    }
+    &-description {
+      width: 54.5%;
+    }
+    &-image {
+      width: 38.12%;
+    }
+  }
+  .warning {
+    text-align: center;
+    padding:    7.3% 0 9.13%;
+    &-inner {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+      flex-wrap:       wrap;
+      margin-bottom:   14.2%;
+    }
+    &-description {
+      width:      52.1%;
+      text-align: left;
+    }
+    &-images {
+      width: 29.75%;
+    }
+    &-image {
+      margin-bottom: 1.88888889rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .studies {
+    h2 {
+      font-weight:   700;
+      margin-bottom: 5.62%;
+    }
+    p, li {
+      font-size: 1rem;
+    }
+    p {
+      margin-bottom: 1.875rem;
+    }
+    .banner {
+      h1 {
+        font-size:     2.6rem;
+        margin-bottom: 19.5%;
+      }
+      &-inner {
+        padding: 21.4% 0 18.2%;
+      }
+    }
+    &-description {
+      padding: 8.5% 0 11.4%;
+    }
+    .study {
+      padding-bottom: 11.2%;
+      p {
+        margin-bottom: 1.875rem;
+      }
+      &-description {
+        margin-bottom: 13.4%;
+        li {
+          margin-bottom: 1.875rem;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .calculation {
+      &-description {
+        margin-bottom: 13%;
+      }
+    }
+    .coordination-study {
+      padding: 11.1% 0;
+      &-image {
+        width: 41.3%;
+      }
+      &-description {
+        width: 54.8%;
+      }
+    }
+    .analysis {
+      &-inner {
+        display: block;
+      }
+      &-image {
+        width:        40%;
+        float:        left;
+        margin-right: 7%;
+      }
+      &-description {
+        width: 100%;
+      }
+    }
+    .warning {
+      padding: 12% 0;
+      &-inner {
+        flex-direction: column-reverse;
+        margin-bottom:  11%;
+      }
+      &-description {
+        width: 100%;
+      }
+      &-images {
+        display:         flex;
+        justify-content: space-between;
+        width:           100%;
+        margin-bottom:   5%;
+      }
+      &-image {
+        width:         47%;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .studies {
+    h2 {
+      margin-bottom: 12.2%;
+    }
+    p, li {
+      line-height: 1.7;
+    }
+    p {
+      margin-bottom: 1.43rem;
+    }
+    .banner {
+      h1 {
+        font-size:     2.72rem;
+        margin-bottom: 25%;
+      }
+      &-inner {
+        padding: 52% 0 46.6%;
+      }
+    }
+    &-description {
+      padding: 7.2% 0 17.6%;
+    }
+    .study {
+      padding-bottom: 19%;
+      P {
+        margin-bottom: 1.43rem;
+      }
+      &-description {
+        margin-bottom: 21%;
+        li {
+          margin-bottom: 1.43rem;
+        }
+      }
+      &-images {
+        flex-direction: column;
+      }
+      &-image {
+        width:         100%;
+        margin-bottom: 2.14rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .calculation {
+      &-description {
+        margin-bottom: 21%;
+      }
+      &-images {
+        flex-direction: column;
+      }
+      &-image {
+        width:         100%;
+        margin-bottom: 2.14rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .coordination-study {
+      padding: 18.8% 0;
+      &-image {
+        width: 100%;
+      }
+      &-description {
+        width:         100%;
+        margin-bottom: 21%;
+      }
+    }
+    .analysis {
+      &-inner {
+        display:        flex;
+        flex-direction: column-reverse;
+      }
+      &-image {
+        width:        100%;
+        margin-right: 0;
+      }
+      &-description {
+        width:         100%;
+        margin-bottom: 20.7%;
+      }
+    }
+    .warning {
+      padding: 18.8% 0;
+      &-inner {
+        margin-bottom:  20.7%;
+        flex-direction: column;
+      }
+      &-description {
+        margin-bottom: 20.7%;
+      }
+      &-images {
+        flex-direction: column;
+        width:          100%;
+        margin-bottom:  0;
+      }
+      &-image {
+        width:         100%;
+        margin-bottom: 2.14rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

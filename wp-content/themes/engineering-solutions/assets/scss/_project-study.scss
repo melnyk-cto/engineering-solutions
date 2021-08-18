@@ -1,0 +1,143 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+
+}
+
+.project-study {
+  p, li {
+    font-size: 1.33333333rem;
+  }
+  h2 {
+    margin-bottom: 45px;
+  }
+  .banner {
+    h1 {
+      max-width:     945px;
+      margin-bottom: 11.3%;
+    }
+    &-inner {
+      padding: 25% 0 19%;
+    }
+    .overlay {
+      opacity:          .6;
+      background-image: linear-gradient(-45deg, rgba(56, 75, 219, 0), rgba(39, 41, 52, 0.93), #262626);
+    }
+  }
+  .requirements {
+    padding: 8.1% 0 5.8%;
+  }
+  .solutions {
+    p {
+      margin-bottom: 1.1111111rem;
+    }
+    &-images {
+      justify-content: space-evenly;
+    }
+    &-image {
+      height: initial;
+      &:first-child {
+        width: 39.1%;
+      }
+      &:last-child {
+        max-width: 714px;
+        width:     45%;
+      }
+    }
+  }
+  .outcome {
+    padding: 5.74% 0 6.7%;
+    p {
+      margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &-description {
+      max-width: 1260px;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .project-study {
+    h2 {
+      margin-bottom: 35px;
+    }
+    p, li {
+      font-size: 1rem;
+    }
+    .banner {
+      h1 {
+        max-width:     390px;
+        margin-bottom: 14.2%;
+      }
+      &-inner {
+        padding: 17.7% 0;
+      }
+    }
+    .requirements {
+      padding: 8.5% 0 10.6%;
+    }
+    .solutions {
+      p {
+        margin-bottom: 1.9rem;
+      }
+      &-images {
+        justify-content: space-between;
+      }
+      &-image {
+        &:first-child {
+          width: 43.5%;
+        }
+        &:last-child {
+          width: 50%;
+        }
+      }
+    }
+    .outcome {
+      padding: 8.4% 0 10.5%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-study {
+    h2 {
+      margin-bottom: 30px;
+    }
+    p {
+      line-height: 1.785;
+    }
+    .banner {
+      h1 {
+        margin-bottom: 60px;
+        font-size:     2.429rem;
+      }
+      &-inner {
+        padding: 44% 0 47%;
+      }
+    }
+    .requirements {
+      &-image {
+        margin-bottom: 60px;
+      }
+    }
+    .solutions {
+      p {
+        margin-bottom: 25px;
+      }
+      &-image {
+        &:first-child {
+          margin-bottom: 30px;
+        }
+        &:first-child, &:last-child {
+          width: 100%;
+        }
+      }
+    }
+    .outcome {
+      padding: 60px 0;
+    }
+  }
+}

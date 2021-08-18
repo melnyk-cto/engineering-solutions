@@ -1,0 +1,52 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+
+}
+
+.solutions {
+  &-description {
+    margin-bottom: 8.82%;
+  }
+  &-images {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    flex-wrap:       wrap;
+  }
+  &-image {
+    width:     48%;
+    max-width: 746px;
+    height:    24.4vw;
+    img {
+      height:        100%;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .solutions {
+    &-description {
+      margin-bottom: 60px;
+    }
+    &-image {
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .solutions {
+    &-images {
+      flex-direction:  column;
+      justify-content: center;
+    }
+    &-image {
+      width:  100%;
+      height: 56.3vw;
+    }
+  }
+}

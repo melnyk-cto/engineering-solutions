@@ -1,0 +1,284 @@
+@import "variables";
+
+@media (any-hover: hover) {
+  .footer {
+
+  }
+}
+
+.footer {
+  background: linear-gradient(#262626, #252935);
+  a {
+    margin-bottom: 10px;
+    color:         #9A9DA2;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  h4 {
+    color:         #D6D8DD;
+    margin-bottom: 10px;
+  }
+  .btn {
+    color: $white;
+  }
+  &.electrical-footer {
+    .footer-top {
+      padding: 4% 0 7.3%;
+    }
+  }
+  &.project-study-footer {
+    .footer-top {
+      flex-direction: column;
+      display:        flex;
+      align-items:    center;
+      .btn {
+        padding:       22px 41px;
+        margin-bottom: 28px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &-top {
+    padding:    4.7% 0 9.12%;
+    text-align: center;
+    max-width:  770px;
+    margin:     0 auto;
+    h3 {
+      margin-bottom: 10.2%;
+      color:         #D3D4D5;
+    }
+  }
+  &-center {
+    padding: 1.83% 0 2.1%;
+    &-inner {
+      display:         flex;
+      justify-content: space-between;
+    }
+    &-logo {
+      max-width: 375px;
+      width:     30%;
+      .footer-logo {
+        display:       flex;
+        margin-bottom: 9.5%;
+        font-size:     4.72222222rem;
+        color:         #C2C4C8;
+      }
+      .footer-email {
+        display:     flex;
+        align-items: center;
+        font-size:   1.3333333rem;
+        color:       #D3D3D4;
+        img {
+          width:        25px;
+          margin-right: 10px;
+        }
+      }
+    }
+    &-service {
+      display:        flex;
+      flex-direction: column;
+      max-width:      330px;
+      width:          30%;
+      a {
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &-about {
+      display:        flex;
+      flex-direction: column;
+      max-width:      120px;
+      width:          15%;
+      a {
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &-contact {
+      display:        flex;
+      flex-direction: column;
+      width:          20%;
+      max-width:      180px;
+      .footer-socials {
+        display:     flex;
+        align-items: flex-end;
+        a {
+          margin: 0 20px 0 0;
+          img {
+            width: 30px;
+          }
+        }
+      }
+    }
+  }
+  &-bottom {
+    padding:    20px 0;
+    text-align: center;
+    border-top: 1px solid #E9ECF1;
+    p {
+      color: #D3D3D4;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .footer {
+    &-top {
+      padding:   10.5% 0 0;
+      margin:    0 auto 15px;
+      max-width: 725px;
+    }
+    &.electrical-footer {
+      .footer-top {
+        padding: 11.6% 0 0;
+      }
+    }
+    &.project-study-footer {
+      .footer-top {
+        padding: 5% 0 0;
+        .btn {
+          padding:       15px 32px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+    &-center {
+      padding: 8.21% 0 5.3%;
+      &-inner {
+        flex-wrap: wrap-reverse;
+      }
+      &-logo {
+        order:          4;
+        margin:         0 auto 7.4%;
+        width:          100%;
+        display:        flex;
+        flex-direction: column;
+        align-items:    center;
+        .footer-logo {
+          margin-bottom: 3.6%;
+          font-size:     4.0625rem;
+        }
+        .footer-email {
+          font-size: 1.125rem;
+          img {
+            width:        20px;
+            margin-right: 8px;
+          }
+        }
+      }
+      &-service, &-about, &-contact {
+        a {
+          font-size: .9rem;
+        }
+      }
+      &-service {
+        width: 49%;
+      }
+      &-about {
+        width: 17%;
+      }
+      &-contact {
+        width: 27%;
+        .footer-socials {
+          a {
+            margin: 0 13px 0 0;
+            &:last-child {
+              margin: 0;
+            }
+            img {
+              width: 21px;
+            }
+          }
+        }
+      }
+    }
+    &-bottom {
+      padding: 10px 0;
+      p {
+        font-size: .9rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    .btn {
+      padding: 12px 25px;
+    }
+    &-top {
+      padding:       12.5% 0 0;
+      margin-bottom: 11%;
+      h3 {
+        margin-bottom: 14%;
+      }
+    }
+    &.electrical-footer {
+      .footer-top {
+        padding: 14.7% 0 0;
+      }
+    }
+    &.project-study-footer {
+      .footer-top {
+        .btn {
+          padding:       12px 30px;
+          margin-bottom: 18px;
+        }
+      }
+    }
+    &-center {
+      padding:        8% 0 1.7%;
+      flex-direction: column;
+      &-inner {
+        flex-wrap: wrap;
+      }
+      &-service, &-about, &-contact {
+        width:         100%;
+        max-width:     initial;
+        text-align:    center;
+        margin-bottom: 35px;
+        a {
+          font-size: 1rem;
+        }
+      }
+      &-logo {
+        order:         1;
+        margin-bottom: 35px;
+        .footer-logo {
+          margin-bottom: 20px;
+        }
+        .footer-email {
+          font-size: 1rem;
+          img {
+            width:        16px;
+            margin-right: 5px;
+          }
+        }
+      }
+      &-service {
+        order: 2;
+      }
+      &-about {
+        order: 3;
+      }
+      &-contact {
+        order: 4;
+        .footer-socials {
+          margin: 0 auto;
+          a {
+            img {
+              width: 21px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

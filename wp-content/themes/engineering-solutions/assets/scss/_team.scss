@@ -1,0 +1,138 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+  .team {
+
+  }
+}
+
+.team {
+  .banner {
+    h1 {
+      margin-bottom: 24.6%;
+    }
+    &-inner {
+      padding: 25.63% 0;
+    }
+  }
+  &-content {
+    padding: 4.95% 0 7.56%;
+    &-description {
+      margin-bottom: 9.13%;
+      max-width:     1250px;
+      p {
+        margin-bottom: 1.1111111rem;
+        font-size:     1.3333333rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      ul {
+        margin-bottom: 1.3333333rem;
+      }
+    }
+    &-images {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     stretch;
+      flex-wrap:       wrap;
+      .team-content-image {
+        display:   flex;
+        width:     46.47%;
+        max-width: 739px;
+        img {
+          border-radius: 20px;
+          box-shadow:    10px 20px 20px 0 rgba(82, 112, 222, 0.21);
+        }
+      }
+    }
+  }
+  .benefits {
+    text-align:     center;
+    padding-bottom: 9.14%;
+    h2 {
+      text-align: left;
+    }
+    &-list {
+      text-align:    left;
+      margin-bottom: 4.1%;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .team {
+    .banner {
+      h1 {
+        margin-bottom: 34.5%;
+      }
+      &-inner {
+        padding: 22.6% 0 18.15%;
+      }
+    }
+    &-content {
+      padding: 8.6% 0 60px;
+      &-description {
+        p {
+          font-size:     1rem;
+          margin-bottom: 1rem;
+        }
+      }
+      &-images {
+        .team-content-image {
+          img {
+            border-radius: 10px;
+            box-shadow:    5px 10px 10px 0 rgba(82, 112, 222, 0.21);
+          }
+        }
+      }
+    }
+    .benefits {
+      padding-bottom: 13%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team {
+    .banner {
+      &-inner {
+        padding: 69% 0 49.5%;
+      }
+    }
+    &-content {
+      padding: 7.5% 0 30px;
+      &-description {
+        margin-bottom: 60px;
+        p {
+          margin-bottom: 1rem;
+        }
+        li, p {
+          line-height: 1.7;
+        }
+      }
+      &-images {
+        flex-direction: column;
+        .team-content-image {
+          margin-bottom: 30px;
+          width:         100%;
+          img {
+            border-radius: 5px;
+            box-shadow:    3px 6px 10px 0 rgba(82, 112, 222, 0.21);
+          }
+        }
+      }
+    }
+    .benefits {
+      padding-bottom: 45px;
+      &-list {
+        margin-bottom: 0;
+      }
+      &-item {
+        &:last-child {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

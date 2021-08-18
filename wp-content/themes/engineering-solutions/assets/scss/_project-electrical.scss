@@ -1,0 +1,199 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+
+}
+
+.project-electrical {
+  h2 {
+    margin-bottom: 45px;
+  }
+  .requirements, .solutions, .outcome {
+    p, li {
+      font-size: 1.33333333rem;
+    }
+  }
+  .banner {
+    h1 {
+      max-width:     945px;
+      margin-bottom: 11.3%;
+    }
+    &-inner {
+      padding: 25% 0 19%;
+    }
+    .overlay {
+      opacity:          .6;
+      background-image: linear-gradient(-45deg, rgba(56, 75, 219, 0), rgba(39, 41, 52, 0.93), #262626);
+    }
+  }
+  .solutions {
+    p {
+      margin-bottom: 1.4rem;
+    }
+    &-inner {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+    }
+    &-description {
+      max-width:     765px;
+      width:         49%;
+      margin-bottom: 0;
+    }
+  }
+  .outcome {
+    padding: 7.2% 0 6.9%;
+    p {
+      margin-bottom: 28px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &-description {
+      max-width:     1130px;
+      margin-bottom: 9.14%;
+    }
+    &-images {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+    }
+    &-image {
+      max-width: 746px;
+      width:     47%;
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+  .work {
+    padding: 0 0 7.56%;
+    h2 {
+      margin-bottom: 8.5%;
+    }
+    &-item {
+      min-height: 325px;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .project-electrical {
+    h2 {
+      margin-bottom: 35px;
+    }
+    .requirements, .solutions, .outcome {
+      p, li {
+        font-size: 1rem;
+      }
+    }
+    .banner {
+      h1 {
+        max-width:     485px;
+        margin-bottom: 55px;
+      }
+      &-inner {
+        padding: 17.7% 0;
+      }
+    }
+    .requirements {
+      padding: 5.23% 0 8%;
+    }
+    .solutions {
+      p {
+        margin-bottom: 11%;
+      }
+      &-inner {
+        display: block;
+      }
+      &-image {
+        width:        47%;
+        float:        left;
+        margin-right: 4%;
+      }
+      &-description {
+        width:     100%;
+        max-width: initial;
+      }
+    }
+    .outcome {
+      padding: 60px 0;
+      &-description {
+        margin-bottom: 60px;
+      }
+    }
+    .work {
+      &-item {
+        min-height: 160px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-electrical {
+    h2 {
+      margin-bottom: 30px;
+    }
+    .requirements, .solutions, .outcome {
+      p {
+        line-height: 1.785;
+      }
+    }
+    .banner {
+      h1 {
+        margin-bottom: 60px;
+        font-size:     2.429rem;
+      }
+      &-inner {
+        padding: 44% 0 47%;
+      }
+    }
+    .requirements {
+      &-description {
+        margin-bottom: 60px;
+      }
+    }
+    .solutions {
+      p {
+        margin-bottom: 25px;
+      }
+      &-inner {
+        display:        flex;
+        flex-direction: column-reverse;
+      }
+      &-image {
+        margin: 0;
+        width:  100%;
+        float:  none;
+      }
+      &-description {
+        margin-bottom: 60px;
+      }
+    }
+    .outcome {
+      &-images {
+        flex-direction: column;
+      }
+      &-image {
+        width:         100%;
+        margin-bottom: 28px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .work {
+      padding-bottom: 60px;
+      h2 {
+        margin-bottom: 12.3%;
+      }
+      p {
+        font-size: 1rem;
+      }
+      &-item {
+        min-height: 176px;
+      }
+    }
+  }
+}

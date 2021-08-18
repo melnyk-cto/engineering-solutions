@@ -1,0 +1,64 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+
+}
+
+.photorealistic-renderings {
+  padding: 7.57% 0 8.6%;
+  &-inner {
+    margin-bottom: 4.1%;
+  }
+  &-description {
+    margin-bottom: 9.14%;
+  }
+  &-images {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    flex-wrap:       wrap;
+  }
+  &-image {
+    width:         30.5%;
+    max-width:     481px;
+    margin-bottom: 3.91vw;
+    img {
+      border-radius: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .photorealistic-renderings {
+    padding: 11.3% 0 8.6%;
+    &-inner {
+      margin-bottom: 60px;
+    }
+    .btn {
+      padding: 15px 32px;
+    }
+    &-image {
+      margin-bottom: 5.23vw;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photorealistic-renderings {
+    padding: 20% 0 14.1%;
+    &-inner {
+      margin-bottom: 45px;
+    }
+    &-image {
+      border-radius: 3px;
+      width:         47%;
+      margin-bottom: 26px;
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+    .btn {
+      padding: 12px 25px;
+    }
+  }
+}

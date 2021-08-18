@@ -1,0 +1,59 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+  .projects {
+
+  }
+}
+
+.projects {
+  .banner {
+    h1 {
+      margin-bottom: 48.6%;
+    }
+    &-inner {
+      padding: 23.2% 0;
+    }
+  }
+  .overlay {
+    background-image: linear-gradient(-45deg, rgba(56, 75, 219, 0), #262626);
+  }
+  .services {
+    padding:       6.78% 0 7.3%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .projects {
+    .banner {
+      h1 {
+        margin-bottom: 41.2%;
+      }
+      &-inner {
+        padding: 22% 0 18.2%;
+      }
+    }
+    .services {
+      padding:       9.2% 0 10.3%;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects {
+    .banner {
+      h1 {
+        margin-bottom: 37%;
+      }
+      &-inner {
+        padding: 69% 0 50%;
+      }
+    }
+    .services {
+      padding:       9.5% 0 14.5%;
+      margin-bottom: 0;
+    }
+  }
+}

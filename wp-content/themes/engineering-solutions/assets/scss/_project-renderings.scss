@@ -1,0 +1,134 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+
+}
+
+.project-renderings {
+  .requirements, .solutions, .photorealistic-renderings {
+    p {
+      font-size: 1.33333333rem;
+    }
+  }
+  h2 {
+    margin-bottom: 45px;
+  }
+  .banner {
+    h1 {
+      max-width:     945px;
+      margin-bottom: 11.3%;
+    }
+    &-inner {
+      padding: 25% 0 19%;
+    }
+    .overlay {
+      opacity:          .6;
+      background-image: linear-gradient(-45deg, rgba(56, 75, 219, 0), rgba(45, 51, 103, 0.29), #000);
+    }
+  }
+  .requirements {
+    padding: 7.95% 0 7.04%;
+    &-description {
+      max-width: 1130px;
+      width:     100%;
+    }
+  }
+  .solutions {
+    &-description {
+      max-width: 1130px;
+    }
+    &-image {
+      margin-bottom: 4.72%;
+    }
+  }
+  .photorealistic-renderings {
+    padding: 55px 0;
+    &-description {
+      max-width: 1130px;
+    }
+    .link-more {
+      display: none;
+    }
+    p {
+      margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .project-renderings {
+    h2 {
+      margin-bottom: 35px;
+    }
+    .requirements, .solutions, .photorealistic-renderings {
+      p {
+        font-size: 1rem;
+      }
+    }
+    .banner {
+      h1 {
+        max-width:     390px;
+        margin-bottom: 14.2%;
+      }
+      &-inner {
+        padding: 17.7% 0;
+      }
+    }
+    .requirements {
+      padding: 8.25% 0 11%;
+    }
+    .photorealistic-renderings {
+      padding: 55px 0 11%;
+      &-image {
+        &:nth-child(4), &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9) {
+          display: none;
+        }
+      }
+      .link-more {
+        display: flex;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-renderings {
+    h2 {
+      margin-bottom: 30px;
+    }
+    .requirements, .solutions, .photorealistic-renderings {
+      p {
+        line-height: 1.785;
+      }
+    }
+    .banner {
+      h1 {
+        margin-bottom: 60px;
+        font-size:     2.429rem;
+      }
+      &-inner {
+        padding: 44% 0 47%;
+      }
+    }
+    .requirements {
+      padding: 5% 0 60px;
+    }
+    .solutions {
+      &-image {
+        margin-bottom: 2rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .photorealistic-renderings {
+      padding: 60px 0;
+      &-description {
+        margin-bottom: 60px;
+      }
+    }
+  }
+}

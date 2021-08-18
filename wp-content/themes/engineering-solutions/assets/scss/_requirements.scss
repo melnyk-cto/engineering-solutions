@@ -1,0 +1,60 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+
+}
+
+.requirements {
+  padding: 8.1% 0 7.1%;
+  &-inner {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+  }
+  &-image {
+    max-width:     705px;
+    width:         46%;
+    box-shadow:    10px 20px 20px 0 rgba(82, 112, 222, 0.21);
+    border-radius: 10px;
+    img {
+      border-radius: 10px;
+    }
+  }
+  &-description {
+    max-width: 765px;
+    width:     50%;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .requirements {
+    padding: 8.25% 0 11%;
+    &-image {
+      width:      45.1%;
+      box-shadow: 5px 10px 10px 0 rgba(82, 112, 222, 0.21);
+    }
+    &-description {
+      width: 51%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .requirements {
+    padding: 16px 0 60px !important;
+    &-inner {
+      flex-direction: column;
+    }
+    &-image {
+      width:      100%;
+      box-shadow: 5px 10px 8px 0 rgba(82, 112, 222, 0.21);
+      max-width:  initial;
+      img {
+        border-radius: 5px;
+      }
+    }
+    &-description {
+      width: 100%;
+    }
+  }
+}

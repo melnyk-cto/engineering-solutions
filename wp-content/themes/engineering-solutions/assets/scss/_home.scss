@@ -1,0 +1,89 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+  .home {
+
+  }
+}
+
+.home {
+  h2 {
+    margin-bottom: 5.05%;
+  }
+  .banner {
+    h1 {
+      margin-bottom: 1rem;
+    }
+    h3 {
+      margin-bottom: 8%;
+    }
+    .btn {
+      max-width: 300px;
+    }
+    &-inner {
+      padding: 25.2% 0 24.35%;
+    }
+  }
+  .benefits {
+    padding: 3.92% 0 5.23%;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .home {
+    h2 {
+      margin-bottom: 5.7%;
+    }
+    .banner {
+      h1 {
+        margin-bottom: 5px;
+      }
+      h3 {
+        font-size:     1rem;
+        margin-bottom: 17%;
+      }
+      .btn {
+        max-width: 172px;
+      }
+      &-inner {
+        padding: 19.5% 0 18%;
+      }
+    }
+    .benefits {
+      padding: 50px 0 20px;
+    }
+    .services {
+      padding-bottom: 7.1%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home {
+    h2 {
+      margin-bottom: 40px;
+    }
+    .banner {
+      h1 {
+        margin-bottom: 10px;
+        font-size:     2.43rem;
+      }
+      h3 {
+        margin-bottom: 26.6%;
+      }
+      .btn {
+        max-width: 144px;
+      }
+      &-inner {
+        padding: 42% 0 48.5%;
+        //padding: 200px 0 135px;
+      }
+    }
+    .services {
+      padding-bottom: 14.3%;
+    }
+    .benefits {
+      padding: 45px 0 0;
+    }
+  }
+}

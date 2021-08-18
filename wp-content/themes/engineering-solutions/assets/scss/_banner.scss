@@ -1,0 +1,111 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+  .banner {
+
+  }
+}
+
+.banner {
+  display: flex;
+  h1 {
+    max-width: 820px;
+  }
+  .btn {
+    max-width: 281px;
+    width:     100%;
+    padding:   22px 0;
+  }
+  > img {
+    position:   absolute;
+    top:        0;
+    left:       0;
+    height:     100%;
+    z-index:    1;
+    object-fit: cover;
+  }
+  .go-to-down {
+    position:  absolute;
+    bottom:    70px;
+    left:      50%;
+    z-index:   99;
+    width:     68px;
+    height:    37px;
+    cursor:    pointer;
+    transform: translate(-50%, 0);
+  }
+  .overlay {
+    position:         absolute;
+    top:              0;
+    left:             0;
+    width:            100%;
+    height:           100%;
+    z-index:          5;
+    background-image: linear-gradient(-45deg, rgba(82, 112, 222, 0), rgba(32, 32, 32, 0.7));
+  }
+  &:after {
+    content:           "";
+    background-image:  url(../images/icons/after-2.svg);
+    background-repeat: no-repeat;
+    background-size:   cover;
+    width:             100%;
+    height:            228px;
+    z-index:           50;
+    position:          absolute;
+    bottom:            0;
+  }
+  &-inner {
+    position: relative;
+    display:  flex;
+    height:   100%;
+    z-index:  10;
+  }
+  &-description {
+    display:         flex;
+    flex-direction:  column;
+    align-items:     flex-start;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .banner {
+    .go-to-down {
+      bottom: 50px;
+      width:  26px;
+      height: 15px;
+    }
+    &:after {
+      height: 110px;
+    }
+    .btn {
+      font-size: 1rem;
+      max-width: 172px;
+      padding:   11px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    .btn {
+      max-width: 144px;
+      padding:   10px 0;
+    }
+    .go-to-down {
+      bottom: 30px;
+      width:  20px;
+      height: 10px;
+    }
+    &:after {
+      height: 45px;
+    }
+    &-inner {
+      justify-content: center;
+    }
+    &-description {
+      align-items: center;
+      text-align:  center;
+    }
+  }
+}

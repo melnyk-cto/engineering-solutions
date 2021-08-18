@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.186" height="30.186" viewBox="0 0 30.186 30.186">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_49" data-name="Прямоугольник 49" width="30.186" height="30.186" transform="translate(1209 5027)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Группа_масок_10" data-name="Группа масок 10" transform="translate(-1209 -5027)" opacity="0.88" clip-path="url(#clip-path)">
+    <g id="linkedin_1_" data-name="linkedin (1)" transform="translate(1209 5027)">
+      <path id="Контур_44" data-name="Контур 44" d="M32.235,32.02h.008V20.949c0-5.416-1.166-9.588-7.5-9.588a6.573,6.573,0,0,0-5.92,3.254h-.088V11.867h-6V32.019h6.251V22.04c0-2.627.5-5.168,3.752-5.168,3.206,0,3.254,3,3.254,5.337V32.02Z" transform="translate(-2.057 -1.835)" fill="#fff"/>
+      <path id="Контур_45" data-name="Контур 45" d="M.594,11.965H6.852V32.118H.594Z" transform="translate(-0.096 -1.933)" fill="#fff"/>
+      <path id="Контур_46" data-name="Контур 46" d="M3.625,0A3.642,3.642,0,1,0,7.25,3.625,3.626,3.626,0,0,0,3.625,0Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

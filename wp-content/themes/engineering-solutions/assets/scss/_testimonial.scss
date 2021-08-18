@@ -1,0 +1,132 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+
+}
+
+.testimonial {
+  padding-bottom: 70px;
+  h2 {
+    margin-bottom: 62px !important;
+  }
+  &-slider {
+    position:  relative;
+    max-width: 940px;
+    margin:    0 auto;
+    .swiper-button-prev {
+      left: 0;
+    }
+    .swiper-button-next {
+      right: 0;
+    }
+    .swiper-container {
+      margin:  0 8%;
+      padding: 75px 0;
+    }
+  }
+  &-item {
+    width:         94%;
+    margin:        0 auto;
+    position:      relative;
+    min-height:    287px;
+    padding:       44px 7%;
+    box-shadow:    0 10px 20px 0 rgba(82, 112, 222, 0.37);
+    border-radius: 20px;
+    p {
+      font-size: 1.1111111rem;
+    }
+    .country {
+      position: absolute;
+      top:      25px;
+      right:    25px;
+      width:    30px;
+    }
+    .item-title {
+      text-align:    center;
+      margin-bottom: 20px;
+      h4 {
+        margin-bottom: 5px;
+        color:         #262626;
+      }
+      p {
+        color: #707070;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .testimonial {
+    padding-bottom: 40px;
+    h2 {
+      margin-bottom: 36px !important;
+    }
+    &-slider {
+      max-width: 444px;
+      .swiper-container {
+        padding: 50px 0;
+      }
+    }
+    &-item {
+      min-height:    184px;
+      padding:       20px 6.3%;
+      box-shadow:    0 5px 10px 0 rgba(82, 112, 222, 0.37);
+      border-radius: 10px;
+      p {
+        font-size:   .9rem;
+        line-height: 1.357;
+      }
+      .country {
+        top:   14px;
+        right: 17px;
+        width: 20px;
+      }
+      .item-title {
+        margin-bottom: 5px;
+        h4 {
+          font-size:     1rem;
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .testimonial {
+    padding-bottom: 25px;
+    h2 {
+      margin-bottom: 0 !important;
+    }
+    &-slider {
+      .swiper-container {
+        margin:  0;
+        padding: 35px 0 40px;
+      }
+      .swiper-button-prev, .swiper-button-next {
+        display: none;
+      }
+    }
+    &-item {
+      min-height: 190px;
+      padding:    20px 6%;
+      p {
+        font-size: 1rem;
+      }
+      .country {
+        top:   23px;
+        right: 8px;
+        width: 17px;
+      }
+      .item-title {
+        margin-bottom: 10px;
+        h4 {
+          margin-bottom: 0;
+        }
+        p {
+          font-size: .86rem;
+        }
+      }
+    }
+  }
+}

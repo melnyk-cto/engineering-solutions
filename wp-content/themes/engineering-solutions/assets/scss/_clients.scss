@@ -1,0 +1,162 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+  .clients {
+
+  }
+}
+
+.clients {
+  .banner {
+    h1 {
+      margin-bottom: 35.8%;
+    }
+    &-inner {
+      padding: 23.15% 0;
+    }
+  }
+  .map {
+    &-image {
+      width: 100%;
+      img {
+        object-fit: cover;
+      }
+    }
+    &-description {
+      position:       absolute;
+      top:            0;
+      left:           0;
+      width:          35%;
+      max-width:      556px;
+      display:        flex;
+      flex-direction: column;
+      align-items:    center;
+      background:     $white;
+      border-radius:  0 0 10px 0;
+      .description-image {
+        height: 16.6vw;
+        img {
+          height: 100%;
+        }
+      }
+      .description-content {
+        background:     $white;
+        padding:        3.8% 2.9vw;
+        display:        flex;
+        flex-direction: column;
+        border-radius:  0 0 20px 0;
+        h3 {
+          font-size:     1.77777778rem;
+          font-weight:   600;
+          margin-bottom: 3.6%;
+          color:         $black;
+        }
+        p {
+          color:         #3B3B3B;
+          margin-bottom: 3.6%;
+        }
+        a {
+          display:     flex;
+          align-items: center;
+          color:       $black;
+        }
+        .street {
+          img {
+            width:        20px;
+            margin-right: 7px;
+          }
+          margin-bottom: 10px;
+        }
+        .more {
+          align-self: flex-end;
+          img {
+            width:  12px;
+            margin: 5px 0 0 7px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 991.98px) {
+  .clients {
+    .banner {
+      h1 {
+        margin-bottom: 31%;
+      }
+      &-inner {
+        padding: 22.5% 0 20%;
+      }
+    }
+    .map {
+      &-description {
+        width: 30.74%;
+        .description-content {
+          border-radius: 0 0 10px 0;
+          padding:       10px 8%;
+          h3 {
+            font-size:     1rem;
+            margin-bottom: .5rem;
+          }
+          p {
+            font-size:     .88rem;
+            margin-bottom: 0;
+          }
+          .street {
+            font-size:     .88rem;
+            margin-bottom: 3px;
+            img {
+              width:        9px;
+              margin-right: 5px;
+            }
+          }
+          .more {
+            font-size: .88rem;
+            img {
+              width:       8px;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients {
+    .banner {
+      &-inner {
+        padding: 69% 0 47.5%;
+      }
+    }
+    .map {
+      &-image {
+        height: 71vw;
+      }
+      &-description {
+        width:          100%;
+        flex-direction: row;
+        top:            initial;
+        bottom:         0;
+        box-shadow:     0 3px 6px 0 rgba(82, 112, 222, 0.21);
+        padding:        3% 5.7%;
+        border-radius:  5px;
+        max-width:      450px;
+        .description-image {
+          width:        30%;
+          height:       auto;
+          margin-right: 17px;
+        }
+        .description-content {
+          padding: 0;
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
