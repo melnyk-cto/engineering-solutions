@@ -77,6 +77,9 @@
       bottom: 50px;
       width:  26px;
       height: 15px;
+      &:active, &:hover {
+        bottom:    44px;
+      }
     }
     .btn {
       font-size: 1rem;
@@ -92,6 +95,9 @@
       bottom: 30px;
       width:  20px;
       height: 10px;
+      &:active, &:hover {
+        bottom:    24px;
+      }
     }
     &-inner {
       justify-content: center;

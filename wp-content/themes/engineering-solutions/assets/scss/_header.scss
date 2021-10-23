@@ -55,7 +55,8 @@
     }
     .menu-item {
       font-size: 1.3333333rem;
-      padding:   42px 10px;
+      margin:    0 15px;
+      padding:   42px 0;
       cursor:    pointer;
       position:  relative;
       &:before {

@@ -10,7 +10,7 @@
         </a>
     </div>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#team-content' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/team-image-1.png' alt=''>
@@ -24,7 +24,7 @@
             </div>
         </div>
     </section>
-    <div class='team-content'>
+    <div id="team-content" class='team-content'>
         <div class='container'>
             <div class='team-content-inner'>
                 <div class='team-content-description'>
