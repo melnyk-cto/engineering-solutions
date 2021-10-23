@@ -19,7 +19,7 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>PROJECTS</h1>
-                    <a href='#' class='btn'>Get in touch</a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Get in touch</a>
                 </div>
             </div>
         </div>
@@ -28,34 +28,34 @@
         <div class='container'>
             <div class='services-inner'>
                 <div class='services-item'>
-                    <a href='#'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-1.jpg' alt=''>
+                    <a href='<?php echo home_url('/'); ?>project-electrical'>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-1.png' alt=''>
                         <div class='item-title'>
-                            <h5>Power System Studies</h5>
+                            <h6>Electrical design for a steel making company</h6>
                         </div>
                     </a>
                 </div>
                 <div class='services-item'>
-                    <a href='#'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-2.jpg' alt=''>
+                    <a href='<?php echo home_url('/'); ?>project-rendering'>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-2.png' alt=''>
                         <div class='item-title'>
-                            <h5>Electrical design & CAD/BIM services</h5>
+                            <h6>Photorealistic renderings for busSTRUT</h6>
                         </div>
                     </a>
                 </div>
                 <div class='services-item'>
-                    <a href='#'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-3.jpg' alt=''>
+                    <a href='<?php echo home_url('/'); ?>project-lighting'>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-3.png' alt=''>
                         <div class='item-title'>
-                            <h5>Lighting design & rendering services</h5>
+                            <h6>Lighting design for multiple retail stores</h6>
                         </div>
                     </a>
                 </div>
                 <div class='services-item'>
-                    <a href='#'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-4.jpg' alt=''>
+                    <a href='<?php echo home_url('/'); ?>project-study'>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-4.png' alt=''>
                         <div class='item-title'>
-                            <h5>Unity 3D/C# software development</h5>
+                            <h6>Power System Study for a washbay</h6>
                         </div>
                     </a>
                 </div>

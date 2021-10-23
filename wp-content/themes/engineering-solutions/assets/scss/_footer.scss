@@ -53,6 +53,12 @@
   }
   &-center {
     padding: 1.83% 0 2.1%;
+    a {
+      &:hover, &:active {
+        opacity: .7;
+        color:   $primaryColor;
+      }
+    }
     &-inner {
       display:         flex;
       justify-content: space-between;
@@ -65,6 +71,7 @@
         margin-bottom: 9.5%;
         font-size:     4.72222222rem;
         color:         #C2C4C8;
+        max-width:     311px;
       }
       .footer-email {
         display:     flex;

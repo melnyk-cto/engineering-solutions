@@ -19,7 +19,7 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>OUR CLIENTS</h1>
-                    <a href='#' class='btn'>Get in touch</a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Get in touch</a>
                 </div>
             </div>
         </div>

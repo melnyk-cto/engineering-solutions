@@ -1,4 +1,4 @@
-<?php /* Template Name: Page - Studies */ ?>
+<?php /* Template Name: Page - Services Studies */ ?>
 <?php get_header(); ?>
 <main class='studies'>
     <div class='socials'>
@@ -19,7 +19,7 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>Power System Studies</h1>
-                    <a href='#' class='btn'>Get in touch</a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Get in touch</a>
                 </div>
             </div>
         </div>
@@ -202,7 +202,7 @@
                     </div>
                 </div>
             </div>
-            <a href='#' class='btn'>Request a quote </a>
+            <a href='<?php echo home_url('/'); ?>contact' class='btn'>Request a quote </a>
         </div>
     </section>
 </main>

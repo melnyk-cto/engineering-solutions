@@ -26,31 +26,31 @@
             </a>
             <div class='header-menu'>
                 <nav class='menu-list'>
-                    <a href='<?php echo home_url('/'); ?>/team' class='menu-item'>OUR TEAM</a>
+                    <a href='<?php echo home_url('/'); ?>team' class='menu-item'>OUR TEAM</a>
                     <div class='menu-item menu-item-services'>
                         OUR SERVICES
                         <ul class='drop-down-list'>
                             <li>
-                                <a href='<?php echo home_url('/'); ?>/services-rendering'>Lighting Design & Rendering
+                                <a href='<?php echo home_url('/'); ?>services-rendering'>Lighting Design & Rendering
                                     Services</a>
                             </li>
                             <li>
-                                <a href='<?php echo home_url('/'); ?>/services-electrical'>Electrical Design & CAD/BIM
+                                <a href='<?php echo home_url('/'); ?>services-electrical'>Electrical Design & CAD/BIM
                                     Services</a>
                             </li>
                             <li>
-                                <a href='<?php echo home_url('/'); ?>/services-studies'>Power System Studies</a>
+                                <a href='<?php echo home_url('/'); ?>services-studies'>Power System Studies</a>
                             </li>
                             <li>
-                                <a href='<?php echo home_url('/'); ?>/services-software'>Unity 3D/C# software
+                                <a href='<?php echo home_url('/'); ?>services-software'>Unity 3D/C# software
                                     development</a>
                             </li>
                         </ul>
                     </div>
-                    <a href='<?php echo home_url('/'); ?>/clients' class='menu-item'>OUR CLIENTS</a>
-                    <a href='<?php echo home_url('/'); ?>/projects' class='menu-item'>PROJECTS</a>
-                    <a href='<?php echo home_url('/'); ?>/blog' class='menu-item'>BLOG</a>
-                    <a href='<?php echo home_url('/'); ?>/contact' class='menu-item'>CONTACT US</a>
+                    <a href='<?php echo home_url('/'); ?>clients' class='menu-item'>OUR CLIENTS</a>
+                    <a href='<?php echo home_url('/'); ?>projects' class='menu-item'>PROJECTS</a>
+                    <a href='<?php echo home_url('/'); ?>blog' class='menu-item'>BLOG</a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='menu-item'>CONTACT US</a>
                 </nav>
             </div>
             <!--            <div class='search'>-->

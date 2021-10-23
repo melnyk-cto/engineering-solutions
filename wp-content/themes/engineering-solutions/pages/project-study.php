@@ -19,7 +19,7 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>Power System Study for a wash bay </h1>
-                    <a href='#' class='btn'>Сontact us</a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Contact us</a>
                 </div>
             </div>
         </div>

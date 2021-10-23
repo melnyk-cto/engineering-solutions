@@ -1,4 +1,4 @@
-<?php /* Template Name: Page - Electrical */ ?>
+<?php /* Template Name: Page - Services Electrical */ ?>
 <?php
     wp_enqueue_script('electrical-js', get_stylesheet_directory_uri() . '/assets/lib/electrical.js');
 ?>
@@ -22,7 +22,7 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>Electrical Design & CAD/BIM Services</h1>
-                    <a href='#' class='btn'>Get in touch</a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Get in touch</a>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-<?php /* Template Name: Page - Renderings */ ?>
+<?php /* Template Name: Page - Services Renderings */ ?>
 <?php
     wp_enqueue_script('rendering-js', get_stylesheet_directory_uri() . '/assets/js/rendering.js');
 ?>
@@ -22,7 +22,7 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>Lighting Design & Rendering Services</h1>
-                    <a href='#' class='btn'>Get in touch</a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Get in touch</a>
                 </div>
             </div>
         </div>
@@ -233,7 +233,7 @@
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/arrow.svg' alt=''>
                 </a>
             </div>
-            <a href='#' class='btn'>Request a quote</a>
+            <a href='<?php echo home_url('/'); ?>contact' class='btn'>Request a quote</a>
         </div>
     </section>
 </main>

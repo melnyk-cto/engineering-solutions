@@ -1,4 +1,4 @@
-<?php /* Template Name: Page - Software */ ?>
+<?php /* Template Name: Page - Services Software */ ?>
 <?php get_header(); ?>
 <main class='software'>
     <div class='socials'>
@@ -19,7 +19,7 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>Unity 3D/C# software development</h1>
-                    <a href='#' class='btn'>Get in touch</a>
+                    <a href='<?php echo home_url('/'); ?>contact class='btn'>Get in touch</a>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
             <div class='software-video-image'>
                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/software-image.png' alt=''>
             </div>
-            <a href='#' class='btn'>Request a quote</a>
+            <a href='<?php echo home_url('/'); ?>contact' class='btn'>Request a quote</a>
         </div>
     </section>
 </main>

@@ -21,7 +21,6 @@
   margin:      0;
   padding:     0;
   font-family: 'Segoe UI', sans-serif;
-  transition:  all linear 0.3s;
 }
 
 html,
@@ -59,6 +58,7 @@ a {
   text-decoration: none;
   cursor:          pointer;
   font-size:       1.1111111rem;
+  transition:      all linear 0.3s;
   &:active {
     opacity: .7;
   }
@@ -101,6 +101,11 @@ h4 {
 
 h5 {
   font-size:   1.33333333rem;
+  font-weight: 700;
+}
+
+h6 {
+  font-size:   1.1rem;
   font-weight: 700;
 }
 
@@ -175,6 +180,7 @@ form {
   padding:        22px 55px;
   border:         none;
   cursor:         pointer;
+  transition:     all linear 0.3s;
   &:active {
     box-shadow: 0 5px 10px 0 rgba(82, 112, 222, 0.37);
   }
@@ -190,26 +196,22 @@ form {
 .socials {
   position:       fixed;
   top:            325px;
-  right:          5%;
+  right:          20px;
   display:        flex;
   flex-direction: column;
   align-items:    center;
   max-width:      58px;
   z-index:        80;
   a {
-    cursor: pointer;
-  }
-  &-linkedin {
     margin-bottom: 68.3%;
+    &:hover, &:active {
+      opacity: .7;
+    }
     img {
-      width: 43px;
+      max-height: 43px;
     }
   }
-  &-email {
-    img {
-      width: 58px;
-    }
-  }
+
 }
 
 .description-list {
@@ -305,6 +307,12 @@ form {
   }
   h5 {
     font-size: 1rem;
+  }
+  h6 {
+    font-size: 0.875rem;
+  }
+  h6 {
+    font-size: 0.75rem;
   }
   p {
     font-size: 1rem;

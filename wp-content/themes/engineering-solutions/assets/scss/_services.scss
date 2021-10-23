@@ -17,8 +17,18 @@
     position:      relative;
     margin-bottom: 2%;
     a {
-      display: flex;
-      height:  100%;
+      display:  flex;
+      height:   100%;
+      overflow: hidden;
+      img {
+        transition:  all linear 0.3s;
+        object-fit: cover;
+      }
+      &:hover, &:active {
+        img {
+          transform: scale(1.15);
+        }
+      }
     }
     &:nth-child(1) {
       width: 32.3%;
@@ -37,9 +47,9 @@
       bottom:     0;
       left:       0;
       width:      100%;
-      padding:    1.93vw 2.1vw;
+      padding:    1.33vw 2.1vw;
       background: rgba(32, 32, 32, 0.75);
-      h5 {
+      h5, h6 {
         color:       $white;
         font-weight: 600;
       }
@@ -62,8 +72,8 @@
       padding: 0 15px;
     }
     &-item {
-      width: 100% !important;
-      height: 84vw;
+      width:         100% !important;
+      height:        84vw;
       margin-bottom: 9%;
       &:last-child {
         margin-bottom: 0;

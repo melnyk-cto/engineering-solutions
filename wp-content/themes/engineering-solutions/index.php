@@ -17,15 +17,15 @@
                 <div class='banner-description'>
                     <h1>Engineering Solutions</h1>
                     <h3>Results matter</h3>
-                    <a href='#' class='btn'>Request a quote </a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Request a quote </a>
                 </div>
             </div>
         </div>
-        <a href='#' class='go-to-down'>
+        <a href='#benefits' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
     </section>
-    <section class='benefits'>
+    <section id="benefits" class='benefits'>
         <div class='container'>
             <h2><span>Your benefits</span> of working with us</h2>
             <div class='benefits-list'>
@@ -84,7 +84,7 @@
             <h2>Our <span>services</span></h2>
             <div class='services-inner'>
                 <div class='services-item'>
-                    <a href='#'>
+                    <a href='<?php echo home_url('/'); ?>services-studies'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-1.jpg' alt=''>
                         <div class='item-title'>
                             <h5>Power System Studies</h5>
@@ -92,7 +92,7 @@
                     </a>
                 </div>
                 <div class='services-item'>
-                    <a href='#'>
+                    <a href='<?php echo home_url('/'); ?>services-electrical'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-2.jpg' alt=''>
                         <div class='item-title'>
                             <h5>Electrical design & CAD/BIM services</h5>
@@ -100,7 +100,7 @@
                     </a>
                 </div>
                 <div class='services-item'>
-                    <a href='#'>
+                    <a href='<?php echo home_url('/'); ?>services-rendering'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-3.jpg' alt=''>
                         <div class='item-title'>
                             <h5>Lighting design & rendering services</h5>
@@ -108,7 +108,7 @@
                     </a>
                 </div>
                 <div class='services-item'>
-                    <a href='#'>
+                    <a href='<?php echo home_url('/'); ?>services-software'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-4.jpg' alt=''>
                         <div class='item-title'>
                             <h5>Unity 3D/C# software development</h5>
