@@ -13,7 +13,7 @@
         <a href='#' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
-        <img src='<?php echo get_template_directory_uri() ?>/assets/images<?php echo home_url( '/' ); ?>/clients-banner.jpg' alt=''>
+        <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients-banner.jpg' alt=''>
         <div class='overlay'></div>
         <div class='container'>
             <div class='banner-inner'>

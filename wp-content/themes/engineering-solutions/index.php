@@ -10,7 +10,7 @@
         </a>
     </div>
     <section class='banner'>
-        <img src='<?php echo get_template_directory_uri() ?>/assets/images/home-banner.jpg' alt=''>
+        <img src='<?php echo get_template_directory_uri() ?>/assets/images/home-banner.png' alt=''>
         <div class='overlay'></div>
         <div class='container'>
             <div class='banner-inner'>

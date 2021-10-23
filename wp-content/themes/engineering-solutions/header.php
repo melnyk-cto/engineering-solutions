@@ -22,28 +22,27 @@
     <div class='container'>
         <div class='header-inner'>
             <a href='/' class='logo'>
-                Logo
-                <!--                <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/logo.svg' alt=''>-->
+                <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/logo.svg' alt=''>
             </a>
             <div class='header-menu'>
                 <nav class='menu-list'>
                     <a href='<?php echo home_url( '/' ); ?>/team' class='menu-item'>OUR TEAM</a>
                     <a href='javascript: void(0)' class='menu-item menu-item-services'>
                         OUR SERVICES
-                        <ul class='drop-down-list'>
-                            <li>
-                                <a href='<?php echo home_url( '/' ); ?>/services-rendering'>Lighting Design & Rendering Services</a>
-                            </li>
-                            <li>
-                                <a href='<?php echo home_url( '/' ); ?>/services-electrical'>Electrical Design & CAD/BIM Services</a>
-                            </li>
-                            <li>
-                                <a href='<?php echo home_url( '/' ); ?>/services-studies'>Power System Studies</a>
-                            </li>
-                            <li>
-                                <a href='<?php echo home_url( '/' ); ?>/services-software'>Unity 3D/C# software development</a>
-                            </li>
-                        </ul>
+<!--                        <ul class='drop-down-list'>-->
+<!--                            <li>-->
+<!--                                <a href='--><?php //echo home_url( '/' ); ?><!--/services-rendering'>Lighting Design & Rendering Services</a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a href='--><?php //echo home_url( '/' ); ?><!--/services-electrical'>Electrical Design & CAD/BIM Services</a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a href='--><?php //echo home_url( '/' ); ?><!--/services-studies'>Power System Studies</a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a href='--><?php //echo home_url( '/' ); ?><!--/services-software'>Unity 3D/C# software development</a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
                     </a>
                     <a href='<?php echo home_url( '/' ); ?>/clients' class='menu-item'>OUR CLIENTS</a>
                     <a href='<?php echo home_url( '/' ); ?>/projects' class='menu-item'>PROJECTS</a>

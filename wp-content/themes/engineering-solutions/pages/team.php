@@ -1,4 +1,4 @@
-<?php /* Template Name: Page - Home */ ?>
+<?php /* Template Name: Page - Team */ ?>
 <?php get_header(); ?>
 <main class='team'>
     <div class='socials'>
@@ -13,7 +13,7 @@
         <a href='#' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
-        <img src='<?php echo get_template_directory_uri() ?>/assets/images/team-image-1.jpg' alt=''>
+        <img src='<?php echo get_template_directory_uri() ?>/assets/images/team-image-1.png' alt=''>
         <div class='overlay'></div>
         <div class='container'>
             <div class='banner-inner'>
