@@ -39,7 +39,7 @@
     max-width: 1865px;
   }
   .logo {
-    font-size: 254px;
+    width: 254px;
   }
   a {
     color: $white;
@@ -55,7 +55,7 @@
     }
     .menu-item {
       font-size: 1.3333333rem;
-      padding:   40px 10px;
+      padding:   42px 10px;
       cursor:    pointer;
       position:  relative;
       &:before {
@@ -85,7 +85,7 @@
     .drop-down-list {
       position:       absolute;
       left:           0;
-      top:            112px;
+      top:            115px;
       display:        none;
       flex-direction: column;
       background:     rgba(37, 41, 53, 0.5);
@@ -187,7 +187,7 @@
   .header {
     padding: 11px 0;
     .logo {
-      font-size: 110px;
+      width: 110px;
     }
     &-menu {
       position:       fixed;
@@ -253,6 +253,9 @@
 
 @media screen and (max-width: 767px) {
   .header {
+    .logo {
+      width: 90px;
+    }
     &-menu {
       .menu-item {
         font-size: 1.15rem;

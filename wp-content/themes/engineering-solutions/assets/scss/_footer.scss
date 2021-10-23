@@ -18,6 +18,7 @@
   h4 {
     color:         #D6D8DD;
     margin-bottom: 10px;
+    line-height:   1;
   }
   .btn {
     color: $white;
@@ -52,7 +53,7 @@
     }
   }
   &-center {
-    padding: 1.83% 0 2.1%;
+    padding: 1.83% 0 2.5%;
     a {
       &:hover, &:active {
         opacity: .7;
@@ -76,10 +77,12 @@
       .footer-email {
         display:     flex;
         align-items: center;
-        font-size:   1.3333333rem;
+        font-size:   1.111rem;
         color:       #D3D3D4;
         img {
           width:        25px;
+          position: relative;
+          top: 2px;
           margin-right: 10px;
         }
       }
@@ -126,7 +129,7 @@
     }
   }
   &-bottom {
-    padding:    20px 0;
+    padding:    17px 0;
     text-align: center;
     border-top: 1px solid #E9ECF1;
     p {
@@ -157,19 +160,19 @@
       }
     }
     &-center {
-      padding: 8.21% 0 5.3%;
+      padding: 11.21% 0 5.3%;
       &-inner {
         flex-wrap: wrap-reverse;
       }
       &-logo {
         order:          4;
-        margin:         0 auto 7.4%;
+        margin:         0 auto 11.4%;
         width:          100%;
         display:        flex;
         flex-direction: column;
         align-items:    center;
         .footer-logo {
-          margin-bottom: 3.6%;
+          margin-bottom: 7.6%;
           font-size:     4.0625rem;
         }
         .footer-email {

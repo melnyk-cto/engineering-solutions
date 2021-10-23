@@ -1,13 +1,7 @@
 @import "./variables";
 
-@media (any-hover: hover) {
-  .services {
-
-  }
-}
-
 .services {
-  padding-bottom: 7.82%;
+  padding-bottom: 7.2%;
   &-inner {
     display:         flex;
     justify-content: space-between;
@@ -57,11 +51,7 @@
   }
 }
 
-@media screen and (max-width: 991.98px) {
-  .services {
 
-  }
-}
 
 @media screen and (max-width: 767px) {
   .services {
