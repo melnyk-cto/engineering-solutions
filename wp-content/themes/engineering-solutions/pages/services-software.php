@@ -10,7 +10,7 @@
         </a>
     </div>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#software-description' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/software-banner.jpg' alt=''>
@@ -19,12 +19,12 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>Unity 3D/C# software development</h1>
-                    <a href='<?php echo home_url('/'); ?>contact class='btn'>Get in touch</a>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Get in touch</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class='software-description'>
+    <section id="software-description" class='software-description'>
         <div class='container'>
             <div class='software-description-content'>
                 <p>

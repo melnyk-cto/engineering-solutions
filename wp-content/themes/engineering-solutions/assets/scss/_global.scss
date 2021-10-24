@@ -70,6 +70,7 @@ img {
 }
 
 p {
+  line-height: 1.3125;
   font-size:   1.11111111rem;
   font-weight: 400;
 }
@@ -218,7 +219,7 @@ form {
   li {
     position:      relative;
     padding-left:  1.3333333rem;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     &:last-child {
       margin-bottom: 0;
     }
@@ -315,7 +316,8 @@ form {
     font-size: 0.75rem;
   }
   p {
-    font-size: 1rem;
+    font-size:   1rem;
+    line-height: 1.78;
   }
   li {
     font-size: 1rem;
@@ -323,6 +325,9 @@ form {
   .btn {
     font-size: 1rem;
     padding:   15px 48px;
+  }
+  .description-list li {
+    margin-bottom: 4px;
   }
   .swiper-container {
     .swiper-pagination-bullets {

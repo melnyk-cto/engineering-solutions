@@ -18,7 +18,7 @@
     }
   }
   &-description {
-    padding: 6.25% 0 8.6%;
+    padding: 6% 0 8.6%;
     &-content {
       max-width: 1275px;
       p {
@@ -36,10 +36,6 @@
     &-image {
       margin-bottom: 12%;
       position:      relative;
-      height:        37.92vw;
-      img {
-        height: 100%;
-      }
       .play {
         position:  absolute;
         top:       50%;
@@ -63,11 +59,10 @@
       }
     }
     &-description {
-      padding: 10% 0 11.2%;
+      padding: 8% 0 11.2%;
       &-content {
         p {
           font-size:     1rem;
-          line-height:   1.3125;
           margin-bottom: 1.875rem;
         }
       }
@@ -76,7 +71,6 @@
       padding-bottom: 12%;
       &-image {
         margin-bottom: 14%;
-        height:        40.3vw;
       }
       .btn {
         padding: 15px 32px;
@@ -92,11 +86,7 @@
         font-size:     2.72rem;
         margin-bottom: 15.9%;
       }
-      .btn {
-        padding: 11px 43px;
-      }
       &-inner {
-        //padding: 38.9vw 0 42.4vw;
         padding: 43% 0 46.6%;
       }
     }
@@ -104,7 +94,6 @@
       padding: 7.2% 0 62px;
       &-content {
         p {
-          line-height:   1.28;
           margin-bottom: 1.429rem;
         }
       }
@@ -112,11 +101,7 @@
     &-video {
       padding-bottom: 21vw;
       &-image {
-        height:        49vw;
         margin-bottom: 68px;
-      }
-      .btn {
-        padding: 12px 25px;
       }
     }
   }
