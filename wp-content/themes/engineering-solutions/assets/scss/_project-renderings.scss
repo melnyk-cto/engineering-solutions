@@ -70,7 +70,7 @@
     }
     .banner {
       h1 {
-        max-width:     390px;
+        max-width:     490px;
         margin-bottom: 14.2%;
       }
       &-inner {
@@ -78,17 +78,27 @@
       }
     }
     .requirements {
-      padding: 8.25% 0 11%;
+      padding: 5.25% 0 11%;
     }
     .photorealistic-renderings {
       padding: 55px 0 11%;
+      &-images {
+        &.show {
+          .photorealistic-renderings-image {
+            &:nth-child( n + 4) {
+              display: block;
+            }
+          }
+        }
+      }
       &-image {
-        &:nth-child(4), &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9) {
+        &:nth-child( n + 4) {
           display: none;
         }
       }
       .link-more {
         display: flex;
+        width:   100%;
       }
     }
   }
@@ -125,7 +135,7 @@
       }
     }
     .photorealistic-renderings {
-      padding: 60px 0;
+      padding: 60px 0  52px 0;
       &-description {
         margin-bottom: 60px;
       }

@@ -1,5 +1,8 @@
 <?php /* Template Name: Page - Project Renderings */ ?>
 <?php get_header(); ?>
+<?php
+    wp_enqueue_script('project-rendering-js', get_stylesheet_directory_uri() . '/assets/js/project-rendering.js');
+?>
 <main class='project-renderings'>
     <div class='socials'>
         <a href='#' class='socials-linkedin'>
@@ -10,7 +13,7 @@
         </a>
     </div>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#requirements' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-rendering-banner.jpg' alt=''>
@@ -24,7 +27,7 @@
             </div>
         </div>
     </section>
-    <section class='requirements'>
+    <section id="requirements" class='requirements'>
         <div class='container'>
             <div class='requirements-description'>
                 <h2>Project <span>requirements</span></h2>
@@ -48,16 +51,20 @@
             </div>
             <div class='solutions-images'>
                 <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-rendering-solution-image.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-rendering-solution-image.jpg'
+                         alt=''>
                 </div>
                 <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-5.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-5.jpg'
+                         alt=''>
                 </div>
                 <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-6.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-6.jpg'
+                         alt=''>
                 </div>
                 <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-rendering-banner.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-rendering-banner.jpg'
+                         alt=''>
                 </div>
             </div>
         </div>
@@ -73,37 +80,46 @@
             </div>
             <div class='photorealistic-renderings-images'>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-1.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-1.jpg'
+                         alt=''>
                 </div>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-2.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-2.jpg'
+                         alt=''>
                 </div>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-3.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-3.jpg'
+                         alt=''>
                 </div>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-4.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-4.jpg'
+                         alt=''>
                 </div>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-7.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-7.jpg'
+                         alt=''>
                 </div>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-8.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-8.jpg'
+                         alt=''>
                 </div>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-9.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-9.jpg'
+                         alt=''>
                 </div>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-10.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-10.jpg'
+                         alt=''>
                 </div>
                 <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-11.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-11.jpg'
+                         alt=''>
                 </div>
+                <a href='/' class='link-more'>
+                    <span class="text-more">More</span>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/arrow.svg' alt=''>
+                </a>
             </div>
-            <a href='#' class='link-more'>
-                More
-                <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/arrow.svg' alt=''>
-            </a>
         </div>
     </section>
     <section class='testimonial'>
@@ -115,23 +131,8 @@
                         <div class='swiper-slide'>
                             <div class='testimonial-item'>
                                 <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg' alt=''>
-                                </div>
-                                <div class='item-title'>
-                                    <h4>Curtis Kuczera</h4>
-                                    <p>General Manager at Cobra Structures</p>
-                                </div>
-                                <p>
-                                    With not much guidance and a hands-on approach, this friendly freelancer promptly
-                                    created incredible renders of my unique system. Sold more product with the BEST
-                                    resulting promotional materials!!!
-                                </p>
-                            </div>
-                        </div>
-                        <div class='swiper-slide'>
-                            <div class='testimonial-item'>
-                                <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg' alt=''>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
+                                         alt=''>
                                 </div>
                                 <div class='item-title'>
                                     <h4>Curtis Kuczera</h4>

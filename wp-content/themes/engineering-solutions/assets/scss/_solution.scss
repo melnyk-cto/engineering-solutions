@@ -15,12 +15,14 @@
     flex-wrap:       wrap;
   }
   &-image {
-    width:     48%;
-    max-width: 746px;
-    height:    24.4vw;
+    width:      48%;
+    max-width:  746px;
+    height:     26.4vw;
+    max-height: 470px;
     img {
       height:        100%;
       border-radius: 10px;
+      object-fit:    cover;
     }
   }
 }
