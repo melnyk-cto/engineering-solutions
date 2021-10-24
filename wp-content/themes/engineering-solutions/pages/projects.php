@@ -10,7 +10,7 @@
         </a>
     </div>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#services' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/projects-banner.jpg' alt=''>
@@ -24,7 +24,7 @@
             </div>
         </div>
     </section>
-    <section class='services'>
+    <section id="services" class='services'>
         <div class='container'>
             <div class='services-inner'>
                 <div class='services-item'>
