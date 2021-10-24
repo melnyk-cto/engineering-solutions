@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <main class='blog-page'>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#blog' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-banner.jpg' alt=''>
@@ -11,16 +11,17 @@
             <div class='banner-inner'>
                 <div class='banner-description'>
                     <h1>BLOG</h1>
+                    <a href='<?php echo home_url('/'); ?>contact' class='btn'>Get in touch</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class='blog'>
+    <section id="blog" class='blog'>
         <div class='container'>
             <div class='blog-inner'>
                 <div class='blog-item'>
                     <div class='item-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.jpg' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h4>Lighting design & rendering services</h4>
@@ -31,7 +32,7 @@
                 </div>
                 <div class='blog-item'>
                     <div class='item-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.jpg' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h4>Lighting design & rendering services</h4>
@@ -42,7 +43,7 @@
                 </div>
                 <div class='blog-item'>
                     <div class='item-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.jpg' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h4>Lighting design & rendering services</h4>
@@ -51,10 +52,6 @@
                         </p>
                     </div>
                 </div>
-                <a href='#' class='link-more'>
-                    More
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/arrow.svg' alt=''>
-                </a>
             </div>
         </div>
     </section>

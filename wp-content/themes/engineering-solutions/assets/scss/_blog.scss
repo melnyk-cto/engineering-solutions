@@ -8,16 +8,23 @@
 
 .blog-page {
   .banner {
+    &-description {
+      width: 100%;
+    }
+    h1 {
+      margin-bottom: 100px;
+    }
     &-inner {
-      padding: 31.23% 0;
+      padding: 25.23% 0;
     }
   }
   .blog {
-    padding: 6.8% 0 9%;
+    padding: 6.5% 0 9%;
     &-item {
       margin-bottom: 4%;
       .item-image {
         height:        21.31vw;
+        max-height:    450px;
         margin-bottom: 15px;
         img {
           height:     100%;
@@ -36,17 +43,20 @@
 @media screen and (max-width: 991.98px) {
   .blog-page {
     .banner {
+      h1 {
+        margin-bottom: 64px;
+      }
       &-inner {
-        padding: 22.2% 0 38.4%;
+        padding: 22.2% 0 23.4%;
       }
     }
     .blog {
-      padding: 9.3% 0 13%;
+      padding: 7.1% 0 13%;
       &-item {
-        margin-bottom: 20px;
+        margin-bottom: 36px;
         .item-image {
-          height:        25.66vw;
-          margin-bottom: 20px;
+          height:        25.2vw;
+          margin-bottom: 10px;
         }
         .item-description {
           h4 {
@@ -63,15 +73,16 @@
   .blog-page {
     .banner {
       &-inner {
-        padding: 69% 0 83.5%;
+        padding: 69% 0 45.5%;
       }
     }
     .blog {
-      padding: 9% 0 14.1%;
+      padding: 10% 0 14.1%;
       .container {
         padding: 0;
       }
       &-item {
+        margin-bottom: 24px;
         .item-image {
           height:        60.32vw;
           margin-bottom: 0;
@@ -79,7 +90,8 @@
         .item-description {
           padding: 15px;
           h4 {
-            font-size: 1rem;
+            font-size:     1.28rem;
+            margin-bottom: 10px;
           }
         }
       }
