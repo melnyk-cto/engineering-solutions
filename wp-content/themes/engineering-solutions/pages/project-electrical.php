@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <main class='project-electrical'>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#requirements' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-banner.jpg' alt=''>
@@ -16,7 +16,7 @@
             </div>
         </div>
     </section>
-    <section class='requirements'>
+    <section id="requirements" class='requirements'>
         <div class='container'>
             <div class='requirements-inner'>
                 <div class='requirements-description'>
@@ -31,7 +31,8 @@
                     </p>
                 </div>
                 <div class='requirements-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-requirements-image.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-requirements-image.jpg'
+                         alt=''>
                 </div>
             </div>
         </div>
@@ -40,7 +41,8 @@
         <div class='container'>
             <div class='solutions-inner'>
                 <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-solution-image.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-solution-image.jpg'
+                         alt=''>
                 </div>
                 <div class='solutions-description'>
                     <h2><span>Solutions</span></h2>
@@ -77,78 +79,42 @@
             </div>
             <div class='outcome-images'>
                 <div class='outcome-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-outcome-image-1.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-outcome-image-1.jpg'
+                         alt=''>
                 </div>
                 <div class='outcome-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-outcome-image-2.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-electrical-outcome-image-2.jpg'
+                         alt=''>
                 </div>
             </div>
         </div>
     </section>
-    <section class='work'>
+    <section class='testimonial'>
         <div class='container'>
             <h2><span>Testimonial</span></h2>
-            <div class='work-slider'>
-                <div class="swiper-container work-swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class='work-item'>
-                                <div class='work-item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/work-item-image-1.png' alt=''>
+            <div class='testimonial-slider'>
+                <div class='swiper-container testimonial-swiper'>
+                    <div class='swiper-wrapper'>
+                        <div class='swiper-slide'>
+                            <div class='testimonial-item'>
+                                <div class='country'>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
+                                         alt=''>
                                 </div>
                                 <div class='item-title'>
-                                    <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/australia.svg' alt=''>
-                                    </div>
-                                    <h4>Name</h4>
-                                    <p>Name, engineer</p>
+                                    <h4>Chaitanya Karathia</h4>
+                                    <p>Electrical specialist at ANMAR</p>
                                 </div>
-                                <div class='item-description'>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class='work-item'>
-                                <div class='work-item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/work-item-image-1.png' alt=''>
-                                </div>
-                                <div class='item-title'>
-                                    <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/australia.svg' alt=''>
-                                    </div>
-                                    <h4>Name</h4>
-                                    <p>Name, engineer</p>
-                                </div>
-                                <div class='item-description'>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class='work-item'>
-                                <div class='work-item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/work-item-image-1.png' alt=''>
-                                </div>
-                                <div class='item-title'>
-                                    <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/australia.svg' alt=''>
-                                    </div>
-                                    <h4>Name</h4>
-                                    <p>Name, engineer</p>
-                                </div>
-                                <div class='item-description'>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    </p>
-                                </div>
+                                <p>
+                                    I worked with Roman for a pig caster project. I must say he and his team are working
+                                    very hard and have a good understanding of electrical engineering drawings /
+                                    documents. Most of the time his responses for the drawings/documents are prompt,
+                                    fast & innovative. Also, he collects all the required inputs for documents
+                                    preparation in advance and clarifies the doubts related to local codes/regulations,
+                                    which helps him to deliver the documents in a timely manner. He and his team follow
+                                    good work ethics, believe in customer satisfaction, and always put extra efforts to
+                                    achieve that. Overall, I would say hardworking and very supportive.
+                                </p>
                             </div>
                         </div>
                     </div>

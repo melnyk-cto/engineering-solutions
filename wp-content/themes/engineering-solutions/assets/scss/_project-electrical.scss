@@ -99,23 +99,6 @@
     .requirements {
       padding: 5.23% 0 8%;
     }
-    .solutions {
-      p {
-        margin-bottom: 11%;
-      }
-      &-inner {
-        display: block;
-      }
-      &-image {
-        width:        47%;
-        float:        left;
-        margin-right: 4%;
-      }
-      &-description {
-        width:     100%;
-        max-width: initial;
-      }
-    }
     .outcome {
       padding: 60px 0;
       &-description {
@@ -169,6 +152,7 @@
       }
       &-description {
         margin-bottom: 60px;
+        width:         100%;
       }
     }
     .outcome {
