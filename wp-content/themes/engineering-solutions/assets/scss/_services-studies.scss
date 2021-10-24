@@ -41,7 +41,7 @@
     }
   }
   .study {
-    padding-bottom: 7.05%;
+    padding-bottom: 7.5%;
     p {
       margin-bottom: 1.66666rem;
     }
@@ -73,6 +73,7 @@
   .calculation {
     &-description {
       margin-bottom: 8.81%;
+      max-width:     1255px;
     }
     &-images {
       display:         flex;
@@ -161,7 +162,7 @@
       }
     }
     &-description {
-      padding: 8.5% 0 11.4%;
+      padding: 8.5% 0 10.4%;
     }
     .study {
       padding-bottom: 11.2%;
@@ -200,6 +201,7 @@
         width:        40%;
         float:        left;
         margin-right: 7%;
+        margin-bottom: 20px;
       }
       &-description {
         width: 100%;

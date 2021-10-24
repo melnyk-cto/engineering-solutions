@@ -13,7 +13,7 @@
         </a>
     </div>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#electrical-content' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/electrical-banner.jpg' alt=''>
@@ -27,7 +27,7 @@
             </div>
         </div>
     </section>
-    <section class='electrical-content'>
+    <section id="electrical-content" class='electrical-content'>
         <div class='container'>
             <div class='electrical-content-inner'>
                 <div class='electrical-content-image'>
