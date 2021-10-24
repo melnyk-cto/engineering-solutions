@@ -1,14 +1,6 @@
 <?php /* Template Name: Page - Home */ ?>
 <?php get_header(); ?>
 <main class='home'>
-    <div class='socials'>
-        <a href='#' class='socials-linkedin'>
-            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-linkedIn.svg' alt=''>
-        </a>
-        <a href='#' class='socials-email'>
-            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-email.svg' alt=''>
-        </a>
-    </div>
     <section class='banner'>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/home-banner.png' alt=''>
         <div class='overlay'></div>

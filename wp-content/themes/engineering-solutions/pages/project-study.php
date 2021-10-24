@@ -1,14 +1,6 @@
 <?php /* Template Name: Page - Project Study */ ?>
 <?php get_header(); ?>
 <main class='project-study'>
-    <div class='socials'>
-        <a href='#' class='socials-linkedin'>
-            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-linkedIn.svg' alt=''>
-        </a>
-        <a href='#' class='socials-email'>
-            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-email.svg' alt=''>
-        </a>
-    </div>
     <section class='banner'>
         <a href='#requirements' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>

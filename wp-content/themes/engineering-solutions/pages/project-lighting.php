@@ -1,16 +1,8 @@
 <?php /* Template Name: Page - Project Lighting */ ?>
 <?php get_header(); ?>
 <main class='project-lighting'>
-    <div class='socials'>
-        <a href='#' class='socials-linkedin'>
-            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-linkedIn.svg' alt=''>
-        </a>
-        <a href='#' class='socials-email'>
-            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-email.svg' alt=''>
-        </a>
-    </div>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#requirements' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-lighting-banner.jpg' alt=''>
@@ -24,7 +16,7 @@
             </div>
         </div>
     </section>
-    <section class='requirements'>
+    <section id="requirements" class='requirements'>
         <div class='container'>
             <div class='requirements-inner'>
                 <div class='requirements-description'>
@@ -88,22 +80,6 @@
             <div class='testimonial-slider'>
                 <div class='swiper-container testimonial-swiper'>
                     <div class='swiper-wrapper'>
-                        <div class='swiper-slide'>
-                            <div class='testimonial-item'>
-                                <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg' alt=''>
-                                </div>
-                                <div class='item-title'>
-                                    <h4>Curtis Kuczera</h4>
-                                    <p>General Manager at Cobra Structures</p>
-                                </div>
-                                <p>
-                                    With not much guidance and a hands-on approach, this friendly freelancer promptly
-                                    created incredible renders of my unique system. Sold more product with the BEST
-                                    resulting promotional materials!!!
-                                </p>
-                            </div>
-                        </div>
                         <div class='swiper-slide'>
                             <div class='testimonial-item'>
                                 <div class='country'>
