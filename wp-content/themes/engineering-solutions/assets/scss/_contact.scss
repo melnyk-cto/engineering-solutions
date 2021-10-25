@@ -9,7 +9,7 @@
 .contacts {
   padding-top: 119px;
   .contact {
-    padding-top: 8.13%;
+    padding-top: 6.5%;
     &-title {
       z-index:       1;
       margin-bottom: 1.1111111rem;
@@ -27,31 +27,37 @@
       padding-bottom: 10.33%;
       .contact-buttons {
         padding-top:     1.666666rem;
-        max-width:       970px;
+        max-width:       1000px;
         margin-bottom:   6.3%;
         display:         flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap:       wrap;
-        a {
-          font-size:     1.333333rem;
+        input {
+          display: none;
+        }
+        label {
           font-weight:   600;
-          padding:       20px 0;
-          border-radius: 50px;
-          border:        2px solid $primaryColor;
-          color:         $primaryColor;
-          margin-bottom: 17px;
+          margin-bottom: 16px;
+          margin-right:  17px;
           text-align:    center;
-          &:nth-child(1), &:nth-child(2) {
-            width: 49.3%;
+          span {
+            border:        2px solid $primaryColor;
+            border-radius: 50px;
+            padding:       20px 35px;
+            color:         $primaryColor;
+            font-size:     1.333333rem;
+            display:       inline-block;
+            cursor:        pointer;
+            transition:    .2s linear;
+            min-width:     165px;
+            &:hover, &:active {
+              background-color: $primaryColor;
+              color:            #fff;
+            }
           }
-          &:nth-child(3) {
-            width: 32%;
-          }
-          &:nth-child(4) {
-            width: 48.15%;
-          }
-          &:nth-child(5) {
-            width: 17.12%;
+          input:checked + span {
+            background-color: $primaryColor;
+            color:            #fff;
           }
         }
       }
@@ -73,7 +79,7 @@
       padding: 0 15px;
     }
     .contact {
-      padding-top: 10.3%;
+      padding-top: 4.3%;
       &-title {
         margin-bottom: 1.75rem;
         h1 {
@@ -87,23 +93,14 @@
         padding-bottom: 13%;
         .contact-buttons {
           padding-top: 0;
-          max-width:   650px;
+          max-width:   720px;
           margin:      0 0 80px;
-          a {
-            font-size:     1rem;
-            padding:       14px 0;
+          label {
             margin-bottom: 15px;
-            &:nth-child(1), &:nth-child(2) {
-              width: 48.93%;
-            }
-            &:nth-child(3) {
-              width: 31.7%;
-            }
-            &:nth-child(4) {
-              width: 47.57%;
-            }
-            &:nth-child(5) {
-              width: 18.47%;
+            span {
+              padding:   15px 20px;
+              font-size: 1rem;
+              min-width: 130px;
             }
           }
         }
@@ -120,34 +117,28 @@
 
 @media screen and (max-width: 767px) {
   .contacts {
-    padding-top: 44px;
+    max-width:   418px;
+    margin:      0 auto;
+    padding-top: 38px;
     .contact {
-      padding-top: 40px;
+      padding: 0;
       &-title {
         margin-bottom: 1.857rem;
         h1 {
           margin-bottom: 50px;
+          text-align:    center;
         }
       }
       &-form {
         padding-bottom: 46px;
         .contact-buttons {
-          max-width: 418px;
-          margin:    0 auto 53px;
-          a {
-            padding: 10px 0;
-            margin:  0 0 12px 0;
-            width:   100%;
-            &:nth-child(1), &:nth-child(2), &:nth-child(4) {
-              width: 100%;
-            }
-            &:nth-child(3) {
-              width: 59.32%;
-              order: 4;
-            }
-            &:nth-child(5) {
-              width: 36.21%;
-              order: 5;
+          margin: 0 auto 53px;
+          label {
+            margin: 0 12px 12px 0;
+            width:  100%;
+            span {
+              width:   100%;
+              padding: 10px 10px;
             }
           }
         }

@@ -12,31 +12,46 @@
             <div class='container'>
                 <div class='contact-form'>
                     <div class='contact-buttons'>
-                        <a href='#'>Lighting design & rendering services</a>
-                        <a href='#'>Electrical design & CAD/BIM services</a>
-                        <a href='#'>Power System Studies</a>
-                        <a href='#'>Unity 3D/C# software development</a>
-                        <a href='#'>Other</a>
+                        <label>
+                            <input type="radio" name="services" checked>
+                            <span>Lighting design & rendering services</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="services">
+                            <span>Electrical design & CAD/BIM services</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="services">
+                            <span>Power System Studies</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="services">
+                            <span>Unity 3D/C# software development</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="services">
+                            <span>Other</span>
+                        </label>
                     </div>
                     <form action=''>
                         <label>
-                            <span>First name</span>
+                            <span>First name*</span>
                             <input type='text'>
                         </label>
                         <label>
-                            <span>Last name</span>
+                            <span>Last name*</span>
                             <input type='text'>
                         </label>
                         <label>
-                            <span>Company</span>
+                            <span>Company*</span>
                             <input type='text'>
                         </label>
                         <label>
-                            <span>Email</span>
+                            <span>Email*</span>
                             <input type='text'>
                         </label>
                         <label class='label-message'>
-                            <span>Message</span>
+                            <span>Message*</span>
                             <textarea rows='5'></textarea>
                         </label>
                         <div class='form-buttons'>
