@@ -7,8 +7,8 @@
 }
 
 .banner {
-  display:  flex;
-  overflow: hidden;
+  display:    flex;
+  overflow:   hidden;
   h1 {
     max-width: 820px;
   }
@@ -24,6 +24,7 @@
     height:     100%;
     z-index:    1;
     object-fit: cover;
+    object-position: bottom;
   }
   .go-to-down {
     position:  absolute;

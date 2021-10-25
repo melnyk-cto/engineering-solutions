@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const swiperIndustrial = new Swiper('.industrial-lighting-swiper', {
-        slidesPerView: 3,
-        spaceBetween: 8,
+        slidesPerView: 1.5,
+        spaceBetween: 0,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const swiperSports = new Swiper('.sports-lighting-swiper', {
-        slidesPerView: 3,
-        spaceBetween: 8,
+        slidesPerView: 1.5,
+        spaceBetween: 0,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,

@@ -21,10 +21,10 @@
     </section>
     <section class='renderings-content'>
         <div class='container'>
-            <div class='rendering-content-inner'>
-                <div class='rendering-content-image'>
+            <div class='renderings-content-inner'>
+                <div class='renderings-content-image'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/rendering-content-image.png' alt=''>
-                     <div class='rendering-content-quote'>
+                     <div class='renderings-content-quote'>
                          <p>
                              And God said, “Let there be light,” and there was light. God saw that the light was good,
                              and he separated the light from the darkness
@@ -32,7 +32,7 @@
                          </p>
                      </div>
                 </div>
-                <div class='rendering-content-description'>
+                <div class='renderings-content-description'>
                     <p>
                         Being inspired by the accomplished work of the Creator, Engineering Solutions delivers lighting
                         designs that enrich people’s lives. From industrial plants to the football fields, from the
@@ -69,17 +69,17 @@
                 <div class=' swiper-container industrial-lighting-swiper'>
                     <div class='swiper-wrapper'>
                         <div class='swiper-slide'>
-                            <div class='industrial-lighting-image rendering-image active'>
+                            <div class='rendering-image active'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-1.jpg' alt=''>
                             </div>
                         </div>
                         <div class='swiper-slide'>
-                            <div class='industrial-lighting-image rendering-image'>
+                            <div class='rendering-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-2.jpg' alt=''>
                             </div>
                         </div>
                         <div class='swiper-slide'>
-                            <div class='industrial-lighting-image rendering-image'>
+                            <div class='rendering-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-3.jpg' alt=''>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                 <div class='commercial-lighting-slider'>
                     <div class='container'>
                         <!-- Swiper -->
-                        <div class="swiper-container commercial-lighting-swiper swiper-disabled">
+                        <div class="swiper-container commercial-lighting-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class='commercial-lighting-slider-image'>
@@ -167,17 +167,17 @@
                 <div class=' swiper-container sports-lighting-swiper'>
                     <div class='swiper-wrapper'>
                         <div class='swiper-slide'>
-                            <div class='sports-lighting-image active'>
+                            <div class='rendering-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-1.jpg' alt=''>
                             </div>
                         </div>
                         <div class='swiper-slide'>
-                            <div class='sports-lighting-image'>
+                            <div class=' rendering-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-2.jpg' alt=''>
                             </div>
                         </div>
                         <div class='swiper-slide'>
-                            <div class='sports-lighting-image'>
+                            <div class=' rendering-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-3.jpg' alt=''>
                             </div>
                         </div>

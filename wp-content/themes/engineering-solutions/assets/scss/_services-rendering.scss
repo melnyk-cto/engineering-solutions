@@ -5,6 +5,23 @@
 }
 
 .renderings {
+  .swiper-container {
+    overflow: hidden;
+    .rendering-image {
+      background: rgba(32, 32, 32, 0.71);
+      display:    flex;
+      cursor:     pointer;
+      &.active {
+        background: none;
+      }
+      img {
+        position:   relative;
+        z-index:    -1;
+        max-height: 37vw;
+        object-fit: cover;
+      }
+    }
+  }
   h2 {
     margin-bottom: 4.5%;
   }
@@ -13,6 +30,11 @@
   }
   .banner {
     background: #202020;
+    &:after {
+      background-image:  url(../images/icons/after-3.svg);
+      background-repeat: no-repeat;
+      background-size:   cover;
+    }
     h1 {
       font-size:     4rem;
       margin-bottom: 12.5%;
@@ -36,15 +58,19 @@
       flex-wrap:   wrap;
     }
     &-image {
-      width:        48.13%;
-      margin-right: 13px;
-      position:     relative;
-      .rendering-content-quote {
+      width:            48.13%;
+      margin-right:     13px;
+      position:         relative;
+      background-color: #202020;
+      img {
+        mix-blend-mode: lighten;
+      }
+      .renderings-content-quote {
         padding:       0.64rem 1.11111111rem;
         background:    rgba(82, 112, 222, 0.4);
         border-radius: 10px;
         position:      absolute;
-        bottom:        7.1%;
+        bottom:        0;
         left:          0;
         max-width:     484px;
         p {
@@ -78,48 +104,11 @@
         color: $white;
       }
     }
-    &-slider {
-      .industrial-lighting-swiper {
-        overflow: hidden;
-        .rendering-image {
-          background: rgba(32, 32, 32, 0.71);
-          //width:      19.5%;
-          display:    flex;
-          cursor:     pointer;
-          &.active {
-            background: none;
-            //width:      61.1vw;
-          }
-          img {
-            position: relative;
-            z-index:  -1;
-          }
-        }
-      }
-    }
   }
   .commercial-lighting {
     padding: 7.3% 0 7.56%;
     &-description {
       margin-bottom: 9.12%;
-    }
-    &-slider {
-      .container {
-        padding: 0;
-      }
-      .swiper-container {
-        margin: 0 7.39%;
-        .swiper-pagination {
-          display: none;
-          bottom:  0;
-        }
-      }
-      .swiper-button-prev {
-        left: 0;
-      }
-      .swiper-button-next {
-        right: 0;
-      }
     }
   }
   .sports-lighting {
@@ -187,16 +176,6 @@
     }
     .commercial-lighting {
       padding: 11.3% 0;
-      &-slider {
-        .swiper-container {
-          margin: 0 7.2%;
-        }
-        &-image {
-          img {
-            border-radius: 5px;
-          }
-        }
-      }
     }
     .photorealistic-renderings {
       &-image {
@@ -251,23 +230,6 @@
     }
     .commercial-lighting {
       padding: 20% 0;
-      &-slider {
-        .swiper-container {
-          margin:         0;
-          padding-bottom: 14%;
-          .swiper-pagination {
-            display: inline-block;
-          }
-        }
-        .swiper-button-prev, .swiper-button-next {
-          display: none;
-        }
-        &-image {
-          img {
-            border-radius: 3px;
-          }
-        }
-      }
     }
   }
 }
