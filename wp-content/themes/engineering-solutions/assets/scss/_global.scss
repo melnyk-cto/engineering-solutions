@@ -7,9 +7,6 @@
   .link-more:hover {
     opacity: .7;
   }
-  input:hover, textarea:hover {
-    border: 1px solid #262626;
-  }
   .swiper-button-next:hover, .swiper-button-prev:hover {
     color: $primaryColor !important;
   }
@@ -117,20 +114,32 @@ span {
 form {
   display:         flex;
   justify-content: space-between;
+  align-items:     flex-start;
   flex-wrap:       wrap;
-  max-width:       909px;
+  max-width:       990px;
   label {
-    position:      relative;
-    width:         calc(50% - 10px);
-    display:       flex;
-    margin-bottom: 1.666666rem;
-    height:        88px;
+    .wpcf7-text {
+      height:        88px;
+    }
+    &.input {
+      position:      relative;
+      width:         calc(48%);
+      display:       flex;
+      margin-bottom: 1.666666rem;
+    }
     &.label-message {
       width:  100%;
       height: initial;
+      .wpcf7-form-control-wrap {
+        width: 100%;
+      }
+      textarea {
+        max-height: 186px;
+      }
     }
-    span {
+    .label {
       position:   absolute;
+      z-index:    2;
       top:        0;
       left:       1.55555558rem;
       transform:  translate(0, -50%);
@@ -140,13 +149,13 @@ form {
       font-size:  1.3333333rem;
     }
   }
-  input, textarea {
+  input:not(.wpcf7-submit), textarea {
     border:     1px solid rgba(38, 38, 38, 0.51);
     padding:    10px;
     font-size:  1.3333333rem;
     transition: .1s linear;
     width:      100%;
-    &:focus {
+    &:focus, &:hover {
       border: 2px solid $primaryColor;
     }
   }
@@ -155,17 +164,12 @@ form {
     margin-bottom: 10px;
     padding:       15px 10px 12px;
   }
-  .form-buttons {
-    display:        flex;
-    flex-direction: column;
-    align-items:    flex-start;
-    .btn {
-      padding: 22px 74px;
-    }
-    .btn-second {
-      padding:       16px 48px;
-      margin-bottom: 1.6666666rem;
-    }
+  .btn {
+    padding: 22px 74px;
+  }
+  .btn-second {
+    padding:       16px 48px;
+    margin-bottom: 1.6666666rem;
   }
 }
 
@@ -365,19 +369,24 @@ form {
     }
   }
   form {
-    max-width: 418px;
+    flex-direction: column;
     label {
-      width:         100%;
-      margin-bottom: 1.375rem;
-      height:        57px;
+      .wpcf7-text {
+        height: 57px;
+      }
+      &.input {
+        width:         100%;
+        margin-bottom: 1.375rem;
+        max-width:     418px;
+      }
       &.label-message {
         height:        110px;
-        margin-bottom: 22.3%;
+        margin-bottom: 12.3%;
         textarea {
           height: 100%;
         }
       }
-      span {
+      .label {
         position:   absolute;
         top:        0;
         left:       14px;
@@ -391,16 +400,14 @@ form {
     input, textarea {
       font-size: 1rem;
     }
-    .form-buttons {
-      .btn {
-        padding: 15px 57px;
-      }
-      .btn-second {
-        font-size:     1rem;
-        padding:       13px 40px;
-        margin-bottom: 1rem;
-        border:        2px solid $primaryColor;
-      }
+    .btn {
+      padding: 15px 57px;
+    }
+    .btn-second {
+      font-size:     1rem;
+      padding:       13px 40px;
+      margin-bottom: 1rem;
+      border:        2px solid $primaryColor;
     }
   }
 }
@@ -448,24 +455,25 @@ form {
     flex-direction: column;
     align-items:    center;
     label {
-      margin-bottom: 1.785rem;
-      height:        40px;
+      .wpcf7-text {
+        height: 40px;
+      }
+      &.input {
+        margin-bottom: 1.785rem;
+      }
       &.label-message {
         height:        77px;
         margin-bottom: 40px;
       }
-      span {
+      .label {
         padding: 0 6px;
       }
     }
-    .form-buttons {
-      align-items: center;
-      .btn {
-        padding: 12px 61px;
-      }
-      .btn-second {
-        padding: 10px 39px;
-      }
+    .btn {
+      padding: 12px 61px;
+    }
+    .btn-second {
+      padding: 10px 39px;
     }
   }
 }
