@@ -182,13 +182,31 @@
   }
 }
 
-
 @media screen and (max-width: 1400px) {
   .header {
-    padding: 11px 0;
     .logo {
-      width: 110px;
+      width: 150px;
     }
+    &-menu {
+      .drop-down-list {
+        top: 68px;
+      }
+      .menu-item {
+        font-size: 1rem;
+        padding:   22px 0;
+        &:before {
+          bottom: 16px;
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding: 11px 0;
+
     &-menu {
       position:       fixed;
       top:            0;
