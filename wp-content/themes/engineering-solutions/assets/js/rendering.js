@@ -1,6 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     //Swiper
+    const swiperIndustrial = new Swiper('.industrial-lighting-swiper', {
+        slidesPerView: 1.5,
+        spaceBetween: 8,
+        loop: true,
+        clickable:true,
+        navigation: {
+            nextEl: '.swiper-button-next-industrial',
+            prevEl: '.swiper-button-prev-industrial',
+            clickable: true,
+        },
+        pagination: {
+            el: '.swiper-pagination-industrial',
+            clickable: true,
+        },
+    });
+
     const swiper = new Swiper('.commercial-lighting-swiper', {
         slidesPerView: 2,
         spaceBetween: 15,
@@ -19,28 +35,23 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: '.swiper-button-prev',
         },
         pagination: {
-            el: '.swiper-pagination',
+            el: '.swiper-pagination-commercial',
             clickable: true,
         },
     });
 
-    const swiperIndustrial = new Swiper('.industrial-lighting-swiper', {
-        slidesPerView: 1.5,
-        spaceBetween: 0,
-        loop: true,
-        clickable:true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
 
     const swiperSports = new Swiper('.sports-lighting-swiper', {
         slidesPerView: 1.5,
-        spaceBetween: 0,
+        spaceBetween: 8,
         loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next-sports',
+            prevEl: '.swiper-button-prev-sports',
+            clickable: true,
+        },
         pagination: {
-            el: '.swiper-pagination',
+            el: '.swiper-pagination-sports',
             clickable: true,
         },
     });

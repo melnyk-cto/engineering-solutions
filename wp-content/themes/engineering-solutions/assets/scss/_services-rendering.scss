@@ -9,11 +9,6 @@
     overflow: hidden;
     .swiper-slide {
       transition: .2s linear;
-      &:hover {
-        .rendering-image {
-          background: none;
-        }
-      }
       .rendering-image {
         background: rgba(33, 33, 33, 0.9);
       }
@@ -25,8 +20,8 @@
     }
     .rendering-image {
       transition: .2s linear;
-      display: flex;
-      cursor:  pointer;
+      display:    flex;
+      cursor:     pointer;
       img {
         position:   relative;
         z-index:    -1;
@@ -108,6 +103,20 @@
   .industrial-lighting {
     background: #202020;
     z-index:    1;
+    &-slider {
+      position: relative;
+    }
+    .swiper-pagination {
+      display: none;
+    }
+    .swiper-button-next {
+      &:hover, &:active {
+        opacity: .7;
+      }
+      &:after {
+        color: $primaryColor;
+      }
+    }
     &-description {
       margin-bottom: 7.3%;
       p {
@@ -120,14 +129,31 @@
   }
   .commercial-lighting {
     position: relative;
-    padding: 7.3% 0 7.56%;
+    padding:  7.3% 0 7.56%;
+    .swiper-pagination {
+      display: none;
+    }
     &-description {
       margin-bottom: 9.12%;
     }
   }
   .sports-lighting {
+    &-slider {
+      position: relative;
+    }
     &-description {
       margin-bottom: 7.82%;
+    }
+    .swiper-pagination {
+      display: none;
+    }
+    .swiper-button-next {
+      &:hover, &:active {
+        opacity: .7;
+      }
+      &:after {
+        color: $primaryColor;
+      }
     }
   }
   .photorealistic-renderings {
@@ -184,6 +210,12 @@
       }
     }
     .industrial-lighting {
+      .swiper-pagination {
+        display: block;
+      }
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
+      }
       &-description {
         margin-bottom: 0;
         .description-inner {
@@ -193,6 +225,20 @@
     }
     .commercial-lighting {
       padding: 11.3% 0;
+      .swiper-pagination {
+        display: block;
+      }
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
+      }
+    }
+    .sports-lighting {
+      .swiper-pagination {
+        display: block;
+      }
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
+      }
     }
     .photorealistic-renderings {
       &-images {

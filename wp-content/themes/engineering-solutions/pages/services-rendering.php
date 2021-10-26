@@ -75,17 +75,20 @@
                         </div>
                         <div class='swiper-slide'>
                             <div class='rendering-image'>
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-2.jpg' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-2.png' alt=''>
                             </div>
                         </div>
                         <div class='swiper-slide'>
                             <div class='rendering-image'>
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-3.jpg' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-3.png' alt=''>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class='swiper-pagination'></div>
+                <div class='swiper-pagination swiper-pagination-industrial'></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next swiper-button-next-industrial"></div>
+                <div class="swiper-button-prev swiper-button-prev-industrial"></div>
             </div>
         </div>
     </section>
@@ -136,7 +139,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='swiper-pagination'></div>
+                        <div class='swiper-pagination swiper-pagination-commercial'></div>
                         <!-- Add Arrows -->
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
@@ -173,17 +176,19 @@
                         </div>
                         <div class='swiper-slide'>
                             <div class=' rendering-image'>
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-2.jpg' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-2.png' alt=''>
                             </div>
                         </div>
                         <div class='swiper-slide'>
                             <div class=' rendering-image'>
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-3.jpg' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-3.png' alt=''>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class='swiper-pagination'></div>
+                <div class='swiper-pagination swiper-pagination-sports'></div>
+                <div class="swiper-button-next swiper-button-next-sports"></div>
+                <div class="swiper-button-prev swiper-button-prev-sports"></div>
             </div>
         </div>
     </section>
