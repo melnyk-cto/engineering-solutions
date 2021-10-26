@@ -19,7 +19,7 @@
     <section class='map'>
         <div class='map-description'>
             <div class='description-image'>
-                <img src='<?php echo get_template_directory_uri() ?>/assets/images/map-description-image.jpg' alt=''>
+                <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
             </div>
             <div class='description-content'>
                 <a href='#' class='street'>
@@ -28,10 +28,6 @@
                 </a>
                 <h3>Lighting Design for a mine</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                <a href='#' class='more'>
-                    more
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/arrow-down.svg' alt=''>
-                </a>
             </div>
         </div>
         <div class='map-image'>
