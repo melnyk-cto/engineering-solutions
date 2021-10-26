@@ -22,11 +22,12 @@
       transition: .2s linear;
       display:    flex;
       cursor:     pointer;
+      height: 37vw;
       img {
         position:   relative;
         z-index:    -1;
-        max-height: 37vw;
         object-fit: cover;
+        height:     100%;
       }
     }
   }
@@ -55,15 +56,16 @@
     }
   }
   &-content {
-    padding-bottom: 7%;
-    background:     #202020;
+    padding:    4% 0 7%;
+    background: #202020;
     .container {
       max-width: 1840px;
     }
     &-inner {
-      display:     flex;
-      align-items: center;
-      flex-wrap:   wrap;
+      display:         flex;
+      align-items:     center;
+      flex-wrap:       wrap;
+      justify-content: center;
     }
     &-image {
       width:            48.13%;
@@ -109,7 +111,7 @@
     .swiper-pagination {
       display: none;
     }
-    .swiper-button-next {
+    .swiper-button-next, .swiper-button-prev {
       &:hover, &:active {
         opacity: .7;
       }
@@ -147,7 +149,7 @@
     .swiper-pagination {
       display: none;
     }
-    .swiper-button-next {
+    .swiper-button-next, .swiper-button-prev {
       &:hover, &:active {
         opacity: .7;
       }
@@ -186,10 +188,7 @@
       }
     }
     &-content {
-      padding: 1rem 0 10%;
-      &-inner {
-        align-items: flex-start;
-      }
+      padding: 6% 0 10%;
       &-image {
         width: 47.7%;
         .rendering-content-quote {
@@ -265,8 +264,13 @@
 
 @media screen and (max-width: 767px) {
   .renderings {
+    .swiper-container {
+      .rendering-image {
+        height: 57vw;
+      }
+    }
     h2 {
-      margin-bottom: 12.1%;
+      margin-bottom: 11.1%;
     }
     .description-inner {
       margin-bottom: 14%;
