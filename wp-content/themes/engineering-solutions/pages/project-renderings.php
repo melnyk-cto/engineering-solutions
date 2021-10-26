@@ -1,8 +1,5 @@
 <?php /* Template Name: Page - Project Renderings */ ?>
 <?php get_header(); ?>
-<?php
-    wp_enqueue_script('project-rendering-js', get_stylesheet_directory_uri() . '/assets/js/project-rendering.js');
-?>
 <main class='project-renderings'>
     <section class='banner'>
         <a href='#requirements' class='go-to-down'>

@@ -135,9 +135,30 @@
       }
     }
     .photorealistic-renderings {
-      padding: 60px 0  52px 0;
+      padding: 60px 0 52px 0;
       &-description {
         margin-bottom: 60px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-renderings {
+    .photorealistic-renderings {
+      &-images {
+        &.show {
+          .photorealistic-renderings-image {
+            &:nth-child( n + 3) {
+              display: block;
+            }
+          }
+        }
+      }
+      &-image {
+        &:nth-child( n + 3) {
+          display: none;
+        }
       }
     }
   }

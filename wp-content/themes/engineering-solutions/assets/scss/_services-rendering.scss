@@ -7,13 +7,26 @@
 .renderings {
   .swiper-container {
     overflow: hidden;
-    .rendering-image {
-      background: rgba(32, 32, 32, 0.71);
-      display:    flex;
-      cursor:     pointer;
-      &.active {
-        background: none;
+    .swiper-slide {
+      transition: .2s linear;
+      &:hover {
+        .rendering-image {
+          background: none;
+        }
       }
+      .rendering-image {
+        background: rgba(33, 33, 33, 0.9);
+      }
+      &.swiper-slide-active {
+        .rendering-image {
+          background: none;
+        }
+      }
+    }
+    .rendering-image {
+      transition: .2s linear;
+      display: flex;
+      cursor:  pointer;
       img {
         position:   relative;
         z-index:    -1;
@@ -106,6 +119,7 @@
     }
   }
   .commercial-lighting {
+    position: relative;
     padding: 7.3% 0 7.56%;
     &-description {
       margin-bottom: 9.12%;
@@ -120,6 +134,9 @@
     text-align: center;
     &-description {
       text-align: left;
+    }
+    .link-more {
+      display: none;
     }
   }
 }
@@ -178,10 +195,23 @@
       padding: 11.3% 0;
     }
     .photorealistic-renderings {
+      &-images {
+        &.show {
+          .photorealistic-renderings-image {
+            &:nth-child( n + 4) {
+              display: block;
+            }
+          }
+        }
+      }
       &-image {
-        &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+        &:nth-child( n + 4) {
           display: none;
         }
+      }
+      .link-more {
+        display: flex;
+        width:   100%;
       }
     }
   }
@@ -230,6 +260,22 @@
     }
     .commercial-lighting {
       padding: 20% 0;
+    }
+    .photorealistic-renderings {
+      &-images {
+        &.show {
+          .photorealistic-renderings-image {
+            &:nth-child( n + 3) {
+              display: block;
+            }
+          }
+        }
+      }
+      &-image {
+        &:nth-child( n + 3) {
+          display: none;
+        }
+      }
     }
   }
 }

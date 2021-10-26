@@ -69,7 +69,7 @@
                 <div class=' swiper-container industrial-lighting-swiper'>
                     <div class='swiper-wrapper'>
                         <div class='swiper-slide'>
-                            <div class='rendering-image active'>
+                            <div class='rendering-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-1.jpg' alt=''>
                             </div>
                         </div>
@@ -135,8 +135,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class='swiper-pagination'></div>
                         </div>
+                        <div class='swiper-pagination'></div>
                         <!-- Add Arrows -->
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
@@ -219,11 +219,11 @@
                     <div class='photorealistic-renderings-image'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-6.jpg' alt=''>
                     </div>
+                    <a href='/' class='link-more'>
+                        <span class="text-more">More</span>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/arrow.svg' alt=''>
+                    </a>
                 </div>
-                <a href='#' class='link-more'>
-                    More
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/arrow.svg' alt=''>
-                </a>
             </div>
             <a href='<?php echo home_url('/'); ?>contact' class='btn'>Request a quote</a>
         </div>
