@@ -53,7 +53,7 @@
                         <h5>Our approach </h5>
                         <p>
                             You’ll benefit from working with a dedicated team with single point of contact for all
-                            deliverables;
+                            deliverables
                         </p>
                     </div>
                 </div>
