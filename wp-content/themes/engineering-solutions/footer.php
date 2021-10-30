@@ -46,7 +46,7 @@
                 </div>
                 <div class='footer-center-contact'>
                     <h4>Contact</h4>
-                    <a href='#'>Leave us a message</a>
+                    <a href='<?php echo home_url('/'); ?>contact'>Leave us a message</a>
                     <a href='<?php echo home_url('/'); ?>contact'>Request a quote</a>
                     <div class='footer-socials'>
                         <a href='#'>

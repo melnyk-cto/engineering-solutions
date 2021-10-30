@@ -24,35 +24,3 @@
     </section>
 </main>
 <?php get_footer(); ?>
-
-
-[radio radio-499 use_label_element default:1 "Lighting design & rendering services"
-"Electrical design & CAD/BIM services" "Power System Studies" "Unity 3D/C# software
-development" "Other"]
-<label class="input">
-    <span class="label">First name*</span>
-    [text* first-name]
-</label>
-<label class="input">
-    <span class="label">Last name*</span>
-    [text* last-name]
-</label>
-<label class="input">
-    <span class="label">Company*</span>
-    [text* your-company]
-</label>
-<label class="input">
-    <span class="label">Email*</span>
-    [email* your-email]
-</label>
-<label class='label-message input'>
-    <span class="label">Message*</span>
-    [textarea* your-message]
-</label>
-<div class="wrapper-buttons">
-    <label>
-        [file your-file class:file]
-        <span class="btn btn-second">Upload Files</span>
-    </label>
-    [submit class:btn "Submit"]
-</div>

@@ -12,11 +12,13 @@
     margin-bottom: 2%;
     a {
       display:  flex;
+      align-items: flex-start;
       height:   100%;
       overflow: hidden;
       img {
         transition:  all linear 0.3s;
         object-fit: cover;
+        height: 100%;
       }
       &:hover, &:active {
         img {

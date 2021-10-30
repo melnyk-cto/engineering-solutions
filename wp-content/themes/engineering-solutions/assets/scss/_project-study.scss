@@ -120,7 +120,10 @@
     }
     .requirements {
       &-image {
-        margin-bottom: 60px;
+        img {
+          max-width: 350px;
+          margin:     0 auto 30px auto;
+        }
       }
     }
     .solutions {

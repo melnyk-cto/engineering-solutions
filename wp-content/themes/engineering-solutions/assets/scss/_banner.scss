@@ -76,12 +76,7 @@
 @media screen and (max-width: 991.98px) {
   .banner {
     .go-to-down {
-      bottom: 50px;
-      width:  26px;
-      height: 15px;
-      &:active, &:hover {
-        bottom: 44px;
-      }
+      display: none;
     }
     .btn {
       font-size: 1rem;
@@ -93,14 +88,6 @@
 
 @media screen and (max-width: 767px) {
   .banner {
-    .go-to-down {
-      bottom: 30px;
-      width:  20px;
-      height: 10px;
-      &:active, &:hover {
-        bottom: 24px;
-      }
-    }
     &-inner {
       justify-content: center;
     }
