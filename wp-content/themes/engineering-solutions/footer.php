@@ -49,11 +49,11 @@
                     <a href='<?php echo home_url('/'); ?>contact'>Leave us a message</a>
                     <a href='<?php echo home_url('/'); ?>contact'>Request a quote</a>
                     <div class='footer-socials'>
-                        <a href='#'>
+                        <a href='https://www.linkedin.com/in/roman-iegorov/' target="_blank">
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/linkedIn.svg'
                                  alt=''>
                         </a>
-                        <a href='#'>
+                        <a href='mailto:info@engineering-solutions.org' target="_blank">
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/messages.svg'
                                  alt=''>
                         </a>

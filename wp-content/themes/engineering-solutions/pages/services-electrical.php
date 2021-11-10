@@ -59,13 +59,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class='electrical-slider-image'>
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/electrical-slider-image.png'
-                                     alt=''>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class='electrical-slider-image'>
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/electrical-slider-image.png'
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/electrical-slider-image.jpg'
                                      alt=''>
                             </div>
                         </div>

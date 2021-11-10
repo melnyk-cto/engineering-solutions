@@ -68,10 +68,10 @@
     </div>
 </header>
 <div class='socials'>
-    <a href='#' class='socials-linkedin'>
+    <a href='https://www.linkedin.com/in/roman-iegorov/' class='socials-linkedin' target="_blank">
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-linkedIn.svg' alt=''>
     </a>
-    <a href='#' class='socials-email'>
+    <a href='mailto:info@engineering-solutions.org' class='socials-email' target="_blank">
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-email.svg' alt=''>
     </a>
 </div>

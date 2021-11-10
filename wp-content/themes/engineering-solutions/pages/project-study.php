@@ -57,7 +57,7 @@
                 <div class='solutions-image'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/solution-image.jpg' alt=''>
                 </div>
-                <div class='solutions-image'>
+                <div class='solutions-image warning'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/warning-image.jpg' alt=''>
                 </div>
             </div>

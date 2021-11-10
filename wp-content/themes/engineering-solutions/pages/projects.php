@@ -23,7 +23,7 @@
                     <a href='<?php echo home_url('/'); ?>project-electrical'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-4.png' alt=''>
                         <div class='item-title'>
-                            <h6>Electrical design for a steel making company</h6>
+                            <h5>Electrical design for a steel making company</h5>
                         </div>
                     </a>
                 </div>
@@ -31,7 +31,7 @@
                     <a href='<?php echo home_url('/'); ?>project-rendering'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-2.png' alt=''>
                         <div class='item-title'>
-                            <h6>Photorealistic renderings for busSTRUT</h6>
+                            <h5>Photorealistic renderings for busSTRUT</h5>
                         </div>
                     </a>
                 </div>
@@ -39,7 +39,7 @@
                     <a href='<?php echo home_url('/'); ?>project-lighting'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-3.png' alt=''>
                         <div class='item-title'>
-                            <h6>Lighting design for multiple retail stores</h6>
+                            <h5>Lighting design for multiple retail stores</h5>
                         </div>
                     </a>
                 </div>
@@ -47,7 +47,7 @@
                     <a href='<?php echo home_url('/'); ?>project-study'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-1.png' alt=''>
                         <div class='item-title'>
-                            <h6>Power System Study for a washbay</h6>
+                            <h5>Power System Study for a washbay</h5>
                         </div>
                     </a>
                 </div>

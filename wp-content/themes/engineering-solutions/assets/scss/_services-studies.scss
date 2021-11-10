@@ -335,6 +335,9 @@
       &-image {
         width:         100%;
         margin-bottom: 2.14rem;
+        img {
+          border-radius: 12px;
+        }
         &:last-child {
           margin-bottom: 0;
         }
