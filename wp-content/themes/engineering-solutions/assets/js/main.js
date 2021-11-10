@@ -88,4 +88,14 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+
+    // "Select services of interest" set in localStorage for contact page
+    const interestServices = localStorage.getItem('interest_services');
+    const radioServicesInput = document.querySelectorAll('[name="radio-services"]');
+    if (interestServices) {
+        radioServicesInput[interestServices].checked = true
+    } else {
+        radioServicesInput[4].checked = true
+    }
 });

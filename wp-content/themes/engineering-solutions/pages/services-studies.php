@@ -94,7 +94,8 @@
                     <p>
                         The purpose of the short circuit study is to determine the ability of each component within an
                         electrical system to withstand and/or interrupt the system current. Short circuit studies
-                        provide an analysis of all possible operating scenarios, which will be influenced by the proposed
+                        provide an analysis of all possible operating scenarios, which will be influenced by the
+                        proposed
                         additions or changes to the power distribution system.
                     </p>
                     <p>
@@ -111,10 +112,12 @@
                 </div>
                 <div class='calculation-images'>
                     <div class='calculation-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/calculation-image-1.jpg' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/calculation-image-1.jpg'
+                             alt=''>
                     </div>
                     <div class='calculation-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/calculation-image-2.jpg' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/calculation-image-2.jpg'
+                             alt=''>
                     </div>
                 </div>
             </div>
@@ -134,7 +137,8 @@
                     </p>
                 </div>
                 <div class='coordination-study-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/coordination-study-image.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/coordination-study-image.jpg'
+                         alt=''>
                 </div>
             </div>
         </div>
@@ -198,4 +202,7 @@
         </div>
     </section>
 </main>
+<script>
+    localStorage.setItem('interest_services', '2');
+</script>
 <?php get_footer(); ?>

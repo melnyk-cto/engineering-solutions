@@ -62,4 +62,7 @@
         </div>
     </section>
 </main>
+<script>
+    localStorage.setItem('interest_services', '3');
+</script>
 <?php get_footer(); ?>
