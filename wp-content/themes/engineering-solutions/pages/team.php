@@ -100,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            <a href='<?php echo home_url('/'); ?>contact' class='btn'>Get in touch</a>
+            <a href='<?php echo home_url('/'); ?>contact' class='btn'>Contact Us</a>
         </div>
     </section>
 </main>

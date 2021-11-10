@@ -80,7 +80,7 @@
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/study-image.jpg' alt=''>
                     </div>
                     <div class='study-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/study-image.jpg' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/study-image1.jpg' alt=''>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                     </p>
                 </div>
                 <div class='coordination-study-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/coordination-study-image.png' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/coordination-study-image.jpg' alt=''>
                 </div>
             </div>
         </div>
@@ -190,7 +190,7 @@
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/warning-image.jpg' alt=''>
                     </div>
                     <div class='warning-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/warning-image.jpg' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/warning-image1.jpg' alt=''>
                     </div>
                 </div>
             </div>
