@@ -34,8 +34,11 @@
     text-align:     center;
     padding-bottom: 8.6%;
     &-image {
-      margin-bottom: 12%;
+      margin-bottom: 90px;
       position:      relative;
+      video {
+        width: 100%;
+      }
       .play {
         position:  absolute;
         top:       50%;
@@ -70,7 +73,7 @@
     &-video {
       padding-bottom: 12%;
       &-image {
-        margin-bottom: 14%;
+        margin-bottom: 38px;
       }
       .btn {
         padding: 15px 32px;
@@ -100,9 +103,6 @@
     }
     &-video {
       padding-bottom: 21vw;
-      &-image {
-        margin-bottom: 68px;
-      }
     }
   }
 }

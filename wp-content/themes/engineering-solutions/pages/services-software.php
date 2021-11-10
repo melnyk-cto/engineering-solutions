@@ -56,7 +56,11 @@
     <section class='software-video'>
         <div class='container'>
             <div class='software-video-image'>
-                <img src='<?php echo get_template_directory_uri() ?>/assets/images/software-image.png' alt=''>
+                <video autoPlay muted loop playsInline>
+                    <source
+                            src="<?php echo get_template_directory_uri() ?>/assets/videos/pump-3d.mp4"
+                            type="video/mp4" />
+                </video>
             </div>
             <a href='<?php echo home_url('/'); ?>contact' class='btn'>Request a quote</a>
         </div>
