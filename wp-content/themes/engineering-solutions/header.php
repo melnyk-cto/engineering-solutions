@@ -8,7 +8,7 @@
     <!-- <link rel="shortcut icons" href="assets/images/favicon.ico" type="image/x-icons">-->
     <meta name="theme-color" content="#e4a11b">
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <title>Home</title>
+    <title><?php the_title_attribute(); ?></title>
     <!-- Start Of Social Graph Protocol Meta Data -->
     <meta property="og:locale" content="en_US"/>
     <!-- <meta property="og:url" content="http://example.com/"/>-->
