@@ -52,7 +52,7 @@
                         provided the following services for the project:
                     </p>
                     <ul class='description-list'>
-                        <li>Complex ­power system study for normal power & emergency power scenarios;</li>
+                        <li>Complex power system study for normal power & emergency power scenarios;</li>
                         <li>Electrical room layout;</li>
                         <li>Lighting design and simulations;</li>
                         <li>Electrical drafting and BIM modelling services.</li>

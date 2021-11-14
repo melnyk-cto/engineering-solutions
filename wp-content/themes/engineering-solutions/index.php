@@ -71,7 +71,7 @@
             </div>
         </div>
     </section>
-    <section class='services'>
+    <section id="our-services-section" class='services'>
         <div class='container'>
             <h2>Our <span>services</span></h2>
             <div class='services-inner'>

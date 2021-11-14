@@ -25,10 +25,11 @@
                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/logo.svg' alt=''>
             </a>
             <div class='header-menu'>
+                <div class="overlay"></div>
                 <nav class='menu-list'>
                     <a href='<?php echo home_url('/'); ?>team' class='menu-item'>OUR TEAM</a>
                     <div class='menu-item menu-item-services'>
-                        OUR SERVICES
+                        <a href="<?php echo home_url('/'); ?>#our-services-section" class="menu-item">OUR SERVICES</a>
                         <ul class='drop-down-list'>
                             <li>
                                 <a href='<?php echo home_url('/'); ?>services-rendering'>Lighting Design & Rendering

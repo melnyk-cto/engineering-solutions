@@ -87,44 +87,44 @@
                         </div>
                         <div class="swiper-slide">
                             <div class='work-item'>
-                                <div class='work-item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/work-item-image-1.png'
-                                         alt=''>
-                                </div>
                                 <div class='item-title'>
                                     <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/australia.svg'
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
                                              alt=''>
                                     </div>
-                                    <h4>Ben Morton </h4>
-                                    <p>Technical director at Leitech-Australia</p>
+                                    <h4>Chaitanya Karathia</h4>
+                                    <p>Electrical specialist at ANMAR</p>
                                 </div>
                                 <div class='item-description'>
                                     <p>
-                                        Great job, done promptly & well presented. I have no hesitation whatsoever in
-                                        recommending Roman to the community!
+                                        I worked with Roman for a pig caster project. I must say he and his team are
+                                        working very hard and have a good understanding of electrical engineering
+                                        drawings / documents. Most of the time his responses for the drawings/documents
+                                        are prompt, fast & innovative. Also, he collects all the required inputs for
+                                        documents preparation in advance and clarifies the doubts related to local
+                                        codes/regulations, which helps him to deliver the documents in a timely manner.
+                                        He and his team follow good work ethics, believe in customer satisfaction, and
+                                        always put extra efforts to achieve that. Overall, I would say hardworking and
+                                        very supportive.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class='work-item-image'>
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/work-item-image-2.png'
-                                     alt=''>
-                            </div>
                             <div class='work-item'>
                                 <div class='item-title'>
                                     <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/australia.svg'
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
                                              alt=''>
                                     </div>
-                                    <h4>Ken Hornsey </h4>
-                                    <p>Operations manager at Leitech-Australia</p>
+                                    <h4>Michael Gellert</h4>
+                                    <p>President at busSTRUT</p>
                                 </div>
                                 <div class='item-description'>
                                     <p>
-                                        Very professional work. The use of initiative to provide the outcome where my
-                                        own knowledge/instructions were lacking was great.
+                                        With not much guidance and a hands-on approach, this friendly freelancer
+                                        promptly created incredible renders of my unique system. Sold more product with
+                                        the BEST resulting promotional materials!!!
                                     </p>
                                 </div>
                             </div>

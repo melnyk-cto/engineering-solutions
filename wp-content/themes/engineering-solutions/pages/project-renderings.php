@@ -39,19 +39,19 @@
                 </p>
             </div>
             <div class='solutions-images'>
-                <div class='solutions-image'>
+                <div class='solutions-image cover'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-rendering-solution-image.jpg'
                          alt=''>
                 </div>
-                <div class='solutions-image'>
+                <div class='solutions-image cover'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-5.jpg'
                          alt=''>
                 </div>
-                <div class='solutions-image'>
+                <div class='solutions-image cover'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-6.jpg'
                          alt=''>
                 </div>
-                <div class='solutions-image'>
+                <div class='solutions-image cover'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-rendering-banner.jpg'
                          alt=''>
                 </div>
@@ -124,8 +124,8 @@
                                          alt=''>
                                 </div>
                                 <div class='item-title'>
-                                    <h4>Curtis Kuczera</h4>
-                                    <p>General Manager at Cobra Structures</p>
+                                    <h4>Michael Gellert</h4>
+                                    <p>President at busSTRUT</p>
                                 </div>
                                 <p>
                                     With not much guidance and a hands-on approach, this friendly freelancer promptly

@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const burger = document.getElementsByClassName("burger")[0];
     const menu = document.getElementsByClassName("header-menu")[0];
+    const overlay = document.getElementsByClassName("overlay")[0];
 
     // Burger menu
     burger.addEventListener("click", function () {
@@ -9,12 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.classList.toggle("mobile-menu")
     });
 
-    // Outside click
-    window.addEventListener('click', function (e) {
-        if (!document.getElementsByClassName('menu-list')[0].contains(e.target) && !burger.contains(e.target)) {
-            burger.classList.remove("active");
-            menu.classList.remove("mobile-menu");
-        }
+    // outside click mobile menu
+    overlay.addEventListener('click', function () {
+        burger.classList.remove("active");
+        menu.classList.remove("mobile-menu");
     });
 
     //Swiper
@@ -43,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const Myswiper = new Swiper('.work-swiper', {
         slidesPerView: 1,
         spaceBetween: 15,
+        autoHeight: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,

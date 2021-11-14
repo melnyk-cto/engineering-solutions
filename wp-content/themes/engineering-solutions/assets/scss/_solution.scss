@@ -11,20 +11,25 @@
     flex-wrap:       wrap;
   }
   &-image {
-    width:      48%;
-    max-width:  746px;
-    height:     26.4vw;
-    max-height: 470px;
+    width: 48%;
+    img {
+      height:        100%;
+      border-radius: 10px;
+      object-fit:    contain;
+    }
     &.warning {
       img {
         border:        1px solid #707070;
         border-radius: 22px;
       }
     }
-    img {
-      height:        100%;
-      border-radius: 10px;
-      object-fit:    contain;
+    &.cover {
+      max-width:  746px;
+      height:     26.4vw;
+      max-height: 470px;
+      img {
+        object-fit: cover;
+      }
     }
   }
 }
@@ -50,12 +55,14 @@
       justify-content: center;
     }
     &-image {
-      width:  100%;
-      height: 56.3vw;
+      width: 100%;
       &.warning {
         img {
           border-radius: 12px;
         }
+      }
+      &.cover {
+        height: 56.3vw;
       }
     }
   }

@@ -82,38 +82,6 @@
             </div>
         </div>
     </section>
-    <section class='testimonial'>
-        <div class='container'>
-            <h2><span>Testimonial</span></h2>
-            <div class='testimonial-slider'>
-                <div class='swiper-container testimonial-swiper'>
-                    <div class='swiper-wrapper'>
-                        <div class='swiper-slide'>
-                            <div class='testimonial-item'>
-                                <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg' alt=''>
-                                </div>
-                                <div class='item-title'>
-                                    <h4>Curtis Kuczera</h4>
-                                    <p>General Manager at Cobra Structures</p>
-                                </div>
-                                <p>
-                                    With not much guidance and a hands-on approach, this friendly freelancer promptly
-                                    created incredible renders of my unique system. Sold more product with the BEST
-                                    resulting promotional materials!!!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </div>
-    </section>
 </main>
 <script>
     localStorage.setItem('interest_services', '4');

@@ -30,7 +30,8 @@
                     </p>
                 </div>
                 <div class='requirements-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-lighting-requirements-image.jpg' alt=''>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-lighting-requirements-image.jpg'
+                         alt=''>
                 </div>
             </div>
         </div>
@@ -46,17 +47,21 @@
                 </p>
             </div>
             <div class='solutions-images'>
-                <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-2.jpg' alt=''>
+                <div class='solutions-image cover'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-2.jpg'
+                         alt=''>
                 </div>
-                <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-1.jpg' alt=''>
+                <div class='solutions-image cover'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-1.jpg'
+                         alt=''>
                 </div>
-                <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-lighting-solution-image-1.jpg' alt=''>
+                <div class='solutions-image cover'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-lighting-solution-image-1.jpg'
+                         alt=''>
                 </div>
-                <div class='solutions-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-lighting-solution-image-2.jpg' alt=''>
+                <div class='solutions-image cover'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-lighting-solution-image-2.jpg'
+                         alt=''>
                 </div>
             </div>
         </div>
@@ -83,16 +88,17 @@
                         <div class='swiper-slide'>
                             <div class='testimonial-item'>
                                 <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg' alt=''>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
+                                         alt=''>
                                 </div>
                                 <div class='item-title'>
                                     <h4>Curtis Kuczera</h4>
                                     <p>General Manager at Cobra Structures</p>
                                 </div>
                                 <p>
-                                    With not much guidance and a hands-on approach, this friendly freelancer promptly
-                                    created incredible renders of my unique system. Sold more product with the BEST
-                                    resulting promotional materials!!!
+                                    After 17 years of business, this has been our best hire (through any platform). Not
+                                    only are the deliverables incredible, but so too the cooperation and adherence to
+                                    (sometimes crazy) schedules.
                                 </p>
                             </div>
                         </div>

@@ -227,6 +227,8 @@
         width:           100%;
         height:          100%;
         background:      rgba(38, 38, 38, 0.9);
+        position:        relative;
+        z-index:         2;
       }
       .menu-item {
         margin:      0 0 25px;
@@ -254,10 +256,18 @@
         }
       }
       &.mobile-menu {
-        opacity:          1;
-        visibility:       visible;
-        z-index:          1000;
+        opacity:    1;
+        visibility: visible;
+        z-index:    1000;
+      }
+      .overlay {
         background-color: rgba(37, 41, 53, 0.44);
+        position:         absolute;
+        z-index:          1;
+        left:             0;
+        top:              0;
+        width:            100%;
+        height:           100%;
       }
     }
     .burger {
