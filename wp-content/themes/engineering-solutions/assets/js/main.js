@@ -89,13 +89,16 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-
-    // "Select services of interest" set in localStorage for contact page
-    const interestServices = localStorage.getItem('interest_services');
-    const radioServicesInput = document.querySelectorAll('[name="radio-services"]');
-    if (interestServices) {
-        radioServicesInput[interestServices].checked = true
-    } else {
-        radioServicesInput[4].checked = true
+    // zoom effect on click image
+    const zoom = document.getElementsByClassName('zoom');
+    for (let i = 0; i < zoom.length; i++) {
+        zoom[i].addEventListener('click', function (e) {
+            if (this.classList.contains('open')) {
+                if (e.target !== this) return;
+                this.classList.toggle('open');
+            } else {
+                this.classList.toggle('open');
+            }
+        });
     }
 });

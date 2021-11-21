@@ -43,16 +43,94 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>LK. Blue</h4>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Engineering Solution delivered an accurate design on schedule just as promised.
+                                        The team is hardworking and easy to work with. They respond promptly, offer
+                                        creative ideas, and the design package was created with engineering precision.
+                                        We certainly look forward to a continued partnership with Roman and team.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Michael Gellert</h4>
+                                    <p>President at busSTRUT</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        After 17 years of business, this has been our best hire (through any platform).
+                                        Not only are the deliverables incredible, but so too the cooperation and
+                                        adherence to (sometimes crazy) schedules
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Michael Gellert</h4>
+                                    <p>President at busSTRUT</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        With not much guidance and a hands-on approach, this friendly freelancer
+                                        promptly created incredible renders of my unique system. Sold more product with
+                                        the BEST resulting promotional materials!!!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item'>
                                 <div class='work-item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/work-item-image-1.png'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/ben-morton.png'
                                          alt=''>
                                 </div>
                                 <div class='item-title'>
                                     <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/australia.svg'
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/australia.svg'
                                              alt=''>
                                     </div>
-                                    <h4>Ben Morton </h4>
+                                    <h4>Ben Morton</h4>
+                                    <p>Technical director at Leitech-Australia</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Highly recommended
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item'>
+                                <div class='work-item-image'>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/ben-morton.png'
+                                         alt=''>
+                                </div>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/australia.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Ben Morton</h4>
                                     <p>Technical director at Leitech-Australia</p>
                                 </div>
                                 <div class='item-description'>
@@ -64,17 +142,74 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
+                            <div class='work-item'>
+                                <div class='work-item-image'>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/ben-morton.png'
+                                         alt=''>
+                                </div>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/australia.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Ben Morton</h4>
+                                    <p>Technical director at Leitech-Australia</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Roman is an honest, reliable contractor who has always responded very well to
+                                        our needs. We are pleased with his work & will continue to work with him for
+                                        lighting design projects. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item'>
+                                <div class='work-item-image'>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/tom-ludwig-saga-automation.jpg'
+                                         alt=''>
+                                </div>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Tom Ludwig</h4>
+                                    <p>President at Saga Automation</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Roman and his team reproduced a 12 page very detailed electrical schematic in 12
+                                        days using AutoCAD electrical. Their attention to detail was very good and they
+                                        caught errors in the drawing and corrected them. Their understanding of the
+                                        intricacies of AutoCAD was appreciated. However, the real reason to hire this
+                                        team is that they understand what they are drawing. They understand what NFPA
+                                        electrical schematic symbols mean (and I assume he would be equally good at IEC
+                                        symbols as well). Many of the other CAD drafters that had much lower rates could
+                                        not convince me that they had prior experience with this type of drawing, so
+                                        their price no matter how low was not worth it. Lastly, Roman and I communicated
+                                        throughout the 12 days of this engagement. He writes messages like a native
+                                        English speaker, and submitted work as it was completed page by page. Frequent
+                                        communication back and forth helped me feel like my work was important and being
+                                        worked on diligently. Overall, I can wholeheartedly recommend using Roman for
+                                        electrical schematic development (and I assume he does other types of drawings
+                                        just as well with equally good results!).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
                             <div class='work-item-image'>
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/work-item-image-2.png'
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/ken-hornsey.png'
                                      alt=''>
                             </div>
                             <div class='work-item'>
                                 <div class='item-title'>
                                     <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/australia.svg'
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/australia.svg'
                                              alt=''>
                                     </div>
-                                    <h4>Ken Hornsey </h4>
+                                    <h4>Ken Hornsey</h4>
                                     <p>Operations manager at Leitech-Australia</p>
                                 </div>
                                 <div class='item-description'>
@@ -86,10 +221,134 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
+                            <div class='work-item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/ken-hornsey.png'
+                                     alt=''>
+                            </div>
                             <div class='work-item'>
                                 <div class='item-title'>
                                     <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/australia.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Ken Hornsey</h4>
+                                    <p>Operations manager at Leitech-Australia</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Professional output, always a consistent result from Roman
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/ken-hornsey.png'
+                                     alt=''>
+                            </div>
+                            <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/australia.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Ken Hornsey</h4>
+                                    <p>Operations manager at Leitech-Australia</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Consistently able to provide exactly what I wanted from rough hand sketches and
+                                        instructions
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/simon-hornsey-leitech.jpg'
+                                     alt=''>
+                            </div>
+                            <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/australia.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Simon Hornsey</h4>
+                                    <p>Director at Leitech-Australia</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Roman is excellent to work with. We have had no issues whatsoever & found his
+                                        work to be prompt & accurate, plus his communication is excellent
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/simon-hornsey-leitech.jpg'
+                                     alt=''>
+                            </div>
+                            <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/australia.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>Simon Hornsey</h4>
+                                    <p>Director at Leitech-Australia</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Roman produced exceptional work! We will continue to use due to the high
+                                        standard of work submitted!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>John Langford</h4>
+                                    <p>President/ Principal Engineer at JWL Engineering</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Great communication, speed and attention to detail. This support greatly
+                                        improved the overall development cycle of the overall work. Looking forward to
+                                        working together again!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
+                                             alt=''>
+                                    </div>
+                                    <h4>John Langford</h4>
+                                    <p>President/ Principal Engineer at JWL Engineering</p>
+                                </div>
+                                <div class='item-description'>
+                                    <p>
+                                        Great contractor. Excellent communication and assistance with getting the work
+                                        done. Definitely will use again
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='work-item'>
+                                <div class='item-title'>
+                                    <div class='item-title-image'>
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/canada.svg'
                                              alt=''>
                                     </div>
                                     <h4>Chaitanya Karathia</h4>
@@ -112,19 +371,25 @@
                         </div>
                         <div class="swiper-slide">
                             <div class='work-item'>
+                                <div class='work-item-image'>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients/paul-allyn-justice-systems.jpg'
+                                         alt=''>
+                                </div>
                                 <div class='item-title'>
                                     <div class='item-title-image'>
-                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
+                                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
                                              alt=''>
                                     </div>
-                                    <h4>Michael Gellert</h4>
-                                    <p>President at busSTRUT</p>
+                                    <h4>Paul Allyn</h4>
+                                    <p>President at Justice Systems Corporation</p>
                                 </div>
                                 <div class='item-description'>
                                     <p>
-                                        With not much guidance and a hands-on approach, this friendly freelancer
-                                        promptly created incredible renders of my unique system. Sold more product with
-                                        the BEST resulting promotional materials!!!
+                                        Our need to 3D model a multi-layer industrial control cabinet was fully met,
+                                        allowing us to ensure clearance between all the components and to fabricate
+                                        mounting brackets for the all-in-one touchscreen. Being constrained by the
+                                        existing cabinet construction, Roman and his crew modeled the existing and then
+                                        worked through our new modifications. Great work!
                                     </p>
                                 </div>
                             </div>

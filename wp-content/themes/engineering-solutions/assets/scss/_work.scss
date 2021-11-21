@@ -43,7 +43,7 @@
     box-shadow:    0 10px 20px 0 rgba(82, 112, 222, 0.37);
     border-radius: 20px;
     min-height:    274px;
-    width: 90%;
+    width:         90%;
     &-image {
       position:      absolute;
       top:           0;
@@ -51,6 +51,8 @@
       width:         129px;
       transform:     translate(-50%, -70%);
       margin-bottom: 1rem;
+      border-radius: 50%;
+      overflow:      hidden;
     }
     .item-title {
       text-align:    center;
@@ -61,8 +63,8 @@
         border-radius: 5px;
       }
       p {
-        color: #999999;
-        line-height:  1.35;
+        color:       #999999;
+        line-height: 1.35;
       }
     }
     .item-description {

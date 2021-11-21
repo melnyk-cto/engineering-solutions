@@ -68,7 +68,7 @@
                 </p>
             </div>
             <div class='photorealistic-renderings-images'>
-                <div class='photorealistic-renderings-image'>
+                <div class='photorealistic-renderings-image zoom'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-1.jpg'
                          alt=''>
                 </div>
@@ -120,7 +120,7 @@
                         <div class='swiper-slide'>
                             <div class='testimonial-item'>
                                 <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
                                          alt=''>
                                 </div>
                                 <div class='item-title'>
@@ -128,9 +128,9 @@
                                     <p>President at busSTRUT</p>
                                 </div>
                                 <p>
-                                    With not much guidance and a hands-on approach, this friendly freelancer promptly
-                                    created incredible renders of my unique system. Sold more product with the BEST
-                                    resulting promotional materials!!!
+                                    After 17 years of business, this has been our best hire (through any platform). Not
+                                    only are the deliverables incredible, but so too the cooperation and adherence to
+                                    (sometimes crazy) schedules
                                 </p>
                             </div>
                         </div>

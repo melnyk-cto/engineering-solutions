@@ -88,7 +88,7 @@
                         <div class='swiper-slide'>
                             <div class='testimonial-item'>
                                 <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/canada.svg'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/canada.svg'
                                          alt=''>
                                 </div>
                                 <div class='item-title'>
