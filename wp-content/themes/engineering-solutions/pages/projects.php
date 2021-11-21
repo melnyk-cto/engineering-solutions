@@ -29,7 +29,7 @@
                 </div>
                 <div class='services-item'>
                     <a href='<?php echo home_url('/'); ?>project-rendering'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-2.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/project-2.jpg' alt=''>
                         <div class='item-title'>
                             <h5>Photorealistic renderings for busSTRUT</h5>
                         </div>

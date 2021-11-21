@@ -88,12 +88,12 @@
                         <div class='swiper-slide'>
                             <div class='testimonial-item'>
                                 <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/canada.svg'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries//united-states.svg'
                                          alt=''>
                                 </div>
                                 <div class='item-title'>
-                                    <h4>Curtis Kuczera</h4>
-                                    <p>General Manager at Cobra Structures</p>
+                                    <h4>Michael Gellert</h4>
+                                    <p>President at busSTRUT</p>
                                 </div>
                                 <p>
                                     After 17 years of business, this has been our best hire (through any platform). Not

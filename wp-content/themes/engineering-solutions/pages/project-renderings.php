@@ -128,9 +128,9 @@
                                     <p>President at busSTRUT</p>
                                 </div>
                                 <p>
-                                    After 17 years of business, this has been our best hire (through any platform). Not
-                                    only are the deliverables incredible, but so too the cooperation and adherence to
-                                    (sometimes crazy) schedules
+                                    With not much guidance and a hands-on approach, this friendly freelancer
+                                    promptly created incredible renders of my unique system. Sold more product with
+                                    the BEST resulting promotional materials!!!
                                 </p>
                             </div>
                         </div>
