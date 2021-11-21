@@ -298,9 +298,12 @@ form {
 }
 
 .zoom {
-  cursor: pointer;
+  cursor:   pointer;
+  overflow: hidden;
   &:hover, &:active {
-    opacity: .7;
+    img {
+      transform: scale(1.15);
+    }
   }
   &.open {
     opacity:          1;
@@ -311,10 +314,10 @@ form {
     width:            100vw !important;
     height:           100vh !important;
     max-width:        none !important;
-    display:          flex;
+    display:          flex !important;
     align-items:      center;
     justify-content:  center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, .9);
     &:before {
       content:         '';
       position:        absolute;
@@ -326,10 +329,12 @@ form {
       height:          25px;
     }
     img {
-      max-width:  90%;
-      max-height: 90%;
-      height:     auto;
-      width:      auto;
+      max-width:     90%;
+      max-height:    90%;
+      height:        auto;
+      width:         auto;
+      border-radius: 0;
+      transform:     scale(1);
     }
   }
 }

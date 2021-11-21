@@ -44,11 +44,11 @@
                          alt=''>
                 </div>
                 <div class='solutions-image cover'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-5.jpg'
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-06.jpg'
                          alt=''>
                 </div>
                 <div class='solutions-image cover'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-6.jpg'
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-08.jpg'
                          alt=''>
                 </div>
                 <div class='solutions-image cover'>
@@ -69,39 +69,39 @@
             </div>
             <div class='photorealistic-renderings-images'>
                 <div class='photorealistic-renderings-image zoom'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-1.jpg'
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-01.jpg'
                          alt=''>
                 </div>
-                <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-2.jpg'
+                <div class='photorealistic-renderings-image zoom'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-03.jpg'
                          alt=''>
                 </div>
-                <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-3.jpg'
+                <div class='photorealistic-renderings-image zoom'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-04.jpg'
                          alt=''>
                 </div>
-                <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-4.jpg'
+                <div class='photorealistic-renderings-image zoom'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-05.jpg'
                          alt=''>
                 </div>
-                <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-7.jpg'
+                <div class='photorealistic-renderings-image zoom'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-07.jpg'
                          alt=''>
                 </div>
-                <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-8.jpg'
+                <div class='photorealistic-renderings-image zoom'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-09.jpg'
                          alt=''>
                 </div>
-                <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-9.jpg'
+                <div class='photorealistic-renderings-image zoom'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-11.jpg'
                          alt=''>
                 </div>
-                <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-10.jpg'
+                <div class='photorealistic-renderings-image zoom'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-12.jpg'
                          alt=''>
                 </div>
-                <div class='photorealistic-renderings-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/photorealistic-renderings-image-11.jpg'
+                <div class='photorealistic-renderings-image zoom'>
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/bs-render-13.jpg'
                          alt=''>
                 </div>
                 <a href='/' class='link-more'>

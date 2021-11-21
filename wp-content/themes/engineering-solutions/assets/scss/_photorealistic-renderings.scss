@@ -1,9 +1,5 @@
 @import "./variables";
 
-@media (any-hover: hover) {
-
-}
-
 .photorealistic-renderings {
   padding: 7.57% 0 8.6%;
   &-inner {
@@ -24,6 +20,9 @@
     margin-bottom: 70px;
     img {
       border-radius: 5px;
+      height:        24vw;
+      object-fit:    cover;
+      transition:    0.3s linear;
     }
   }
 }
@@ -55,6 +54,9 @@
       margin-bottom: 26px;
       &:nth-child(3) {
         display: none;
+      }
+      img {
+        height: 42vw;
       }
     }
     .btn {
