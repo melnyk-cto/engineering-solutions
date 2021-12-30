@@ -290,8 +290,16 @@ form {
   }
 }
 
-.swiper-button-next, .swiper-button-prev {
-  color: #262626 !important;
+div.swiper-button-next, div.swiper-button-prev {
+  color:           #262626 !important;
+  height:          100%;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  top:             0;
+  width:           3.5%;
+  margin-top:      0;
+  z-index:         2;
   &:after {
     font-size: 2.92rem !important;
   }

@@ -131,6 +131,11 @@
   }
   .commercial-lighting {
     position: relative;
+    &-slider {
+      .container {
+        padding: 0 5%;
+      }
+    }
     padding:  7.3% 0 7.56%;
     &-slider-image img {
       height:     350px;
@@ -177,7 +182,7 @@
   .renderings {
     .commercial-lighting {
       &-slider-image img {
-        height:     230px;
+        height:     240px;
         object-fit: cover;
       }
     }
@@ -187,6 +192,11 @@
 @media screen and (max-width: 567px) {
   .renderings {
     .commercial-lighting {
+      &-slider {
+        .container {
+          padding: 0;
+        }
+      }
       &-slider-image img {
         height:     120px;
         object-fit: cover;
