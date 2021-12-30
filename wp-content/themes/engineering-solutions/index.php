@@ -92,7 +92,7 @@
                     </a>
                 </div>
                 <div class='services-item'>
-                    <a href='<?php echo home_url('/'); ?>services-rendering'>
+                    <a href='<?php echo home_url('/'); ?>services-lighting'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-image-3.jpg' alt=''>
                         <div class='item-title'>
                             <h5>Lighting design & rendering services</h5>

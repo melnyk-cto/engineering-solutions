@@ -33,7 +33,7 @@
                 </div>
                 <div class='footer-center-service'>
                     <h4>Services</h4>
-                    <a href='<?php echo home_url('/'); ?>services-rendering'>Lighting design & rendering services</a>
+                    <a href='<?php echo home_url('/'); ?>services-lighting'>Lighting design & rendering services</a>
                     <a href='<?php echo home_url('/'); ?>services-electrical'>Electrical design & CAD/BIM services</a>
                     <a href='<?php echo home_url('/'); ?>services-studies'>Power System Studies</a>
                     <a href='<?php echo home_url('/'); ?>services-software'>Unity 3D/C# software development</a>

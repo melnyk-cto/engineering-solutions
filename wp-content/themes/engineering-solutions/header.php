@@ -32,7 +32,7 @@
                         <a href="<?php echo home_url('/'); ?>#our-services-section" class="menu-item">OUR SERVICES</a>
                         <ul class='drop-down-list'>
                             <li>
-                                <a href='<?php echo home_url('/'); ?>services-rendering'>Lighting Design & Rendering
+                                <a href='<?php echo home_url('/'); ?>services-lighting'>Lighting Design & Rendering
                                     Services</a>
                             </li>
                             <li>
