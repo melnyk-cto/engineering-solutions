@@ -139,7 +139,19 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class='commercial-lighting-slider-image'>
+                                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-1.2.jpg'
+                                                 alt=''>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class='commercial-lighting-slider-image'>
                                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-2.jpg'
+                                                 alt=''>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class='commercial-lighting-slider-image'>
+                                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-2.1.jpg'
                                                  alt=''>
                                         </div>
                                     </div>
@@ -149,12 +161,42 @@
                                                  alt=''>
                                         </div>
                                     </div>
+                                    <div class="swiper-slide">
+                                        <div class='commercial-lighting-slider-image'>
+                                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-3.1.jpg'
+                                                 alt=''>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class='commercial-lighting-slider-image'>
+                                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-4.jpg'
+                                                 alt=''>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class='commercial-lighting-slider-image'>
+                                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-4.1.jpg'
+                                                 alt=''>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class='commercial-lighting-slider-image'>
+                                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-5.jpg'
+                                                 alt=''>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class='commercial-lighting-slider-image'>
+                                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-5.1.jpg'
+                                                 alt=''>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class='swiper-pagination swiper-pagination-commercial'></div>
                             <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next swiper-button-next-commercial"></div>
+                            <div class="swiper-button-prev swiper-button-prev-commercial"></div>
                         </div>
                     </div>
                 </div>
@@ -183,19 +225,19 @@
                         <div class='swiper-wrapper'>
                             <div class='swiper-slide'>
                                 <div class='rendering-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-1.jpg'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/sports-lighting-1.jpg'
                                          alt=''>
                                 </div>
                             </div>
                             <div class='swiper-slide'>
                                 <div class=' rendering-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-2.png'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/sports-lighting-2.jpg'
                                          alt=''>
                                 </div>
                             </div>
                             <div class='swiper-slide'>
                                 <div class=' rendering-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/industrial-lighting-image-3.png'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/sports-lighting-1.jpg'
                                          alt=''>
                                 </div>
                             </div>

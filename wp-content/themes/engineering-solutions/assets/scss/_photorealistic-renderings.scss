@@ -21,8 +21,9 @@
     img {
       border-radius: 5px;
       height:        24vw;
+      max-height:    500px;
       object-fit:    cover;
-      transition:    0.3s linear;
+      transition:    0s linear;
     }
   }
 }

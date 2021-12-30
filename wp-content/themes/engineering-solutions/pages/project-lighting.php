@@ -48,7 +48,7 @@
             </div>
             <div class='solutions-images'>
                 <div class='solutions-image cover'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-2.jpg'
+                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-1.2.jpg'
                          alt=''>
                 </div>
                 <div class='solutions-image cover'>

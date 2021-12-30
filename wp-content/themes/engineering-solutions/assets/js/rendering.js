@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.swiper-button-next-commercial',
+            prevEl: '.swiper-button-prev-commercial',
         },
         pagination: {
             el: '.swiper-pagination-commercial',
