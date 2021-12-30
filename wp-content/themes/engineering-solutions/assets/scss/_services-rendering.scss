@@ -22,7 +22,7 @@
       transition: .2s linear;
       display:    flex;
       cursor:     pointer;
-      height: 37vw;
+      height:     37vw;
       img {
         position:   relative;
         z-index:    -1;
@@ -132,6 +132,10 @@
   .commercial-lighting {
     position: relative;
     padding:  7.3% 0 7.56%;
+    &-slider-image img {
+      height:     350px;
+      object-fit: cover;
+    }
     .swiper-pagination {
       display: none;
     }
@@ -165,6 +169,28 @@
     }
     .link-more {
       display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .renderings {
+    .commercial-lighting {
+      &-slider-image img {
+        height:     230px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .renderings {
+    .commercial-lighting {
+      &-slider-image img {
+        height:     120px;
+        object-fit: cover;
+      }
     }
   }
 }

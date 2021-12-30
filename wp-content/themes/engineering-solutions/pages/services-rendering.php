@@ -149,12 +149,6 @@
                                                  alt=''>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <div class='commercial-lighting-slider-image'>
-                                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/commercial-lighting-slider-image-3.jpg'
-                                                 alt=''>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div class='swiper-pagination swiper-pagination-commercial'></div>
