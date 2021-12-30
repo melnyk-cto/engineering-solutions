@@ -23,7 +23,7 @@
         <div class='container'>
             <div class='footer-center-inner'>
                 <div class='footer-center-logo'>
-                    <a href='#' class='footer-logo'>
+                    <a href='<?php echo home_url('/'); ?>' class='footer-logo'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/logo.svg' alt=''>
                     </a>
                     <a href='mailto:info@engineering-solutions.org' class='footer-email'>

@@ -8,7 +8,7 @@
         <div class='contact-title'>
             <div class='container'>
                 <h1>Сontact us</h1>
-                <h3>Select services of interest</h3>
+                <h3>Select service of interest</h3>
             </div>
         </div>
         <div class='contact-inner'>

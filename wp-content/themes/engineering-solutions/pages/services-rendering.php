@@ -5,7 +5,7 @@
 <?php get_header(); ?>
     <main class='renderings'>
         <section class='banner'>
-            <a href='#' class='go-to-down'>
+            <a href='#renderings-content' class='go-to-down'>
                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
             </a>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/rendering-banner.png' alt=''>
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </section>
-        <section class='renderings-content'>
+        <section id='renderings-content' class='renderings-content'>
             <div class='container'>
                 <div class='renderings-content-inner'>
                     <div class='renderings-content-image'>

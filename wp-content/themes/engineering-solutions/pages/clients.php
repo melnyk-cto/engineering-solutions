@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <main class='clients'>
     <section class='banner'>
-        <a href='#' class='go-to-down'>
+        <a href='#map' class='go-to-down'>
             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/go-to-down.svg' alt=''>
         </a>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/clients-banner.png' alt=''>
@@ -16,7 +16,7 @@
             </div>
         </div>
     </section>
-    <section class='map'>
+    <section id='map' class='map'>
         <div class='map-description'>
             <div class='description-image'>
                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
@@ -49,10 +49,11 @@
                                              alt=''>
                                     </div>
                                     <h4>LK. Blue</h4>
+                                    <p>USA company owner</p>
                                 </div>
                                 <div class='item-description'>
                                     <p>
-                                        Engineering Solution delivered an accurate design on schedule just as promised.
+                                        Engineering Solutions delivered an accurate design on schedule just as promised.
                                         The team is hardworking and easy to work with. They respond promptly, offer
                                         creative ideas, and the design package was created with engineering precision.
                                         We certainly look forward to a continued partnership with Roman and team.
