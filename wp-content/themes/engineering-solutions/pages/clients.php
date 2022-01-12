@@ -49,7 +49,7 @@
                                              alt=''>
                                     </div>
                                     <h4>LK. Blue</h4>
-                                    <p>USA company owner</p>
+                                    <p>Сompany owner</p>
                                 </div>
                                 <div class='item-description'>
                                     <p>
