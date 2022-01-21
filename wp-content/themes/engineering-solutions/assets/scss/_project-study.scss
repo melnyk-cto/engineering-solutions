@@ -37,11 +37,11 @@
     &-image {
       height: initial;
       &:first-child {
-        width: 39.1%;
+        width: 55%;
       }
       &:last-child {
         max-width: 714px;
-        width:     45%;
+        width:     42%;
       }
     }
   }
@@ -85,14 +85,6 @@
       }
       &-images {
         justify-content: space-between;
-      }
-      &-image {
-        &:first-child {
-          width: 43.5%;
-        }
-        &:last-child {
-          width: 50%;
-        }
       }
     }
     .outcome {

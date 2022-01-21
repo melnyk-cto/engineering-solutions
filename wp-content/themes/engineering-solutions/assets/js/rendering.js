@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //Swiper
     const swiperIndustrial = new Swiper('.industrial-lighting-swiper', {
+        loop: true,
         slidesPerView: 1.5,
         spaceBetween: 8,
-        loop: true,
         clickable:true,
         navigation: {
             nextEl: '.swiper-button-next-industrial',
@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const swiper = new Swiper('.commercial-lighting-swiper', {
+        loop: true,
         slidesPerView: 2,
         spaceBetween: 15,
         breakpoints: {
@@ -42,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     const swiperSports = new Swiper('.sports-lighting-swiper', {
+        loop: true,
         slidesPerView: 1.5,
         spaceBetween: 8,
-        loop: true,
         navigation: {
             nextEl: '.swiper-button-next-sports',
             prevEl: '.swiper-button-prev-sports',

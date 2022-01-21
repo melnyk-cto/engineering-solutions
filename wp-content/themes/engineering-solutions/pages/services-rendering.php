@@ -237,7 +237,7 @@
                             </div>
                             <div class='swiper-slide'>
                                 <div class=' rendering-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/sports-lighting-1.jpg'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/services-renderings/sports-lighting-3.jpg'
                                          alt=''>
                                 </div>
                             </div>

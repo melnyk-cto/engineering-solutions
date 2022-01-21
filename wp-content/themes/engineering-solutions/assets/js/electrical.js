@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function (){
     //Swiper
     const swiper = new Swiper('.electrical-swiper', {
+        loop: true,
         spaceBetween: 10,
         navigation: {
             nextEl: '.swiper-button-next',

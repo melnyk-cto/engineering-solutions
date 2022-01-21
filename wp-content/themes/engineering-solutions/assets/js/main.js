@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   //Swiper
   const swiper = new Swiper('.testimonial-swiper', {
+    loop: true,
     slidesPerView: 1,
     spaceBetween: 15,
     pagination: {
@@ -40,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   //Swiper
   const Myswiper = new Swiper('.work-swiper', {
+    loop: true,
     slidesPerView: 1,
     spaceBetween: 15,
     autoHeight: true,
