@@ -1,40 +1,17 @@
 @import "./variables";
 
-@media (any-hover: hover) {
-  .blog {
-
-  }
-}
-
-.blog-page {
-  .banner {
-    &-description {
-      width: 100%;
-    }
-    h1 {
-      margin-bottom: 100px;
-    }
-    &-inner {
-      padding: 25.23% 0;
-    }
+.single-blog-page {
+  h2 {
+    margin-bottom: 42px;
   }
   .blog {
     padding: 6.5% 0 9%;
+    .container {
+      max-width: 1240px;
+    }
     &-item {
       display:       block;
       margin-bottom: 4%;
-      &:hover {
-        .item-image {
-          img {
-            transform: scale(1.1);
-          }
-        }
-        .item-description {
-          h4 {
-            color: $primaryColor;
-          }
-        }
-      }
       .item-image {
         height:        21.31vw;
         max-height:    450px;
@@ -48,12 +25,20 @@
         }
       }
       .item-description {
-        p, h4 {
-          color: #000;
+        img {
+          width:  auto;
+          height: auto;
         }
-        h4 {
-          margin-bottom: 10px;
-          transition: .3s linear;
+        p {
+          color:         #000;
+          line-height:   1.5;
+          margin-bottom: 24px;
+        }
+        a {
+          color: $primaryColor;
+          &:hover {
+            opacity: .7;
+          }
         }
       }
     }
@@ -61,14 +46,9 @@
 }
 
 @media screen and (max-width: 991.98px) {
-  .blog-page {
-    .banner {
-      h1 {
-        margin-bottom: 64px;
-      }
-      &-inner {
-        padding: 22.2% 0 23.4%;
-      }
+  .single-blog-page {
+    h2 {
+      margin-bottom: 24px;
     }
     .blog {
       padding: 7.1% 0 13%;
@@ -79,9 +59,8 @@
           margin-bottom: 10px;
         }
         .item-description {
-          h4 {
-            font-size:     1.125rem;
-            margin-bottom: 5px;
+          p {
+            margin-bottom: 16px;
           }
         }
       }
@@ -90,12 +69,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .blog-page {
-    .banner {
-      &-inner {
-        padding: 69% 0 45.5%;
-      }
-    }
+  .single-blog-page {
     .blog {
       padding: 10% 0 14.1%;
       .container {
@@ -109,10 +83,6 @@
         }
         .item-description {
           padding: 15px;
-          h4 {
-            font-size:     1.28rem;
-            margin-bottom: 10px;
-          }
         }
       }
     }

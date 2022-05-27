@@ -16,47 +16,34 @@
             </div>
         </div>
     </section>
-    <section id="blog" class='blog'>
+    <section class='blog'>
         <div class='container'>
             <div class='blog-inner'>
-                <div class='blog-item'>
-                    <div class='item-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
-                    </div>
-                    <div class='item-description'>
-                        <h4>Lighting design & rendering services</h4>
-                        <p>
-                            This method of adding the block and the icons will be available in the WordPress 5.6 release.
-                        </p>
-                    </div>
-                </div>
-                <div class='blog-item'>
-                    <div class='item-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
-                    </div>
-                    <div class='item-description'>
-                        <h4>Lighting design & rendering services</h4>
-                        <p>
-                            This method of adding the block and the icons will be available in the WordPress 5.6 release.
-                         </p>
-                    </div>
-                </div>
-                <div class='blog-item'>
-                    <div class='item-image'>
-                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
-                    </div>
-                    <div class='item-description'>
-                        <h4>Lighting design & rendering services</h4>
-                        <p>
-                            This method of adding the block and the icons will be available in the WordPress 5.6 release.
-                        </p>
-                    </div>
-                </div>
+                <?php
+                    $args = [
+                        'post_type' => 'post',
+                        'post_status' => 'publish',
+                        'posts_per_page' => 10,
+                        'orderby' => 'date'
+                    ];
+                    $loop = new WP_Query($args);
+                    while ($loop->have_posts()) : $loop->the_post(); ?>
+                        <a href='<?php the_permalink(); ?>' class='blog-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_field('image_post')['url'] ?>' alt=''>
+                            </div>
+                            <div class='item-description'>
+                                <h4><?php the_title(); ?></h4>
+                                <p><?php the_excerpt(); ?></p>
+                            </div>
+                        </a>
+                    <?php endwhile;
+                    wp_reset_postdata(); ?>
             </div>
         </div>
     </section>
 </main>
 <script>
-    localStorage.setItem('interest_services', '4');
+  localStorage.setItem('interest_services', '4');
 </script>
 <?php get_footer(); ?>
