@@ -67,28 +67,6 @@
         padding: 50px 0;
       }
     }
-    &-item {
-      min-height:    184px;
-      padding:       20px 6.3%;
-      box-shadow:    0 5px 10px 0 rgba(82, 112, 222, 0.37);
-      border-radius: 10px;
-      p {
-        font-size:   .9rem;
-        line-height: 1.357;
-      }
-      .country {
-        top:   14px;
-        right: 17px;
-        width: 20px;
-      }
-      .item-title {
-        margin-bottom: 5px;
-        h4 {
-          font-size:     1rem;
-          margin-bottom: 2px;
-        }
-      }
-    }
   }
 }
 
@@ -105,28 +83,6 @@
       }
       .swiper-button-prev, .swiper-button-next {
         display: none;
-      }
-    }
-    &-item {
-      min-height: 190px;
-      padding:    32px 6% 20px 6%;
-      p {
-        font-size: 1rem;
-      }
-      .country {
-        top:   13px;
-        right: 8px;
-        width: 17px;
-      }
-      .item-title {
-        margin-bottom: 10px;
-        h4 {
-          margin-bottom: 0;
-          font-size: 1.14rem;
-        }
-        p {
-          font-size: .86rem;
-        }
       }
     }
   }

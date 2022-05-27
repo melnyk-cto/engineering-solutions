@@ -116,25 +116,18 @@
             <h2><span>Testimonial</span></h2>
             <div class='testimonial-slider'>
                 <div class='swiper-container testimonial-swiper'>
-                    <div class='swiper-wrapper'>
-                        <div class='swiper-slide'>
-                            <div class='testimonial-item'>
-                                <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/united-states.svg'
-                                         alt=''>
-                                </div>
-                                <div class='item-title'>
-                                    <h4>Michael Gellert</h4>
-                                    <p>President at busSTRUT</p>
-                                </div>
-                                <p>
-                                    With not much guidance and a hands-on approach, this friendly freelancer
-                                    promptly created incredible renders of my unique system. Sold more product with
-                                    the BEST resulting promotional materials!!!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        $args = [
+                            'post_type' => 'reviews',
+                            'post_status' => 'publish',
+                            'posts_per_page' => 10,
+                            'order' => 'DESC',
+                            'orderby' => 'meta_value',
+                            'meta_key' => 'category_reviews',
+                            'meta_value' => 'Photorealistic renderings for busSTRUT',
+                            'meta_compare' => '=',
+                        ];
+                        include get_template_directory() . '/components/_reviews-item.php'; ?>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
                 </div>
@@ -146,6 +139,6 @@
     </section>
 </main>
 <script>
-    localStorage.setItem('interest_services', '4');
+  localStorage.setItem('interest_services', '4');
 </script>
 <?php get_footer(); ?>

@@ -94,30 +94,18 @@
             <h2><span>Testimonial</span></h2>
             <div class='testimonial-slider'>
                 <div class='swiper-container testimonial-swiper'>
-                    <div class='swiper-wrapper'>
-                        <div class='swiper-slide'>
-                            <div class='testimonial-item'>
-                                <div class='country'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/countries/canada.svg'
-                                         alt=''>
-                                </div>
-                                <div class='item-title'>
-                                    <h4>Chaitanya Karathia</h4>
-                                    <p>Electrical specialist at ANMAR</p>
-                                </div>
-                                <p>
-                                    I worked with Roman for a pig caster project. I must say he and his team are working
-                                    very hard and have a good understanding of electrical engineering drawings /
-                                    documents. Most of the time his responses for the drawings/documents are prompt,
-                                    fast & innovative. Also, he collects all the required inputs for documents
-                                    preparation in advance and clarifies the doubts related to local codes/regulations,
-                                    which helps him to deliver the documents in a timely manner. He and his team follow
-                                    good work ethics, believe in customer satisfaction, and always put extra efforts to
-                                    achieve that. Overall, I would say hardworking and very supportive.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        $args = [
+                            'post_type' => 'reviews',
+                            'post_status' => 'publish',
+                            'posts_per_page' => 10,
+                            'order' => 'DESC',
+                            'orderby' => 'meta_value',
+                            'meta_key' => 'category_reviews',
+                            'meta_value' => 'Electrical design for a steel making company',
+                            'meta_compare' => '=',
+                        ];
+                        include get_template_directory() . '/components/_reviews-item.php'; ?>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
                 </div>
