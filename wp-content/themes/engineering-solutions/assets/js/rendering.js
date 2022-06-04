@@ -6,6 +6,11 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 1.5,
         spaceBetween: 8,
         clickable:true,
+        speed: 1000,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         navigation: {
             nextEl: '.swiper-button-next-industrial',
             prevEl: '.swiper-button-prev-industrial',
@@ -21,6 +26,11 @@ document.addEventListener('DOMContentLoaded', function () {
         loop: true,
         slidesPerView: 2,
         spaceBetween: 15,
+        speed: 1000,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         breakpoints: {
             767: {
                 spaceBetween: 20,
@@ -46,6 +56,11 @@ document.addEventListener('DOMContentLoaded', function () {
         loop: true,
         slidesPerView: 1.5,
         spaceBetween: 8,
+        speed: 1000,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         navigation: {
             nextEl: '.swiper-button-next-sports',
             prevEl: '.swiper-button-prev-sports',
