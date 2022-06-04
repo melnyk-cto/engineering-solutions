@@ -1,11 +1,5 @@
 @import "./variables";
 
-@media (any-hover: hover) {
-  .clients {
-
-  }
-}
-
 .clients {
   .banner {
     .overlay {
@@ -91,6 +85,19 @@
   }
 }
 
+// animations
+.clients {
+  .banner {
+    > img {
+      opacity: 1;
+    }
+    &.animation {
+      > img {
+        animation: none;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 991.98px) {
   .clients {

@@ -1,8 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-
-}
+@import "./animations";
 
 .renderings {
   .swiper-container {
@@ -174,6 +171,96 @@
     }
     .link-more {
       display: none;
+    }
+  }
+}
+
+// animations
+.renderings {
+  .renderings-content {
+    .renderings-content-image {
+      opacity: 0;
+    }
+    .renderings-content-description {
+      opacity: 0;
+    }
+    &.animation {
+      .renderings-content-image {
+        animation: $animationFromLeft;
+      }
+      .renderings-content-description {
+        animation: $animationFromRight;
+      }
+    }
+  }
+  .industrial-lighting {
+    .description-inner {
+      opacity: 0;
+    }
+    .industrial-lighting-slider {
+      opacity: 0;
+    }
+    &.animation {
+      .description-inner {
+        animation: $animationFromLeft;
+      }
+      .industrial-lighting-slider {
+        animation: $animationFadeIn;
+      }
+    }
+  }
+  .commercial-lighting {
+    .commercial-lighting-description {
+      opacity: 0;
+    }
+    .commercial-lighting-slider {
+      opacity: 0;
+    }
+    &.animation {
+      .commercial-lighting-description {
+        animation: $animationFromLeft;
+      }
+      .commercial-lighting-slider {
+        animation: $animationFadeIn;
+      }
+    }
+  }
+  .sports-lighting {
+    .sports-lighting-description {
+      opacity: 0;
+    }
+    .sports-lighting-slider {
+      opacity: 0;
+    }
+    &.animation {
+      .sports-lighting-description {
+        animation: $animationFromLeft;
+      }
+      .sports-lighting-slider {
+        animation: $animationFadeIn;
+      }
+    }
+  }
+  .photorealistic-renderings {
+    .photorealistic-renderings-description {
+      opacity: 0;
+    }
+    .photorealistic-renderings-image {
+      opacity: 0;
+    }
+    .btn {
+      opacity: 0;
+    }
+    &.animation {
+      .photorealistic-renderings-description {
+        animation: $animationFromLeft;
+      }
+      .photorealistic-renderings-image {
+        animation: $animationFromRight;
+      }
+      .btn {
+        animation: $animationFromBottom;
+      }
     }
   }
 }

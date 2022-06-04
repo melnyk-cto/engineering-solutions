@@ -1,11 +1,12 @@
 @import "./variables";
+@import "./animations";
 
 .benefits {
   h2 {
     margin-bottom: 5%;
   }
   h5 {
-    line-height: 1;
+    line-height:   1;
     margin-bottom: 5px;
   }
   .btn {
@@ -32,6 +33,30 @@
         width:  55px;
         height: 55px;
       }
+    }
+  }
+}
+
+// animations
+.benefits {
+  h2 {
+    opacity: 0;
+  }
+  .benefits-list {
+    opacity: 0;
+  }
+  .btn {
+    opacity: 0;
+  }
+  &.animation {
+    h2 {
+      animation: $animationFromLeft;
+    }
+    .benefits-list {
+      animation: $animationFromRight;
+    }
+    .btn {
+      animation: $animationFromLeft;
     }
   }
 }

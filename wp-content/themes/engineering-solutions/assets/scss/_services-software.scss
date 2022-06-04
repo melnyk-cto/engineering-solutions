@@ -1,8 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-
-}
+@import "./animations";
 
 .software {
   .banner {
@@ -45,6 +42,29 @@
         left:      50%;
         transform: translate(-50%, -50%);
       }
+    }
+  }
+}
+
+// animations
+.software {
+  .software-description-content {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .software-video-image {
+    &.animation {
+      &.animation {
+        animation: $animationScaleIn;
+      }
+    }
+  }
+  .software-video .btn {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromBottom;
     }
   }
 }

@@ -1,8 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-
-}
+@import "./animations";
 
 .testimonial {
   padding-bottom: 70px;
@@ -52,6 +49,14 @@
         color: #707070;
       }
     }
+  }
+}
+
+// animations
+.testimonial {
+  opacity: 0;
+  &.animation {
+    animation: $animationFromLeft;
   }
 }
 

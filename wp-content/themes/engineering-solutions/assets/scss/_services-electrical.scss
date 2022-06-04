@@ -1,8 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-
-}
+@import "./animations";
 
 .electrical {
   .banner {
@@ -77,6 +74,32 @@
         height:        100%;
         object-fit:    contain;
       }
+    }
+  }
+}
+
+// animations
+.electrical {
+  .electrical-content-inner {
+    .electrical-content-image {
+      opacity: 0;
+    }
+    .electrical-content-description {
+      opacity: 0;
+    }
+    &.animation {
+      .electrical-content-image {
+        animation: $animationFromLeft;
+      }
+      .electrical-content-description {
+        animation: $animationFromRight;
+      }
+    }
+  }
+  .electrical-slider {
+    opacity: 0;
+    &.animation {
+      animation: $animationScaleIn;
     }
   }
 }
@@ -157,7 +180,7 @@
       &-image {
         width:         100%;
         border-radius: 5px;
-        margin-right: 0;
+        margin-right:  0;
         margin-bottom: 62px;
       }
       &-description {

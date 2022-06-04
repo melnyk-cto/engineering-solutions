@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./animations";
 
 .solutions {
   &-description {
@@ -30,6 +31,45 @@
       img {
         object-fit: cover;
       }
+    }
+  }
+}
+
+// animations
+.solutions {
+  .solutions-description {
+    opacity: 0;
+  }
+  .solutions-images, .solutions-image {
+    opacity: 0;
+  }
+  &.animation {
+    .solutions-description {
+      animation: $animationFromLeft;
+    }
+    .solutions-images {
+      animation: $animationFromRight;
+    }
+    .solutions-image {
+      animation: $animationFromLeft;
+    }
+  }
+}
+
+// animations
+.outcome {
+  .outcome-description {
+    opacity: 0;
+  }
+  .outcome-images {
+    opacity: 0;
+  }
+  &.animation {
+    .outcome-description {
+      animation: $animationFromLeft;
+    }
+    .outcome-images {
+      animation: $animationFromRight;
     }
   }
 }

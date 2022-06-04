@@ -1,8 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-
-}
+@import "./animations";
 
 .project-renderings {
   .requirements, .solutions, .photorealistic-renderings {
@@ -53,6 +50,26 @@
       margin-bottom: 25px;
       &:last-child {
         margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// animations
+.project-renderings {
+  .photorealistic-renderings {
+    .photorealistic-renderings-description {
+      opacity: 0;
+    }
+    .photorealistic-renderings-image {
+      opacity: 0;
+    }
+    &.animation {
+      .photorealistic-renderings-description {
+        animation: $animationFromLeft;
+      }
+      .photorealistic-renderings-image {
+        animation: $animationFromRight;
       }
     }
   }

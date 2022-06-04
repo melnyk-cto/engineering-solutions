@@ -1,8 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-
-}
+@import "./animations";
 
 .requirements {
   padding: 8.1% 0 7.1%;
@@ -23,6 +20,24 @@
   &-description {
     max-width: 765px;
     width:     50%;
+  }
+}
+
+// animations
+.requirements {
+  .requirements-description {
+    opacity: 0;
+  }
+  .requirements-image {
+    opacity: 0;
+  }
+  &.animation {
+    .requirements-description {
+      animation: $animationFromLeft;
+    }
+    .requirements-image {
+      animation: $animationFromLeft;
+    }
   }
 }
 

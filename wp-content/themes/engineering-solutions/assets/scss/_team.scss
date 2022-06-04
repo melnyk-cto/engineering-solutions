@@ -1,10 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-  .team {
-
-  }
-}
+@import "./animations";
 
 .team {
   .banner {
@@ -44,8 +39,8 @@
         img {
           border-radius: 20px;
           box-shadow:    10px 20px 20px 0 rgba(82, 112, 222, 0.21);
-          height: 100%;
-          object-fit: cover;
+          height:        100%;
+          object-fit:    cover;
         }
       }
     }
@@ -59,6 +54,22 @@
     &-list {
       text-align:    left;
       margin-bottom: 4.1%;
+    }
+  }
+}
+
+// animations
+.team {
+  .team-content-description {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .team-content-images {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromRight;
     }
   }
 }

@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./animations";
 
 .services {
   padding-bottom: 7.2%;
@@ -11,14 +12,14 @@
     position:      relative;
     margin-bottom: 2%;
     a {
-      display:  flex;
+      display:     flex;
       align-items: flex-start;
-      height:   100%;
-      overflow: hidden;
+      height:      100%;
+      overflow:    hidden;
       img {
-        transition:  all linear 0.3s;
+        transition: all linear 0.3s;
         object-fit: cover;
-        height: 100%;
+        height:     100%;
       }
       &:hover, &:active {
         img {
@@ -53,7 +54,23 @@
   }
 }
 
-
+// animations
+.services {
+  h2 {
+    opacity: 0;
+  }
+  .services-inner {
+    opacity: 0;
+  }
+  &.animation {
+    h2 {
+      animation: $animationFromBottom;
+    }
+    .services-inner {
+      animation: $animationFromBottom;
+    }
+  }
+}
 
 @media screen and (max-width: 767px) {
   .services {

@@ -19,7 +19,7 @@
     <section id='map' class='map'>
         <div class='map-description'>
             <div class='description-image'>
-                <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.png' alt=''>
+                <img src='<?php echo get_template_directory_uri() ?>/assets/images/blog-image.jpeg' alt=''>
             </div>
             <div class='description-content'>
                 <a href='#' class='street'>

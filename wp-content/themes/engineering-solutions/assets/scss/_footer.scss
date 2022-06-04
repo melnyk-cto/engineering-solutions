@@ -1,10 +1,4 @@
-@import "variables";
-
-@media (any-hover: hover) {
-  .footer {
-
-  }
-}
+@import "./animations";
 
 .footer {
   background: linear-gradient(#262626, #252935);
@@ -81,8 +75,8 @@
         color:       #D3D3D4;
         img {
           width:        25px;
-          position: relative;
-          top: 2px;
+          position:     relative;
+          top:          2px;
           margin-right: 10px;
         }
       }
@@ -134,6 +128,19 @@
     border-top: 1px solid #E9ECF1;
     p {
       color: #D3D3D4;
+    }
+  }
+}
+
+// animations
+.footer {
+  overflow: hidden;
+  .footer-top, .footer-center, .footer-bottom {
+    opacity: 0;
+  }
+  &.animation {
+    .footer-top, .footer-center, .footer-bottom {
+      animation: $animationFromBottom;
     }
   }
 }

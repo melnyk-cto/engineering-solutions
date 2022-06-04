@@ -1,10 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-  .clients {
-
-  }
-}
+@import "./animations";
 
 .work {
   padding: 5.74% 0 9.15%;
@@ -70,6 +65,24 @@
     }
     .item-description {
       padding: 0 4%;
+    }
+  }
+}
+
+// animations
+.work {
+  h2 {
+    opacity: 0;
+  }
+  .work-slider {
+    opacity: 0;
+  }
+  &.animation {
+    h2 {
+      animation: $animationFromLeft;
+    }
+    .work-slider {
+      animation: $animationFromLeft;
     }
   }
 }

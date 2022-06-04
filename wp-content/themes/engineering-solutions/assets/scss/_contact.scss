@@ -1,10 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-  .contacts {
-
-  }
-}
+@import "./animations";
 
 .contacts {
   padding-top: 119px;
@@ -90,6 +85,46 @@
   }
 }
 
+// animations
+.contacts {
+  .contact-title h1 {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .contact-title h3 {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .radio-services {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .contact-form .input {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .contact-form .wrapper-buttons {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .contact-image {
+    opacity: 0;
+    &.animation {
+      animation: $animationScaleOut;
+    }
+  }
+}
+
 @media screen and (max-width: 991.98px) {
   .contacts {
     padding-top: 48px;
@@ -140,13 +175,14 @@
   .contacts {
     max-width:   418px;
     margin:      0 auto;
-    padding-top: 38px;
+    padding-top: 46px;
     .contact {
       padding: 0;
       &-title {
-        margin-bottom: 1.857rem;
+        padding-top: 24px;
+        margin-bottom: 12px;
         h1 {
-          margin-bottom: 50px;
+          margin-bottom: 32px;
           text-align:    center;
         }
       }

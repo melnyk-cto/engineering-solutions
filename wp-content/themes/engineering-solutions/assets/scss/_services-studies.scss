@@ -1,10 +1,5 @@
 @import "./variables";
-
-@media (any-hover: hover) {
-  .studies {
-
-  }
-}
+@import "./animations";
 
 .studies {
   p, li {
@@ -139,6 +134,94 @@
       }
       &:last-child {
         margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// animations
+.studies {
+  &-description {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .study {
+    h2 {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .study-description {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .study-image:nth-child(1) {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .study-image:nth-child(2) {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromRight;
+      }
+    }
+  }
+  .calculation {
+    h2 {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .calculation-description {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .calculation-image:nth-child(1) {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .calculation-image:nth-child(2) {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromRight;
+      }
+    }
+  }
+  .coordination-study {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .analysis {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromRight;
+    }
+  }
+  .warning {
+    &-inner {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .btn {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromBottom;
       }
     }
   }
