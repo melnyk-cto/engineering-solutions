@@ -17,13 +17,10 @@
   }
   .map {
     margin-top: -10%;
-    &-image {
-      width: 100%;
-      iframe {
-        width:      100%;
-        height:     56vw;
-        object-fit: cover;
-      }
+    .google-map {
+      width:      100%;
+      height:     56vw;
+      object-fit: cover;
     }
     &-description {
       position:       absolute;
@@ -110,10 +107,8 @@
       }
     }
     .map {
-      &-image {
-        iframe {
-          height: 61vw;
-        }
+      .google-map {
+        height: 61vw;
       }
       &-description {
         width: 30.74%;
@@ -157,10 +152,8 @@
       }
     }
     .map {
-      &-image {
-        iframe {
+        .google-map {
           height: 102vw;
-        }
       }
       &-description {
         width:          100%;
