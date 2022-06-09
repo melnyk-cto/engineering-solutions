@@ -120,7 +120,10 @@ jQuery(document).ready(function ($) {
     isVisible(contactTitleH1);
     isVisible(contactTitleH3);
     isVisible(radioServices);
-    isVisible(contactFormInput);
+    for (let i = 0; i < contactFormInput.length; i++) {
+      isVisible(contactFormInput.eq(i));
+      isVisible(blogItem.eq(i));
+    }
     isVisible(contactFormButtons);
 
     // "Clients" страница
