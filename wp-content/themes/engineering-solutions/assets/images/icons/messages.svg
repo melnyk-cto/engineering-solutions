@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.136" height="32.136" viewBox="0 0 32.136 32.136">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_49" data-name="Прямоугольник 49" width="32.136" height="32.136" transform="translate(1264.637 5023.648)" fill="#e9ecf1"/>
+    </clipPath>
+  </defs>
+  <g id="Группа_масок_9" data-name="Группа масок 9" transform="translate(-1264.637 -5023.648)" opacity="0.8" clip-path="url(#clip-path)">
+    <g id="gmail_3_" data-name="gmail (3)" transform="translate(1265 5030.741)">
+      <g id="Сгруппировать_188" data-name="Сгруппировать 188" transform="translate(2.048 0)">
+        <path id="Контур_38" data-name="Контур 38" d="M30.05,8.635,28.045,28.769H3.962L2.347,9.025,16,16.671Z" transform="translate(-2.347 -4.842)" fill="#f2f2f2"/>
+        <path id="Контур_39" data-name="Контур 39" d="M33.215,4.288,17.552,16.844,1.772,4.288H33.215Z" transform="translate(-3.887 -4.288)" fill="#f2f2f2"/>
+      </g>
+      <path id="Контур_40" data-name="Контур 40" d="M3.663,10.543V28.672H1.481A1.481,1.481,0,0,1,0,27.191V7.873l2.392.065Z" transform="translate(0 -4.745)" fill="#f2f2f2"/>
+      <path id="Контур_41" data-name="Контур 41" d="M35.465,7.846V27.164a1.481,1.481,0,0,1-1.482,1.481H31.8V10.516L33.01,7.662Z" transform="translate(-4.055 -4.718)" fill="#f2f2f2"/>
+      <path id="Контур_42" data-name="Контур 42" d="M31.409,5.769V7.416l-3.663,2.67L15.7,18.862,3.663,10.086,0,7.416V5.769c0-.818-.818-1.476,0-1.476L15.7,15.237l15.7-10.944C32.228,4.293,31.409,4.951,31.409,5.769Z" transform="translate(0 -4.288)" fill="#202020"/>
+      <path id="Контур_43" data-name="Контур 43" d="M3.663,10.543,0,9.975v-2.1Z" transform="translate(0 -4.745)" fill="#f2f2f2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,411 @@
+@import "./variables";
+@import "./animations";
+
+.renderings {
+  display:        flex;
+  flex-direction: column;
+  .swiper-container {
+    overflow: hidden;
+    .swiper-slide {
+      transition: .2s linear;
+      .rendering-image {
+        background: rgba(33, 33, 33, 0.9);
+      }
+      &.swiper-slide-active {
+        .rendering-image {
+          background: none;
+        }
+      }
+    }
+    .rendering-image {
+      transition: .2s linear;
+      display:    flex;
+      cursor:     pointer;
+      height:     37vw;
+      img {
+        position:   relative;
+        z-index:    -1;
+        object-fit: cover;
+        height:     100%;
+      }
+    }
+  }
+  h2 {
+    margin-bottom: 4.5%;
+  }
+  .description-inner {
+    max-width: 1000px;
+  }
+  &-content {
+    padding:    3.7% 0;
+    background: #202020;
+    .container {
+      max-width: 1840px;
+    }
+    &-inner {
+      display:         flex;
+      align-items:     center;
+      flex-wrap:       wrap;
+      justify-content: space-between;
+    }
+    &-image {
+      width:            48.13%;
+      margin-right:     13px;
+      position:         relative;
+      background-color: #202020;
+      img {
+        mix-blend-mode: lighten;
+      }
+      .renderings-content-quote {
+        padding:       0.64rem 1.11111111rem;
+        background:    rgba(82, 112, 222, 0.4);
+        border-radius: 10px;
+        position:      absolute;
+        bottom:        0;
+        left:          0;
+        max-width:     484px;
+        p {
+          color:       $white;
+          line-height: 1.333333;
+        }
+      }
+    }
+    &-description {
+      width:     48%;
+      max-width: 770px;
+      p {
+        color: #D3D4D5;
+        &:not(:last-child ) {
+          margin-bottom: 1.3333333rem;
+        }
+      }
+    }
+  }
+  .industrial-lighting {
+    padding:       3.7% 0 0 0;
+    margin-bottom: 3.7%;
+    z-index:       1;
+    &.black {
+      background: #202020;
+      .industrial-lighting-description {
+        p {
+          color: $white;
+        }
+        h2 {
+          color: $white;
+        }
+      }
+    }
+    &-slider {
+      position: relative;
+    }
+    .swiper-pagination {
+      display: none;
+    }
+    .swiper-button-next, .swiper-button-prev {
+      &:hover, &:active {
+        opacity: .7;
+      }
+      &:after {
+        color: $primaryColor;
+      }
+    }
+    &-description {
+      margin-bottom: 7.3%;
+    }
+  }
+  .commercial-lighting {
+    padding:  3.7% 0;
+    position: relative;
+    &-slider {
+      .container {
+        padding: 0 5%;
+      }
+    }
+    &-slider-image img {
+      height:     350px;
+      object-fit: cover;
+    }
+    .swiper-pagination {
+      display: none;
+    }
+    &-description {
+      margin-bottom: 9.12%;
+    }
+  }
+  .sports-lighting {
+    &-slider {
+      position: relative;
+    }
+    &-description {
+      margin-bottom: 7.82%;
+    }
+    .swiper-pagination {
+      display: none;
+    }
+    .swiper-button-next, .swiper-button-prev {
+      &:hover, &:active {
+        opacity: .7;
+      }
+      &:after {
+        color: $primaryColor;
+      }
+    }
+  }
+  .photorealistic-renderings {
+    text-align: center;
+    &-description {
+      text-align: left;
+    }
+    .link-more {
+      display: none;
+    }
+  }
+}
+
+// animations
+.renderings {
+  .renderings-content {
+    .renderings-content-image {
+      opacity: 0;
+    }
+    .renderings-content-description {
+      opacity: 0;
+    }
+    &.animation {
+      .renderings-content-image {
+        animation: $animationFromLeft;
+      }
+      .renderings-content-description {
+        animation: $animationFromRight;
+      }
+    }
+  }
+  .industrial-lighting {
+    .description-inner {
+      opacity: 0;
+    }
+    .industrial-lighting-slider {
+      opacity: 0;
+    }
+    &.animation {
+      .description-inner {
+        animation: $animationFromLeft;
+      }
+      .industrial-lighting-slider {
+        animation: $animationFadeIn;
+      }
+    }
+  }
+  .commercial-lighting {
+    .commercial-lighting-description {
+      opacity: 0;
+    }
+    .commercial-lighting-slider {
+      opacity: 0;
+    }
+    &.animation {
+      .commercial-lighting-description {
+        animation: $animationFromLeft;
+      }
+      .commercial-lighting-slider {
+        animation: $animationFadeIn;
+      }
+    }
+  }
+  .sports-lighting {
+    .sports-lighting-description {
+      opacity: 0;
+    }
+    .sports-lighting-slider {
+      opacity: 0;
+    }
+    &.animation {
+      .sports-lighting-description {
+        animation: $animationFromLeft;
+      }
+      .sports-lighting-slider {
+        animation: $animationFadeIn;
+      }
+    }
+  }
+  .photorealistic-renderings {
+    .photorealistic-renderings-description {
+      opacity: 0;
+    }
+    .photorealistic-renderings-image {
+      opacity: 0;
+    }
+    .btn {
+      opacity: 0;
+    }
+    &.animation {
+      .photorealistic-renderings-description {
+        animation: $animationFromLeft;
+      }
+      .photorealistic-renderings-image {
+        animation: $animationFromRight;
+      }
+      .btn {
+        animation: $animationFromBottom;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .renderings {
+    .commercial-lighting {
+      &-slider-image img {
+        height:     240px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .renderings {
+    .commercial-lighting {
+      &-slider {
+        .container {
+          padding: 0;
+        }
+      }
+      &-slider-image img {
+        height:     120px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .renderings {
+    h2 {
+      margin-bottom: 5.5%;
+    }
+    .description-inner {
+      margin-bottom: 9.5%;
+    }
+    &-content {
+      padding: 30px 0;
+      &-image {
+        width: 47.7%;
+        .rendering-content-quote {
+          padding:   8px 10px;
+          bottom:    -30%;
+          max-width: 297px;
+          p {
+            font-size: .88rem;
+          }
+        }
+      }
+    }
+    .industrial-lighting {
+      padding:       30px 0 0 0;
+      margin-bottom: 30px;
+      .swiper-pagination {
+        display: block;
+      }
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
+      }
+      &-description {
+        margin-bottom: 0;
+        .description-inner {
+          max-width: 515px;
+        }
+      }
+    }
+    .commercial-lighting {
+      padding: 30px 0;
+      .swiper-pagination {
+        display: block;
+      }
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
+      }
+    }
+    .sports-lighting {
+      .swiper-pagination {
+        display: block;
+      }
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
+      }
+    }
+    .photorealistic-renderings {
+      &-images {
+        &.show {
+          .photorealistic-renderings-image {
+            &:nth-child( n + 4) {
+              display: block;
+            }
+          }
+        }
+      }
+      &-image {
+        &:nth-child( n + 4) {
+          display: none;
+        }
+      }
+      .link-more {
+        display: flex;
+        width:   100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .renderings {
+    .swiper-container {
+      .rendering-image {
+        height: 57vw;
+      }
+    }
+    h2 {
+      margin-bottom: 24px;
+    }
+    .description-inner {
+      margin-bottom: 14%;
+    }
+    &-content {
+      &-image {
+        width:  100%;
+        margin: 0 0 12%;
+        .rendering-content-quote {
+          bottom: -20%;
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+      &-description {
+        width: 100%;
+      }
+    }
+    .industrial-lighting {
+      &-description {
+        margin-bottom: 0;
+      }
+    }
+    .photorealistic-renderings {
+      &-images {
+        &.show {
+          .photorealistic-renderings-image {
+            &:nth-child( n + 3) {
+              display: block;
+            }
+          }
+        }
+      }
+      &-image {
+        &:nth-child( n + 3) {
+          display: none;
+        }
+      }
+    }
+  }
+}

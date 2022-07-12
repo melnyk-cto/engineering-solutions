@@ -1,0 +1,364 @@
+@import "./variables";
+@import "./animations";
+
+.renderings {
+  .electrical-content {
+    padding: 3.5% 0;
+    &-inner {
+      display:         flex;
+      justify-content: space-between;
+      align-items:     center;
+      flex-wrap:       wrap;
+      &.reverse {
+        flex-direction: row-reverse;
+      }
+    }
+    &-image {
+      width:         50%;
+      margin-bottom: 0;
+      img {
+        border-radius: 10px;
+        &:nth-child(2) {
+          margin-top: 32px;
+        }
+      }
+    }
+    &-description {
+      width: 47%;
+      p {
+        font-size:     1.333333rem;
+        margin-bottom: 1.388888889rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      ul {
+        margin-bottom: 1.666666rem;
+        li {
+          position:      relative;
+          padding-left:  1.3333333rem;
+          margin-bottom: 7px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          &:after {
+            content:    "";
+            position:   absolute;
+            top:        50%;
+            left:       0;
+            transform:  translate(0, 50%);
+            width:      9px;
+            height:     3px;
+            background: $primaryColor;
+          }
+        }
+      }
+    }
+    .button {
+      margin-top: 80px;
+      text-align: center;
+    }
+  }
+  .electrical-slider {
+    .electrical-swiper {
+      .swiper-wrapper {
+        padding: 3.5% 0;
+        .swiper-slide {
+          display:         flex;
+          justify-content: center;
+          align-items:     center;
+          height:          44.5vw;
+        }
+      }
+      .swiper-pagination-bullets {
+        bottom: 0;
+        .swiper-pagination-bullet {
+          display: none;
+        }
+      }
+    }
+    &-image {
+      width:           89.07%;
+      display:         flex;
+      justify-content: center;
+      align-items:     center;
+      box-shadow:      15px 15px 20px 0 rgba(82, 112, 222, 0.55);
+      border-radius:   20px;
+      height:          100%;
+      img {
+        border-radius: 20px;
+        height:        100%;
+        object-fit:    contain;
+      }
+    }
+  }
+  .studies-description {
+    padding: 3.5% 0;
+    p, li {
+      font-size: 1.333333rem;
+    }
+    ul {
+      li {
+        position:      relative;
+        padding-left:  1.3333333rem;
+        margin-bottom: 7px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:after {
+          content:    "";
+          position:   absolute;
+          top:        50%;
+          left:       0;
+          transform:  translate(0, 50%);
+          width:      9px;
+          height:     3px;
+          background: $primaryColor;
+        }
+      }
+    }
+    ol {
+      counter-reset: section;
+      li {
+        display:       flex;
+        margin-bottom: 1.111111rem;
+        &:before {
+          counter-increment: section;
+          content:           counter(section) ".";
+          color:             $primaryColor;
+          padding-right:     10px;
+        }
+      }
+    }
+    p {
+      margin-bottom: 1.1111111rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .studies-description-content {
+      max-width: 1275px;
+    }
+    .study-images {
+      margin-top:      6%;
+      display:         flex;
+      justify-content: space-between;
+      flex-wrap:       wrap;
+      margin-bottom:   -50px;
+    }
+    .study-image {
+      width:         48%;
+      margin-bottom: 50px;
+      img {
+        height:        100%;
+        border-radius: 5px;
+        object-fit:    cover;
+        &[data-caption="contain"] {
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+// animations
+.renderings {
+  .electrical-content-inner {
+    .electrical-content-image {
+      opacity: 0;
+    }
+    .electrical-content-description {
+      opacity: 0;
+    }
+    &.animation {
+      &.reverse {
+        .electrical-content-image {
+          animation: $animationFromRight;
+        }
+        .electrical-content-description {
+          animation: $animationFromLeft;
+        }
+      }
+      .electrical-content-image {
+        animation: $animationFromLeft;
+      }
+      .electrical-content-description {
+        animation: $animationFromRight;
+      }
+      .btn {
+        opacity: 0;
+        &.animation {
+          animation: $animationFromBottom;
+        }
+      }
+    }
+  }
+  .electrical-slider {
+    opacity: 0;
+    &.animation {
+      animation: $animationScaleIn;
+    }
+  }
+  .studies-description {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+    h2 {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .study-description {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .study-image:nth-child(1) {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromLeft;
+      }
+    }
+    .study-image:nth-child(2) {
+      opacity: 0;
+      &.animation {
+        animation: $animationFromRight;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .renderings {
+    .electrical-content {
+      padding: 30px 0;
+      &-image {
+        width: 100%;
+      }
+      &-description {
+        width: 100%;
+        p {
+          font-size:     1rem;
+          margin-bottom: 1rem;
+        }
+        ul {
+          margin-bottom: 1rem;
+          li {
+            margin-bottom: 4px;
+          }
+        }
+      }
+      .button {
+        margin-top: 40px;
+      }
+    }
+    .electrical-slider {
+      .electrical-swiper {
+        .swiper-wrapper {
+          padding: 30px 0;
+          .swiper-slide {
+            height: 53vw;
+          }
+        }
+        .swiper-pagination-bullets {
+          .swiper-pagination-bullet {
+            display: inline-block;
+          }
+        }
+      }
+      .swiper-button-prev, .swiper-button-next {
+        display: none;
+      }
+      &-image {
+        width:         97%;
+        border-radius: 10px;
+        box-shadow:    3px 5px 8px 0 rgba(82, 112, 222, 0.55);
+        img {
+          border-radius: 10px;
+        }
+      }
+    }
+    .studies-description {
+      padding: 30px 0;
+      p, li {
+        font-size: 1rem;
+      }
+      ul {
+        li {
+          margin-bottom: 4px;
+        }
+      }
+      p {
+        margin-bottom: 1.875rem;
+      }
+      .study-images {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .renderings {
+    .electrical-content {
+      &-inner {
+        flex-direction: column-reverse;
+        &.reverse {
+          flex-direction: column-reverse;
+        }
+      }
+      &-image {
+        width:         100% !important;
+        border-radius: 5px;
+        margin-right:  0;
+        margin-top:    40px;
+      }
+      &-description {
+        width: 100% !important;
+        p {
+          line-height:   1.79;
+          margin-bottom: 1.388888889rem;
+        }
+        ul {
+          margin-bottom: 1.388888889rem;
+        }
+      }
+    }
+    .electrical-slider {
+      .electrical-swiper {
+        .swiper-wrapper {
+          .swiper-slide {
+            height: 44.5vw;
+          }
+        }
+      }
+      &-image {
+        width:         92%;
+        box-shadow:    3px 5px 8px 0 rgba(82, 112, 222, 0.55);
+        border-radius: 5px;
+      }
+    }
+    .studies-description {
+      p, li {
+        line-height: 1.7;
+      }
+      p {
+        margin-bottom: 1.43rem;
+      }
+      .study-images {
+        flex-direction: column;
+        margin-bottom:  -24px;
+      }
+      .study-image {
+        width:         100%;
+        margin-bottom: 24px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+@import "./variables";
+@import "./animations";
+
+.solutions {
+  &-description {
+    margin-bottom: 8.82%;
+  }
+  &-images {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    flex-wrap:       wrap;
+  }
+  &-image {
+    width: 48%;
+    img {
+      height:        100%;
+      border-radius: 10px;
+      object-fit:    contain;
+    }
+    &.warning {
+      img {
+        border:        1px solid #707070;
+        border-radius: 22px;
+      }
+    }
+    &.cover {
+      max-width:  746px;
+      height:     26.4vw;
+      max-height: 470px;
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+// animations
+.solutions {
+  .solutions-description {
+    opacity: 0;
+  }
+  .solutions-images, .solutions-image {
+    opacity: 0;
+  }
+  &.animation {
+    .solutions-description {
+      animation: $animationFromLeft;
+    }
+    .solutions-images {
+      animation: $animationFromRight;
+    }
+    .solutions-image {
+      animation: $animationFromLeft;
+    }
+  }
+}
+
+// animations
+.outcome {
+  .outcome-description {
+    opacity: 0;
+  }
+  .outcome-images {
+    opacity: 0;
+  }
+  &.animation {
+    .outcome-description {
+      animation: $animationFromLeft;
+    }
+    .outcome-images {
+      animation: $animationFromRight;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .solutions {
+    &-description {
+      margin-bottom: 60px;
+    }
+    &-image {
+      max-height: initial;
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .solutions {
+    &-images {
+      flex-direction:  column;
+      justify-content: center;
+    }
+    &-image {
+      width: 100%;
+      &.warning {
+        img {
+          border-radius: 12px;
+        }
+      }
+      &.cover {
+        height: 56.3vw;
+      }
+    }
+  }
+}

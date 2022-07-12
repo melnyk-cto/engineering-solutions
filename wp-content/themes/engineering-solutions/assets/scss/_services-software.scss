@@ -1,0 +1,32 @@
+@import "./variables";
+@import "./animations";
+
+.software {
+  &-video {
+    text-align:     center;
+    padding-bottom: 8.6%;
+    &-image {
+      margin-bottom: 90px;
+      position:      relative;
+      video {
+        width: 100%;
+      }
+      .play {
+        position:  absolute;
+        top:       50%;
+        left:      50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+// animations
+.software {
+  .software-video .btn {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromBottom;
+    }
+  }
+}

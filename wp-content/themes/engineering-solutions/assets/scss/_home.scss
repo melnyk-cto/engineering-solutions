@@ -1,0 +1,38 @@
+@import "./variables";
+
+@media (any-hover: hover) {
+  .home {
+
+  }
+}
+
+.home {
+  .benefits {
+    padding: 4.32% 0 6.23%;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .home {
+    .benefits {
+      padding: 50px 0 20px;
+    }
+    .services {
+      padding-bottom: 7.1%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home {
+    h2 {
+      margin-bottom: 30px;
+    }
+    .services {
+      padding-bottom: 14.3%;
+    }
+    .benefits {
+      padding: 45px 0 0;
+    }
+  }
+}

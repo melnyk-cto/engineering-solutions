@@ -1,0 +1,128 @@
+@import "./variables";
+@import "./animations";
+
+.benefits {
+  h2 {
+    margin-bottom: 5%;
+  }
+  h5 {
+    line-height:   1;
+    margin-bottom: 5px;
+  }
+  .btn {
+    padding: 22px 60px;
+  }
+  &-list {
+    display:   flex;
+    flex-wrap: wrap;
+  }
+  &-item {
+    width:         37.9%;
+    display:       flex;
+    align-items:   flex-start;
+    margin-bottom: 3.5%;
+    &:nth-child(2n) {
+      margin-left: 14.52%;
+    }
+    .item-image {
+      margin-right:  25px;
+      padding:       10px;
+      border-radius: 10px;
+      box-shadow:    0 3px 8px 0 rgba(14, 165, 211, 0.5);
+      img {
+        width:  55px;
+        height: 55px;
+      }
+    }
+  }
+}
+
+// animations
+.benefits {
+  h2 {
+    opacity: 0;
+  }
+  .benefits-list {
+    opacity: 0;
+  }
+  .btn {
+    opacity: 0;
+  }
+  &.animation {
+    h2 {
+      animation: $animationFromLeft;
+    }
+    .benefits-list {
+      animation: $animationFromRight;
+    }
+    .btn {
+      animation: $animationFromLeft;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .benefits {
+    h2 {
+      margin-bottom: 6.7%;
+    }
+    h5 {
+      font-size: 1.25rem;
+    }
+    p {
+      text-align: center;
+    }
+    &-list {
+      justify-content: space-between;
+    }
+    &-item {
+      width:          45.3%;
+      margin:         0 0 8.9%;
+      flex-direction: column;
+      align-items:    center;
+      h5 {
+        text-align:    center;
+        margin-bottom: 10px;
+      }
+      &:nth-child(2n) {
+        margin-left: 0;
+      }
+      .item-image {
+        margin:  0 0 1.125rem;
+        padding: 12px;
+        img {
+          width:  53px;
+          height: 53px;
+        }
+      }
+    }
+    .btn {
+      padding: 15px 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .benefits {
+    h2 {
+      margin-bottom: 40px;
+    }
+    .btn {
+      padding: 12px 39px;
+    }
+    &-list {
+      margin: 0 0 -14px 0;
+    }
+    &-item {
+      width:     100%;
+      max-width: 500px;
+      margin:    0 auto 65px;
+      .item-image {
+        margin-bottom: 20px;
+      }
+      &:nth-child(2n) {
+        margin: 0 auto 65px;
+      }
+    }
+  }
+}

@@ -1,0 +1,193 @@
+@import "./variables";
+@import "./animations";
+
+.contacts {
+  padding-top: 96px;
+  .contact {
+    padding-top: 20px;
+    &-title {
+      z-index:       1;
+      margin-bottom: 8px;
+      h1, h3 {
+        color: $black;
+      }
+      h3 {
+        font-size: 24px;
+      }
+      h1 {
+        margin-bottom: 40px;
+      }
+    }
+    &-inner {
+      position: relative;
+    }
+    &-form {
+      padding-bottom: 10.33%;
+      .wrapper-buttons {
+        position:       relative;
+        display:        flex;
+        flex-direction: column;
+        align-items:    flex-start;
+      }
+      .wpcf7-file, .file {
+        display: none !important;
+      }
+      .wpcf7-submit, .submit {
+        width: auto;
+      }
+      .wpcf7-radio, .contact-buttons {
+        max-width:       1000px;
+        margin-bottom:   40px;
+        display:         flex;
+        justify-content: flex-start;
+        flex-wrap:       wrap;
+        input {
+          display: none;
+        }
+        .wpcf7-list-item-label, span {
+          border:        2px solid $primaryColor;
+          border-radius: 50px;
+          padding:       12px 20px;
+          color:         $primaryColor;
+          font-size:     18px;
+          display:       inline-block;
+          cursor:        pointer;
+          transition:    .2s linear;
+          min-width:     130px;
+          &:hover, &:active {
+            background-color: $primaryColor;
+            color:            #fff;
+          }
+        }
+        input:checked + .wpcf7-list-item-label,
+        input:checked + span {
+          background-color: $primaryColor;
+          color:            #fff;
+        }
+        .wpcf7-list-item, label {
+          font-weight: 600;
+          margin:      0 17px 16px 0;
+          text-align:  center;
+        }
+      }
+    }
+    &-image {
+      position: absolute;
+      bottom:   0;
+      right:    0;
+      z-index:  -1;
+      width:    38.9vw;
+    }
+  }
+}
+
+// animations
+.contacts {
+  .contact-title h1 {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .contact-title h3 {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .radio-services {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .contact-form .input {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .contact-form .wrapper-buttons {
+    opacity: 0;
+    &.animation {
+      animation: $animationFromLeft;
+    }
+  }
+  .contact-image {
+    opacity: 0;
+    &.animation {
+      animation: $animationScaleOut;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .contacts {
+    .container {
+      padding: 0 15px;
+    }
+    .contact {
+      &-title {
+        h3 {
+          font-size: 1rem;
+        }
+      }
+      &-form {
+        padding-bottom: 13%;
+        .wpcf7-radio, .contact-buttons {
+          padding-top: 0;
+          max-width:   720px;
+          .wpcf7-list-item-label, span {
+            font-size: 16px;
+          }
+          .wpcf7-list-item, label {
+            margin-bottom: 15px;
+          }
+        }
+      }
+      &-image {
+        top:       50%;
+        bottom:    initial;
+        transform: translate(0, -60%);
+        width:     39.5vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    max-width:   418px;
+    margin:      0 auto;
+    padding-top: 46px;
+    .contact {
+      padding: 0;
+      &-title {
+        padding-top: 24px;
+        h1 {
+          margin-bottom: 32px;
+          text-align:    center;
+        }
+      }
+      &-form {
+        padding-bottom: 46px;
+        .wpcf7-radio, .contact-buttons {
+          .wpcf7-list-item-label, span {
+            font-size: 14px;
+            width:     100%;
+            padding:   10px 10px;
+          }
+          .wpcf7-list-item, label {
+            margin: 0 12px 12px 0;
+            width:  100%;
+          }
+        }
+      }
+      &-image {
+        display: none;
+      }
+    }
+  }
+}
+
+

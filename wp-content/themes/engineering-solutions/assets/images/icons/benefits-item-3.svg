@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0ea5d3"/>
+      <stop offset="1" stop-color="#5270de"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_5" data-name="Прямоугольник 5" width="52" height="52" transform="translate(0 -0.112)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Сгруппировать_184" data-name="Сгруппировать 184" transform="translate(-167 -1251.888)">
+    <g id="Группа_масок_5" data-name="Группа масок 5" transform="translate(167 1252)" clip-path="url(#clip-path)">
+      <g id="bar-chart" transform="translate(1.388)">
+        <g id="Сгруппировать_161" data-name="Сгруппировать 161" transform="translate(0 14.966)">
+          <g id="Сгруппировать_160" data-name="Сгруппировать 160">
+            <path id="Контур_28" data-name="Контур 28" d="M50.313,55.293H48.074v-32.5a2.746,2.746,0,0,0-2.743-2.743h-5a2.746,2.746,0,0,0-2.743,2.743v32.5H31.9V37.518a2.746,2.746,0,0,0-2.743-2.743h-5a2.746,2.746,0,0,0-2.743,2.743V55.293H15.729V46.088a2.746,2.746,0,0,0-2.743-2.743h-5a2.746,2.746,0,0,0-2.743,2.743v9.205H2.88a1.02,1.02,0,1,0,0,2.041H50.313a1.02,1.02,0,1,0,0-2.041Zm-36.625,0H7.28V46.088a.7.7,0,0,1,.7-.7h5a.7.7,0,0,1,.7.7v9.205Zm16.173,0H23.453V37.518a.7.7,0,0,1,.7-.7h5a.7.7,0,0,1,.7.7Zm16.173,0H39.626v-32.5a.7.7,0,0,1,.7-.7h5a.7.7,0,0,1,.7.7v32.5Z" transform="translate(-1.86 -20.05)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+        <g id="Сгруппировать_163" data-name="Сгруппировать 163" transform="translate(8.75)">
+          <g id="Сгруппировать_162" data-name="Сгруппировать 162">
+            <path id="Контур_29" data-name="Контур 29" d="M51.045,1.073A1.017,1.017,0,0,0,49.974,0l-.049,0H43.75a1.02,1.02,0,0,0,0,2.041h3.812L37.474,12.129l-3.8-3.8a1.02,1.02,0,0,0-1.443,0L13.881,26.67a1.02,1.02,0,0,0,1.443,1.443L32.948,10.49l3.8,3.8a1.021,1.021,0,0,0,1.443,0l10.81-10.81v3.45a1.02,1.02,0,1,0,2.041,0V1.123C51.047,1.106,51.045,1.09,51.045,1.073Z" transform="translate(-13.582)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+        <g id="Сгруппировать_165" data-name="Сгруппировать 165" transform="translate(5.311 29.932)">
+          <g id="Сгруппировать_164" data-name="Сгруппировать 164">
+            <circle id="Эллипс_4" data-name="Эллипс 4" cx="1.02" cy="1.02" r="1.02" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
