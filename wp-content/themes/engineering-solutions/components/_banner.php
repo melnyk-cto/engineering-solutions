@@ -1,6 +1,11 @@
 <?php if (get_field('banner-title')): ?>
     <section class='banner <?php if (get_field('banner-black') === 'yes') echo 'black' ?>'>
-        <img src='<?php echo get_field('banner-background')['url'] ?>' alt=''>
+        <?php
+            if (get_field('banner-type') === 'Video') { ?>
+                <video class='image' autoplay muted playsinline loop src='<?php echo get_field('banner-video')['url'] ?>'></video>
+            <?php } else { ?>
+                <img class='image' src='<?php echo get_field('banner-background')['url'] ?>' alt=''>
+            <?php } ?>
         <div class='overlay'></div>
         <div class='container'>
             <div class='banner-inner'>

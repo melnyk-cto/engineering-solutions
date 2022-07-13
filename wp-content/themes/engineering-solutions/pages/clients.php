@@ -75,8 +75,5 @@
         </div>
     </section>
 </main>
-<script>
-  localStorage.setItem('interest_services', '4');
-</script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgnavw0NZtQQNgaRLuuByinqjs5x81OIo" defer></script>
 <?php get_footer(); ?>

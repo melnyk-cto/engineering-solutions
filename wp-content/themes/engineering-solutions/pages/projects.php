@@ -5,7 +5,4 @@
 
     <?php include get_template_directory() . '/components/_gallery-items.php'; ?>
 </main>
-<script>
-  localStorage.setItem('interest_services', '4');
-</script>
 <?php get_footer(); ?>

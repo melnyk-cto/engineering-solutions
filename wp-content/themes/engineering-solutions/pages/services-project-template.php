@@ -1,7 +1,5 @@
 <?php /* Template Name: Page - Services, Project */ ?>
 <?php
-
-
     wp_enqueue_script('rendering-js', get_stylesheet_directory_uri() . '/assets/js/rendering.js');
 ?>
 <?php get_header(); ?>
@@ -24,7 +22,4 @@
 
         <?php include get_template_directory() . '/components/_testimonial.php'; ?>
     </main>
-    <script>
-      localStorage.setItem('interest_services', '0');
-    </script>
 <?php get_footer(); ?>
