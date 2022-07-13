@@ -6,7 +6,6 @@
 
         wp_enqueue_script('swiper-js', get_stylesheet_directory_uri() . '/assets/lib/swiper.js');
         wp_enqueue_script('main-js', get_stylesheet_directory_uri() . '/assets/js/main.js');
-        wp_enqueue_script('location-js', get_stylesheet_directory_uri() . '/assets/js/locations.js');
         wp_enqueue_script('geolocation-js', get_stylesheet_directory_uri() . '/assets/js/geolocation.js', array('jquery'), 1.0, true);
         wp_enqueue_script('animation-js', get_stylesheet_directory_uri() . '/assets/js/animations.js');
     }
@@ -88,6 +87,20 @@
         // Register options page.
         $parent = acf_add_options_page(array('page_title' => __('Global information on the site'), 'menu_title' => __('General Sections'),));
     }
+
+    // Google map API for ACF
+    // Method 1: Filter.
+    function my_acf_google_map_api($api) {
+        $api['key'] = 'AIzaSyAjGHA3axQLM-5mQpy8INAto_fmdhyDeUc';
+        return $api;
+    }
+    add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
+
+    // Method 2: Setting.
+    function my_acf_init() {
+        acf_update_setting('google_api_key', 'AIzaSyAjGHA3axQLM-5mQpy8INAto_fmdhyDeUc');
+    }
+    add_action('acf/init', 'my_acf_init');
 
 
     // "Contact Us" form

@@ -36,7 +36,7 @@
                         <a href='#' class='street'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/geolocation.svg'
                                  alt=''>
-                            <?php echo get_field('marker_country') ?>
+                            <?php echo get_field('marker_google_map')["address"] ?>
                         </a>
                         <h3><?php the_title(); ?></h3>
                         <?php the_content(); ?>
@@ -45,7 +45,9 @@
                 <script>
                   markers.push({
                     id: "<?php the_ID(); ?>",
-                    country: "<?php echo get_field('marker_country'); ?>"
+                    lat: "<?php echo get_field('marker_google_map')["lat"]; ?>",
+                    lng: "<?php echo get_field('marker_google_map')["lng"]; ?>",
+                    address: "<?php echo get_field('marker_google_map')["address"]; ?>"
                   })
                 </script>
             <?php endwhile;
@@ -75,5 +77,5 @@
         </div>
     </section>
 </main>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgnavw0NZtQQNgaRLuuByinqjs5x81OIo" defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjGHA3axQLM-5mQpy8INAto_fmdhyDeUc" defer></script>
 <?php get_footer(); ?>

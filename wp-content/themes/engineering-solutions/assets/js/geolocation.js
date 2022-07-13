@@ -19,22 +19,13 @@ document.addEventListener('DOMContentLoaded', function () {
       map,
     });
 
-    for (let i = 0; i < markers.length; i++) {
-      countries.filter(country => {
-        if (country.Country === markers[i].country) {
-          markers[i].lat = country['Latitude (average)'];
-          markers[i].lng = country['Longitude (average)'];
-        }
-      })
-    }
-
     // get all markers
     for (let i = 0; i < markers.length; i++) {
       const allLocations = new google.maps.Marker({
-        position: {lat: markers[i].lat, lng: markers[i].lng},
+        position: {lat: Number(markers[i].lat), lng: Number(markers[i].lng)},
         map,
         icon: iconBase,
-        title: markers[i].country,
+        title: markers[i].address,
       });
 
       // add meta keys
@@ -69,8 +60,6 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
-
-  // todo need fix
   new Swiper('.map-slider', {
     slidesPerView: 1,
     spaceBetween: 15,
@@ -80,21 +69,4 @@ document.addEventListener('DOMContentLoaded', function () {
     },
   });
 
-});
-
-
-jQuery(document).ready(function ($) {
-  $.ajax({
-    url: 'https://ipinfo.io',
-    type: 'GET',
-    dataType: 'json',
-    success: function (response) {
-      console.log(response.country, 'country');
-    },
-    error: function (error) {
-      if (error.status === 429) {
-        console.log('Не работает на localhost!');
-      }
-    }
-  });
 });
