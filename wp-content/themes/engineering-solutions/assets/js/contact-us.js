@@ -20,7 +20,4 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!isSelected) {
     radioServicesInput[radioServicesInput.length - 1].checked = true
   }
-
-
 });
-

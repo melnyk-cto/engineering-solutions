@@ -89,4 +89,7 @@
     }
 
 
+    // "Contact Us" form
+    require_once get_stylesheet_directory() . '/includes/contact-us.php';
+
 

@@ -40,8 +40,8 @@ jQuery(document).ready(function ($) {
 
   // "Contact us" страница
   const contactImage = $('.contact-image');
-  const contactTitleH1 = $('.contact-title h1');
-  const contactTitleH3 = $('.contact-title h3');
+  const contactTitleH1 = $('.contacts h1');
+  const contactTitleH3 = $('.contacts h3');
   const radioServices = $('.radio-services');
   const contactFormInput = $('.contact-form .input');
   const contactFormButtons = $('.contact-form .wrapper-buttons');
@@ -51,15 +51,6 @@ jQuery(document).ready(function ($) {
 
   // "Clients" страница
   const work = $('.work');
-
-  // "Power System Studies" страница
-  const studiesCalculationH2 = $('.studies .calculation h2');
-  const studiesCalculationDescription = $('.studies .calculation-description');
-  const studiesCalculationImage = $('.studies .calculation-image');
-  const studiesCoordination = $('.studies .coordination-study');
-  const studiesAnalysis = $('.studies .analysis');
-  const studiesWarning = $('.studies .warning-inner');
-  const studiesWarningBtn = $('.studies .warning .btn');
 
   // "Lighting Design & Rendering Services" страница
   const renderingsContent = $('.renderings .renderings-content');

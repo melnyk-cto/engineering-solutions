@@ -160,7 +160,7 @@ form {
     transition: .1s linear;
     width:      100%;
     &:focus, &:hover {
-      border: 2px solid $primaryColor;
+      border-color: $primaryColor;
     }
   }
   textarea {

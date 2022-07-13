@@ -136,9 +136,6 @@
 // animations
 .footer {
   overflow: hidden;
-  .footer-top, .footer-center, .footer-bottom {
-    opacity: 0;
-  }
   &.animation {
     .footer-top, .footer-center, .footer-bottom {
       animation: $animationFromBottom;
