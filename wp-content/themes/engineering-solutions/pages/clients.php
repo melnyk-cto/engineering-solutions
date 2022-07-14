@@ -5,7 +5,9 @@
 </script>
 <main class='clients'>
     <?php include get_template_directory() . '/components/_banner.php'; ?>
-
+    <div class='alert d-none'>
+        Unable to retrieve your location
+    </div>
     <section id='map' class='map'>
         <?php
             $args = [
@@ -52,6 +54,7 @@
                 </script>
             <?php endwhile;
             wp_reset_postdata(); ?>
+        <div class='map-loading'>Map is loading...</div>
         <div id='google-map' class='google-map'></div>
     </section>
     <section class='work'>
