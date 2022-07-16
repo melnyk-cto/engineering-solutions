@@ -34,6 +34,12 @@
 
                     $namesArray = [];
                     $companiesArray = [];
+                    $preLoop = new WP_Query($args);
+
+                    if (!$preLoop->have_posts() && $key === 'country_reviews') {
+                        $args['meta_query'] = [];
+                    }
+
                     $loop = new WP_Query($args);
                     while ($loop->have_posts()) : $loop->the_post();
                         $name = get_the_title();

@@ -90,7 +90,7 @@
     // Google map API for ACF
     // Method 1: Filter.
     function my_acf_google_map_api($api) {
-        $api['key'] = 'AIzaSyAjGHA3axQLM-5mQpy8INAto_fmdhyDeUc';
+        $api['key'] = 'AIzaSyDaNSmSZJ_lYPqY7BJin9xjfMNppBXxu8s';
         return $api;
     }
 
@@ -98,7 +98,7 @@
 
     // Method 2: Setting.
     function my_acf_init() {
-        acf_update_setting('google_api_key', 'AIzaSyAjGHA3axQLM-5mQpy8INAto_fmdhyDeUc');
+        acf_update_setting('google_api_key', 'AIzaSyDaNSmSZJ_lYPqY7BJin9xjfMNppBXxu8s');
     }
 
     add_action('acf/init', 'my_acf_init');

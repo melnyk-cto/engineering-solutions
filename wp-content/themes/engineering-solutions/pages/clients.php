@@ -74,5 +74,5 @@
         </div>
     </section>
 </main>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjGHA3axQLM-5mQpy8INAto_fmdhyDeUc" defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaNSmSZJ_lYPqY7BJin9xjfMNppBXxu8s" defer></script>
 <?php get_footer(); ?>
