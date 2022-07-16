@@ -1,13 +1,15 @@
 <?php /* Template Name: Page - Clients */ ?>
 <?php get_header(); ?>
+
+<?php
+    wp_enqueue_script('geolocation-js', get_stylesheet_directory_uri() . '/assets/js/geolocation.js', array('jquery'), 1.0, true);
+    wp_enqueue_script('clients-js', get_stylesheet_directory_uri() . '/assets/js/clients.js', array('jquery'), 1.0, true);
+?>
 <script>
   const markers = [];
 </script>
 <main class='clients'>
     <?php include get_template_directory() . '/components/_banner.php'; ?>
-    <div class='alert d-none'>
-        Unable to retrieve your location
-    </div>
     <section id='map' class='map'>
         <?php
             $args = [

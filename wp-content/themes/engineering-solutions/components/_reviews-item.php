@@ -2,11 +2,16 @@
     <?php
         global $args;
         $namesArray = [];
+        $companiesArray = [];
         $loop = new WP_Query($args);
         while ($loop->have_posts()) : $loop->the_post();
             $name = get_the_title();
-            if (!in_array($name, $namesArray)) {
-                array_push($namesArray, $name); ?>
+            $company = get_field('company_reviews');
+            // do not show review this same author name and one company
+            if (!in_array($name, $namesArray) && !in_array($company, $companiesArray)) {
+                array_push($namesArray, $name);
+                array_push($companiesArray, $company);
+                ?>
                 <div class="swiper-slide">
                     <?php if (get_field('avatar_reviews')) { ?>
                         <div class='work-item-image'>
@@ -22,7 +27,12 @@
                             <?php } ?>
                             <h4><?php the_title(); ?></h4>
                             <?php if (get_field('position_reviews')) { ?>
-                                <p><?php echo get_field('position_reviews') ?></p>
+                                <p>
+                                    <?php echo get_field('position_reviews'); ?>
+                                    <?php if (get_field('company_reviews')) { ?>
+                                        at <?php echo get_field('company_reviews');
+                                    } ?>
+                                </p>
                             <?php } ?>
                         </div>
                         <div class='item-description'><p><?php the_content(); ?></p></div>

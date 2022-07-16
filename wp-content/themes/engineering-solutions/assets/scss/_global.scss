@@ -351,6 +351,21 @@ div.swiper-button-next, div.swiper-button-prev {
   }
 }
 
+.alert {
+  position:      fixed;
+  z-index:       40;
+  left:          20px;
+  bottom:        20px;
+  width:         100%;
+  max-width:     300px;
+  background:    rgba(255, 166, 0, 0.2);
+  border-radius: 5px;
+  padding:       12px;
+  font-size:     16px;
+  color:         orange;
+  border:        1px solid orange;
+}
+
 @media screen and (max-width: 991.98px) {
   html {
     font-size: 16px;

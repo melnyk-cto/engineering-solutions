@@ -47,3 +47,4 @@
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/contact-email.svg' alt=''>
     </a>
 </div>
+<div class='alert d-none'>Unable to retrieve your location</div>

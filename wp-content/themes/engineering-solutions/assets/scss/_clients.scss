@@ -113,20 +113,6 @@
       }
     }
   }
-  .alert {
-    position:      fixed;
-    z-index:       40;
-    left:          20px;
-    bottom:        20px;
-    width:         100%;
-    max-width:     300px;
-    background:    #ffe6e7;
-    border-radius: 5px;
-    padding:       12px;
-    font-size:     16px;
-    color:         red;
-    border:        1px solid red;
-  }
   .map-loading {
     position:        absolute;
     z-index:         -10;
