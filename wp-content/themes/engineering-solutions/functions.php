@@ -6,7 +6,7 @@
 
         wp_enqueue_script('swiper-js', get_stylesheet_directory_uri() . '/assets/lib/swiper.js');
         wp_enqueue_script('main-js', get_stylesheet_directory_uri() . '/assets/js/main.js');
-        wp_enqueue_script('animation-js', get_stylesheet_directory_uri() . '/assets/js/animations.js');
+        wp_enqueue_script('animation-js', get_stylesheet_directory_uri() . '/assets/js/animations.js', array('jquery'), 1.0, true);
     }
 
 
