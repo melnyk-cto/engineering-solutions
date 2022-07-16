@@ -6,21 +6,6 @@
   h2 {
     margin-bottom: 40px !important;
   }
-  &-slider {
-    position:  relative;
-    max-width: 940px;
-    margin:    0 auto;
-    .swiper-button-prev {
-      left: 0;
-    }
-    .swiper-button-next {
-      right: 0;
-    }
-    .swiper-container {
-      margin:  0 8%;
-      padding: 75px 0;
-    }
-  }
   &-item {
     width:         94%;
     margin:        0 auto;
@@ -66,12 +51,6 @@
     h2 {
       margin-bottom: 36px !important;
     }
-    &-slider {
-      max-width: 444px;
-      .swiper-container {
-        padding: 50px 0;
-      }
-    }
   }
 }
 
@@ -79,15 +58,6 @@
   .testimonial {
     h2 {
       margin-bottom: 0 !important;
-    }
-    &-slider {
-      .swiper-container {
-        margin:  0;
-        padding: 35px 0 40px;
-      }
-      .swiper-button-prev, .swiper-button-next {
-        display: none;
-      }
     }
   }
 }

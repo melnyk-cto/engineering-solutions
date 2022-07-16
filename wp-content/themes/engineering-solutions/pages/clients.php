@@ -3,7 +3,12 @@
 
 <?php
     wp_enqueue_script('geolocation-js', get_stylesheet_directory_uri() . '/assets/js/geolocation.js', array('jquery'), 1.0, true);
-    wp_enqueue_script('clients-js', get_stylesheet_directory_uri() . '/assets/js/clients.js', array('jquery'), 1.0, true);
+
+    wp_enqueue_script('ajax-form', get_theme_file_uri('/assets/js/reviews.js'), array('jquery'), 1.0, true);
+    wp_localize_script('ajax-form', 'ajax_form_object', array(
+        'url' => admin_url('admin-ajax.php'),
+        'nonce' => wp_create_nonce('ajax-form-nonce'),
+    ));
 ?>
 <script>
   const markers = [];
@@ -63,21 +68,7 @@
         <div class='container'>
             <h2><span>They say</span> about our work</h2>
             <div class='work-slider'>
-                <div class="swiper-container work-swiper">
-                    <?php
-                        $args = [
-                            'post_type' => 'reviews',
-                            'post_status' => 'publish',
-                            'posts_per_page' => 10,
-                            'orderby' => 'rand'
-                        ];
-                        include get_template_directory() . '/components/_reviews-item.php'; ?>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <h4>Reviews is loading...</h4>
             </div>
         </div>
     </section>
