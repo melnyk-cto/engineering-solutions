@@ -8,7 +8,7 @@
             wp_die('Data sent from the wrong address');
         } ?>
 
-        <div class="swiper-container work-swiper">
+        <div class="swiper-container testimonial-swiper">
             <div class="swiper-wrapper">
                 <?php
                     $key = sanitize_text_field($_POST['key']);
@@ -45,14 +45,14 @@
                             ?>
                             <div class="swiper-slide">
                                 <?php if (get_field('avatar_reviews')) { ?>
-                                    <div class='work-item-image'>
+                                    <div class='image'>
                                         <img src='<?php echo get_field('avatar_reviews')['url'] ?>' alt=''>
                                     </div>
                                 <?php } ?>
-                                <div class='work-item'>
+                                <div class='testimonial-item'>
                                     <div class='item-title'>
                                         <?php if (get_field('country_reviews')) { ?>
-                                            <div class='item-title-image'>
+                                            <div class='country'>
                                                 <span class="flag-icon flag-icon-<?php echo strtolower(get_field('country_reviews')) ?>"></span>
                                             </div>
                                         <?php } ?>

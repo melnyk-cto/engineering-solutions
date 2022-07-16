@@ -12,6 +12,7 @@
 ?>
 <script>
   const markers = [];
+  const testimonial = "";
 </script>
 <main class='clients'>
     <?php include get_template_directory() . '/components/_banner.php'; ?>
@@ -64,10 +65,10 @@
         <div class='map-loading'>Map is loading...</div>
         <div id='google-map' class='google-map'></div>
     </section>
-    <section class='work'>
+    <section class='testimonial'>
         <div class='container'>
             <h2><span>They say</span> about our work</h2>
-            <div class='work-slider'>
+            <div class='testimonial-slider'>
                 <h4>Reviews is loading...</h4>
             </div>
         </div>

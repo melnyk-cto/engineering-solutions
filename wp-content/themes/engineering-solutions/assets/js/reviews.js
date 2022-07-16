@@ -1,22 +1,26 @@
 jQuery(document).ready(function ($) {
-  const loadReviews = (country) => {
+  const loadReviews = (key, value) => {
     $.ajax({
       type: "POST",
       url: ajax_form_object.url,
       data: {
         action: 'ajax_form_action_reviews',
         nonce: ajax_form_object.nonce,
-        key: 'country_reviews',
-        value: country
+        key: key,
+        value: value
       },
       dataType: 'html',
       success: function (response) {
-        $(".work-slider").html(response);
+        $(".testimonial-slider").html(response);
 
-        //Swiper
-        const workSwiperSelector = document.getElementsByClassName('work-swiper')[0];
-        const workSwiper = new Swiper('.work-swiper', {
-          loop: true,
+        // Swiper
+        const testimonialSwiperSelector = document.getElementsByClassName('testimonial-swiper')[0];
+        const slides = testimonialSwiperSelector.querySelectorAll('.swiper-slide');
+        if (slides.length <= 1) {
+          testimonialSwiperSelector.classList.add('small');
+        }
+        const workSwiper = new Swiper('.testimonial-swiper', {
+          loop: slides.length > 1,
           slidesPerView: 1,
           spaceBetween: 15,
           autoHeight: true,
@@ -35,16 +39,12 @@ jQuery(document).ready(function ($) {
           breakpoints: {
             767: {
               spaceBetween: 0,
-              slidesPerView: 2,
+              slidesPerView: slides.length > 1 ? 2 : 1,
             },
-            991: {
-              spaceBetween: 0,
-              slidesPerView: 2,
-            }
           }
         });
-        workSwiperSelector.addEventListener('mouseenter', () => workSwiper.autoplay.stop());
-        workSwiperSelector.addEventListener('mouseleave', () => workSwiper.autoplay.start());
+        testimonialSwiperSelector.addEventListener('mouseenter', () => workSwiper.autoplay.stop());
+        testimonialSwiperSelector.addEventListener('mouseleave', () => workSwiper.autoplay.start());
       },
       error: function (error) {
         console.log(error, 'error');
@@ -53,7 +53,7 @@ jQuery(document).ready(function ($) {
   }
 
   const error = (err) => {
-    loadReviews();
+    loadReviews('country_reviews');
     const alert = $(".alert");
     alert.removeClass('d-none');
     setTimeout(() => alert.addClass('d-none'), 4000);
@@ -73,11 +73,15 @@ jQuery(document).ready(function ($) {
               break;
             }
           }
-          loadReviews(country);
+          loadReviews('country_reviews', country);
         }
       }
     });
   }
 
-  navigator.geolocation.getCurrentPosition(success, error);
+  if (testimonial) {
+    loadReviews("category_reviews", testimonial);
+  } else {
+    navigator.geolocation.getCurrentPosition(success, error);
+  }
 });
